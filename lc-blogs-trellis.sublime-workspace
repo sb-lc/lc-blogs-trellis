@@ -1,0 +1,859 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Po",
+				"PostConfig"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"plugin_url",
+				"plugin_dir_url"
+			],
+			[
+				"error",
+				"error_reporting"
+			],
+			[
+				"get_qu",
+				"get_query_var"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/sbeasley/ownCloud/info.txt",
+			"settings":
+			{
+				"buffer_size": 10737,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "trellis/group_vars/development/wordpress_sites.yml",
+			"settings":
+			{
+				"buffer_size": 579,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trellis/group_vars/development/vault.yml",
+			"settings":
+			{
+				"buffer_size": 380,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trellis/group_vars/staging/wordpress_sites.yml",
+			"settings":
+			{
+				"buffer_size": 848,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trellis/group_vars/all/users.yml",
+			"settings":
+			{
+				"buffer_size": 686,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trellis/group_vars/staging/vault.yml",
+			"settings":
+			{
+				"buffer_size": 887,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trellis/group_vars/staging/main.yml",
+			"settings":
+			{
+				"buffer_size": 214,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".git/config",
+			"settings":
+			{
+				"buffer_size": 302,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Cont",
+		"selected_items":
+		[
+			[
+				"Package Cont",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 746.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/sbeasley/Sites/lc-blogs-trellis",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/all",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/production",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/staging"
+	],
+	"file_history":
+	[
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/server.yml",
+		"/home/sbeasley/Downloads/Results (8).xml",
+		"/home/sbeasley/.ssh/known_hosts",
+		"/home/sbeasley/Sites/lc-blogs/mcs-config/post_meta.php",
+		"/home/sbeasley/Sites/lc-blogs/web/app/plugins/ajax-load-more/core/repeater/default.php",
+		"/home/sbeasley/Sites/lc-blogs/web/app/themes/sage-timber-lc-blogs/templates/archive.twig",
+		"/home/sbeasley/Sites/lc-blogs/web/app/themes/sage-timber-lc-blogs/templates/author.twig",
+		"/home/sbeasley/Sites/lc-blogs/web/app/themes/sage-timber-lc-blogs/archive.php",
+		"/home/sbeasley/Sites/lc-blogs/web/app/themes/sage-timber-lc-blogs/author.php",
+		"/home/sbeasley/ownCloud/info.txt",
+		"/etc/hosts",
+		"/home/sbeasley/Sites/lc-blogs/web/app/themes/sage-timber-lc-blogs/page-home.php",
+		"/home/sbeasley/Sites/lc-blogs/web/app/themes/sage-timber-lc-blogs/archive-author.php",
+		"/home/sbeasley/Vagrant/lc-blogs/Vagrantfile",
+		"/home/sbeasley/Vagrant/lc-blogs/composer.json",
+		"/home/sbeasley/Sites/lc-blogs/web/app/themes/sage-timber-lc-blogs/lib/extras.php",
+		"/home/sbeasley/Sites/lc-blogs/web/app/themes/sage-timber-lc-blogs/templates/header.twig",
+		"/home/sbeasley/Sites/lc-blogs/web/app/themes/sage-timber-lc-blogs/functions.php",
+		"/home/sbeasley/Vagrant/lc-blogs/.env",
+		"/home/sbeasley/Vagrant/lc-blogs/web/app/themes/sage-timber-lc-blogs/package.json",
+		"/home/sbeasley/Vagrant/lc-blogs/web/app/themes/sage-timber-lc-blogs/gulpfile.js",
+		"/home/sbeasley/Vagrant/lc-blogs/web/app/themes/sage-timber-lc-blogs/assets/styles/main.scss",
+		"/home/sbeasley/Vagrant/lc-blogs/web/app/themes/sage-timber-lc-blogs/index.php",
+		"/home/sbeasley/Vagrant/lc-blogs/web/app/themes/sage-timber-lc-blogs/npm-debug.log",
+		"/home/sbeasley/Desktop/Vagrantfile",
+		"/home/sbeasley/Sites/lc-blogs/.gitignore",
+		"/home/sbeasley/Sites/lc-blogs/config/application.php",
+		"/etc/apache2/sites-available/lc-blogs.local.conf",
+		"/home/sbeasley/Sites/lc-blogs/web/app/themes/sage-timber-lc-blogs/lib/setup.php",
+		"/home/sbeasley/Sites/lc-blogs/web/app/themes/sage-timber-lc-blogs/assets/styles/main.scss",
+		"/home/sbeasley/Sites/lc-blogs/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_font.scss",
+		"/home/sbeasley/Sites/lc-blogs/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_jonny.scss",
+		"/home/sbeasley/Sites/lc-blogs/web/app/themes/sage-timber-lc-blogs/templates/page.twig",
+		"/home/sbeasley/Sites/lc-blogs/web/app/themes/sage-timber-lc-blogs/page.php",
+		"/home/sbeasley/Sites/lc-blogs/composer.json",
+		"/tmp/fz3temp-1/config 2.yml",
+		"/home/sbeasley/Sites/lc-blogs/web/index.html",
+		"/home/sbeasley/Sites/lc-blogs/.env",
+		"/home/sbeasley/Sites/sage-twig-jonnycole/.git/config",
+		"/home/sbeasley/Sites/sage-timber-lc-blogs/.git/config",
+		"/home/sbeasley/Sites/sage-twig-lc-blogs/style.css",
+		"/var/www/medusa-content-suite/Config/Paths.php",
+		"/var/www/medusa-content-suite/Config/Globals.php",
+		"/var/www/medusa-content-suite/Config/TaxConfig.php",
+		"/var/www/stt/mcs-config/post.php",
+		"/var/www/stt/mcs-config/tax.php",
+		"/home/sbeasley/Sites/stt/web/app/themes/sage-twig-jonnycole/single-event.php",
+		"/home/sbeasley/Sites/stt/composer.json",
+		"/var/www/medusa-content-suite/Taxonomy/TaxTypes.php",
+		"/var/www/stt/mcs-config/post_meta.php",
+		"/var/www/medusa-content-suite/CMB/Meta/PostMeta.php",
+		"/var/www/medusa-content-suite/Post/PostTypes.php",
+		"/var/www/medusa-content-suite/medusa_content_suite.php",
+		"/var/www/stt/composer.json",
+		"/home/sbeasley/Sites/sage-twig-lc-blogs/.git/config",
+		"/var/www/medusa-content-suite/Config/PostConfig.php",
+		"/var/www/stt/.gitignore",
+		"/home/sbeasley/Sites/stt/pyTin-install.sh",
+		"/home/sbeasley/Sites/stt/pyTin-dev.sh",
+		"/var/www/medusa-content-suite/readme.md",
+		"/var/www/medusa-content-suite/Config/MainConfig.php",
+		"/var/www/medusa-content-suite/Config/MenuConfig.php",
+		"/var/www/medusa-content-suite/Config/PostMetaConfig.php",
+		"/var/www/medusa-content-suite/Config/TaxMetaConfig.php",
+		"/var/www/medusa-content-suite/Config/data/main.php",
+		"/var/www/medusa-content-suite/Post/PostMods.php",
+		"/var/www/medusa-content-suite/Menus/Menus.php",
+		"/var/www/medusa-content-suite/Config/data/menu.php",
+		"/var/www/medusa-content-suite/CMB/Loaders/CMBLoader.php",
+		"/var/www/medusa-content-suite/CMB/Loaders/FieldTypeLoader.php",
+		"/var/www/medusa-content-suite/Config/data/post_meta.php",
+		"/home/sbeasley/Downloads/lc_intranetplus_master.html",
+		"/var/www/medusa-content-suite/CMB/Meta/TaxMeta.php",
+		"/var/www/medusa-content-suite/Paths/Paths.php",
+		"/var/www/medusa-content-suite/Config/data/tax_meta.php",
+		"/var/www/medusa-content-suite/Functions/Common.php",
+		"/var/www/medusa-content-suite/Config/data/tax.php",
+		"/var/www/stt/config/environments/development.php",
+		"/var/www/medusa-content-suite/.gitignore",
+		"/var/www/stt/config/application.php",
+		"/var/www/pyTin/test.yaml",
+		"/var/www/pyTin/post-install.py",
+		"/var/www/pyTin/yaml.py",
+		"/var/www/stt/install.sh",
+		"/var/www/pyTin/composer.json",
+		"/home/sbeasley/Sites/stt/bin/install.py",
+		"/home/sbeasley/Sites/stt/.gitignore",
+		"/var/www/pyTin/README.MD",
+		"/home/sbeasley/Sites/stt/.git/config",
+		"/home/sbeasley/Sites/lc-dev1/public/wp-content/plugins/.git/config",
+		"/var/www/pyTin/includes/wp-themes.py",
+		"/var/www/stt/bin/.gitkeep",
+		"/var/www/pyTin/includes/dev.py",
+		"/var/www/pyTin/includes/paths.py",
+		"/var/www/pyTin/includes/ymal.yaml",
+		"/var/www/pyTin/includes/wp-cli.py",
+		"/var/www/stt/bin/install.sh",
+		"/var/www/stt/bin/includes/validate.py",
+		"/var/www/stt/bin/includes/wp-themes.py",
+		"/var/www/stt/bin/includes/paths.py",
+		"/var/www/stt/bin/pre-install.py",
+		"/var/www/stt/bin/post-install.py",
+		"/home/sbeasley/Sites/pyTin/.git/config",
+		"/home/sbeasley/Sites/lc-dev1/public/wp-content/plugins/.gitignore",
+		"/var/www/medusa-content-suite/composer.json",
+		"/home/sbeasley/Sites/stt/web/app/debug.log",
+		"/home/sbeasley/Sites/stt/.env",
+		"/var/www/stt/web/app/debug.log",
+		"/home/sbeasley/Sites/lc-dev1/public/.git/config",
+		"/home/sbeasley/Sites/lc-dev1/public/.git/config#",
+		"/home/sbeasley/Sites/lc-dev1/public/suetownsendtheatre/events_archive.php",
+		"/home/sbeasley/Sites/lc-dev1/public/suetownsendtheatre/.git/config",
+		"/home/sbeasley/Sites/lc-dev1/public/suetownsendtheatre/whats-on.php",
+		"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/functions.php",
+		"/var/www/lc-dev1/public/wp-content/plugins/medusa_custom_meta_boxes/medusa_custom_meta_boxes.php",
+		"/var/www/lc-dev1/public/wp-content/plugins/medusa_configuration/medusa_configuration.php",
+		"/var/www/lc-dev1/public/wp-content/debug.log",
+		"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/subject-areas-list.php",
+		"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/taxonomy-curriculum_areas.php",
+		"/var/www/lc-dev1/public/wp-content/plugins/medusa_configuration/medusa_resources_common_functions.php",
+		"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/views/page-governors.twig",
+		"/var/www/lc-dev1/public/wp-content/plugins/medusa_settings_image_sizes/medusa_settings_image_sizes.php",
+		"/var/www/lc-dev1/public/wp-content/plugins/lc_jobs_manager/classes/GeoCode.php",
+		"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/page-governors.php",
+		"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/includes/twiglet-header-image.php",
+		"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/sidebar.php",
+		"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/archive-event.php",
+		"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/archive-governor.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/var/www/medusa-content-suite",
+			"/var/www/stt",
+			"/var/www/medusa-content-suite/Config",
+			"/var/www/medusa-content-suite",
+			"/var/www/stt",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public/wp-content,-*.jpg,-*.png,-*.eps,-*.gif",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public,-*.jpg,-*.eps,-*.png,-*.gif",
+			"/var/www/lc-dev1/public,-*.jpg",
+			"/var/www/lc-dev1/public",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1",
+			"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/library/sass",
+			"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child",
+			"<open files>",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public/wp-content,-*.jpg, -*.pdf",
+			"/var/www/lc-dev1/public/wp-content,-*.jpg",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public",
+			"/var/www/lc-dev1/public/wp-content/plugins",
+			"/var/www/lc-dev1/public/wp-content/plugins/medusa_widgets_google_map",
+			"/var/www/lc-dev1/public/wp-content",
+			"<open files>",
+			"<open folders>",
+			"/var/www/lc-dev1/public/wp-content/plugins",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public/wp-content,-*.jpg, -*.png",
+			"/var/www/lc-dev1/public/wp-content, -*.jpg, -*.png",
+			"/var/www/lc-dev1/public/wp-content -*.jpg, -*.png",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public/wp-content/plugins/lc-course-database",
+			"/var/www/lc-dev1/public/wp-content,-*.jpg,-*.png",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public/wp-content/themes",
+			"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/includes",
+			"/var/www/lc-dev1/public/wp-content,*.js",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public/wp-content/plugins",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/library/sass",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/library",
+			"/var/www/lc-dev1/public/wp-content/plugins",
+			"/var/www/lc-dev1/public/wp-content/themes",
+			"/var/www/lc-dev1/public/wp-content/plugins,*.php",
+			"/var/www/lc-dev1/public/wp-content/plugins",
+			"/var/www/lc-dev1/public/wp-content/themes, -*.css, -*.js",
+			"/var/www/lc-dev1/public/wp-content/themes,-*.css",
+			"/var/www/lc-dev1/public/wp-content/themes -*.css",
+			"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public/wp-content/plugins/lc-course-database",
+			"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child",
+			"/var/www/lc-dev1/public/wp-content/plugins/lc-formidable-extender",
+			"/var/www/lc-dev1/public/wp-content/plugins",
+			"/var/www/lc-dev1/public/wp-content/themes",
+			"/var/www/lc-dev1/public/wp-content/plugins/medusa_resources_common_functions",
+			"/var/www/lc-dev1/public/wp-content/plugins/lc-autocomplete",
+			"/var/www/lc-dev1/public/wp-content/plugins"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Access",
+			"credit",
+			"atlassi",
+			"migr",
+			"medusa-content-suite",
+			"toran",
+			"configLoc",
+			"Menus",
+			"posts_enabled",
+			"MenuConfig",
+			"Menu",
+			"menu",
+			"Menu",
+			"getMenuConfig",
+			"Menu",
+			"toran",
+			"postConfigStatic",
+			"loadFieldTypes",
+			"getActiveVendorPath",
+			"qqqqqqqqq",
+			"fair",
+			"MenuConfig",
+			"menu",
+			"self",
+			"fieldTypes",
+			"getFieldTypes",
+			"checkThisPluginPath",
+			"getThisPluginPath",
+			"loadCMB",
+			"FieldType",
+			"$this->",
+			"CallSetters",
+			"setStaticVariables",
+			"setConfigLoc",
+			"configLoc",
+			"Paths",
+			"$this->taxMetaConfig",
+			"taxMetaConfig",
+			" $this->taxMetaConfig",
+			"$this->taxMetaConfig",
+			" $this->taxMetaConfig",
+			"$this->taxMetaConfig",
+			"PostMetaConfig",
+			"postMetaConfig",
+			"TaxostMetaConfig",
+			"PostMetaConfig",
+			"getPostMetaConfigLoc",
+			"Post",
+			"getPostMetaConfigLoc",
+			"Post",
+			"PostMetaConfig",
+			"getPostMetaConfigLoc",
+			"Post",
+			"getPostMetaConfigLoc",
+			"Post",
+			"getPostMetaConfigLoc",
+			"Post",
+			"getPostMetaConfigLoc",
+			"Post",
+			"getPostMetaConfigLoc",
+			"Post",
+			"post",
+			"Post",
+			"post",
+			"Post",
+			"post",
+			"Post",
+			"post",
+			"Post",
+			"post",
+			"Post",
+			"pure",
+			"post",
+			"PostMetaConfig",
+			"post",
+			"Post",
+			"globals count",
+			"Paths",
+			"Common::write_log",
+			"$this->Globals",
+			"die",
+			"packageVendorPath",
+			"projectVendorPath",
+			"getVendorPath",
+			"vendorDirExists",
+			"getVendorPath",
+			"projectVendorPath2",
+			"vendorDirExists",
+			"GlobalsObj",
+			"apply_filters",
+			"appl",
+			"setConfigLoc",
+			"PostConfig",
+			"$MedusaContentSuite = new MedusaContentSuite",
+			"define(",
+			"data",
+			"sage",
+			"Common",
+			"convertYML",
+			"yml",
+			"?utm_campaign=%7b~messageName~%7d&utm_source=emailCampaign&utm_medium=email&utm_content=%7b~mailVariationId~%7d",
+			"<<<<<<< HEAD",
+			"lc-cdb",
+			"Visitors",
+			"Leicester Decorative and Fine Arts Society",
+			"wednes",
+			"present",
+			"Upload or add header image.",
+			"write_log",
+			"pt NOT job",
+			"link box",
+			"show_on",
+			"link",
+			"search",
+			"post",
+			"post-search",
+			"search",
+			"xxx-",
+			"internal",
+			"governor",
+			"governr",
+			"sidebar",
+			"repeat",
+			"Staff Profile",
+			"staff_profile",
+			"_cmb_staff_profile_options_",
+			"staff_profile",
+			"_cmb_staff_profile_options_"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"MainConfig",
+			"taxMetaConfig",
+			"TaxMetaConfig",
+			"TaxostMetaConfig",
+			"tax",
+			"Tax",
+			"parent::getGlobals( )",
+			"activeVendorPathExists",
+			"Globals",
+			"",
+			"external",
+			"LcCareersExplorer",
+			"getCourseByUIOID",
+			"latlng",
+			"bsModalMap",
+			"lc_course_database_add_click_handlers_to_enrol_form",
+			"lc_course_database_funding_rule_",
+			"lc_course_database_functions_funding_rules",
+			"lc_course_database_which_funding_rule",
+			"_cmb_homepage_advert_options_link_page",
+			"advert",
+			"advert_data",
+			"adverts",
+			"hp_adverts_query",
+			"urlRedirectCourse",
+			"getCourseByCode",
+			"",
+			"<span style=\"font-size:12pt; line-height: 14pt\">",
+			"font-size:14px !important;",
+			" width=\"230\"",
+			"",
+			"<h2 style=\"font-size:19pt; margin-top:10px; margin-bottom:10px;\">",
+			"<h2 style=\"font-size:19pt; margin-top:10px; margin-bottom:10px;",
+			"<h3 style=\"font-size:16pt; margin-top:5px; margin-bottom:5px;",
+			"<h3 style=\"font-size:16pt; margin-top:5px;",
+			" course_info.",
+			"Medusa_Widgets_Google_Map",
+			"Medusa_Widgets_Menu",
+			"['",
+			"",
+			"->",
+			"lc-dev1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/sbeasley/ownCloud/info.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1265,
+								1265
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "trellis/group_vars/development/wordpress_sites.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								243,
+								243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "trellis/group_vars/development/vault.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								305,
+								305
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "trellis/group_vars/staging/wordpress_sites.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								821,
+								821
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "trellis/group_vars/all/users.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								360,
+								360
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "trellis/group_vars/staging/vault.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "trellis/group_vars/staging/main.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": ".git/config",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								302,
+								302
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lc-blogs-trellis.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
