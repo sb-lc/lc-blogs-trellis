@@ -6,6 +6,7 @@ wordpress_sites:
   lc-dev1.co.uk:
     site_hosts:
       - lc-dev1.co.uk
+    #www_redirect: true
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:sb-lc/lc-blogs-trellis.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
@@ -13,10 +14,12 @@ wordpress_sites:
     multisite:
       enabled: false
     ssl:
-      enabled: false
+      enabled: true
       provider: letsencrypt
     cache:
       enabled: false
     env:
-      wp_home: "{{ item.value.ssl.enabled | default(false) | ternary('https', 'http') }}://${HTTP_HOST}"
+      #wp_home: "{{ item.value.ssl.enabled | default(false) | ternary('https', 'http') }}://${HTTP_HOST}"
+      #wp_home: "https://${HTTP_HOST}"
+      wp_home: "http://${HTTP_HOST}"
       wp_siteurl: "${WP_HOME}/wp"
