@@ -32,7 +32,19 @@
     {
       "type":"composer",
       "url":"https://wpackagist.org"
+    },
+    {
+      "type": "composer", 
+      "url": "http://lc-toran.co.uk/repo/private/"
+    },
+    {
+      "type": "composer", 
+      "url": "http://lc-toran.co.uk/app.php/repo/packagist/"
+    },
+    {
+      "packagist": false
     }, 
+
     {
       "type": "package",
       "package": {
@@ -286,8 +298,10 @@
     "wpackagist-plugin/wp-maintenance-mode": "2.0.6",
     "wpackagist-plugin/rvg-optimize-database": "4.1.8",
     "wpackagist-plugin/ajax-load-more": "2.11.1",
-    "wpackagist-plugin/fakerpress": "0.4.6"
-
+    "wpackagist-plugin/fakerpress": "0.4.6",
+    "wp-plugin-repo-pro/wp-migrate-db-pro": "1.6",
+    "wp-plugin-repo-pro/wp-migrate-db-pro-media-files": "1.4.4",
+    "wp-plugin-repo-pro/wp-migrate-db-pro-cli": "1.2.4"
 
   },
 

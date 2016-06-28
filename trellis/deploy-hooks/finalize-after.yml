@@ -35,3 +35,22 @@
   args:
     chdir: "{{ deploy_helper.new_release_path }}"
     warn: false
+
+- name: Activate Timber Plugin
+  command: wp plugin activate timber-library
+  args:
+    chdir: "{{ deploy_helper.new_release_path }}"
+  when: wp_installed | success
+
+- name: Activate MCS Plugin
+  command: wp plugin activate medusa-content-suite
+  args:
+    chdir: "{{ deploy_helper.new_release_path }}"
+  when: wp_installed | success
+
+- name: Select Sage Timber LC Blogs Theme
+  command: wp theme activate sage-timber-lc-blogs
+  args:
+    chdir: "{{ deploy_helper.new_release_path }}"
+  when: wp_installed | success
+
