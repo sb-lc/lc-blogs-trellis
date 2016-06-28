@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "55a79a61e6e0513c6a633d529b0ad678",
-    "content-hash": "504b88ea987ecf97d6e810a7c8a9edf2",
+    "hash": "3dca6c4c6bc686f74bb4311d147f6c99",
+    "content-hash": "f93f35ad3b9fc466a05f0d6d7cbc843e",
     "packages": [
         {
             "name": "composer/installers",
@@ -332,6 +332,44 @@
                 "wordpress wp bcrypt password"
             ],
             "time": "2016-03-01 16:27:06"
+        },
+        {
+            "name": "solarissmoke/disable-comments-mu",
+            "version": "v1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/solarissmoke/disable-comments-mu.git",
+                "reference": "ad6c86ea25c95e1616357f27a631df987e36c41f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/solarissmoke/disable-comments-mu/zipball/ad6c86ea25c95e1616357f27a631df987e36c41f",
+                "reference": "ad6c86ea25c95e1616357f27a631df987e36c41f",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.2.4"
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Samir Shah",
+                    "email": "samir@rayofsolaris.net",
+                    "homepage": "https://github.com/solarissmoke"
+                }
+            ],
+            "description": "This is the must-use version of the Disable Comments WordPress plugin. Copy the contents of this directory into your mu-plugins directory in order to disable comments on the entire site/network, without any configuration. You should delete all existing comments from the WordPress database before activating this plugin. If you want to be able to configure the plugin's behaviour, then use the normal version.",
+            "homepage": "https://github.com/solarissmoke/disable-comments-mu",
+            "keywords": [
+                "comments",
+                "wordpress"
+            ],
+            "time": "2016-04-29 02:48:08"
         },
         {
             "name": "vlucas/phpdotenv",
