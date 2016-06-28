@@ -1,0 +1,25 @@
+{% extends "templates/base.twig" %}
+
+{% block content %}
+
+    {% for post in posts %}
+
+        <article {{ function('post_class') }}>
+            <header>
+                <h1 class="entry-title">{{ post.title }}</h1>
+            </header>
+            <div class="entry-content">
+                {{ post.content }}
+
+                news_category : <pre>{{ news_category | print_r }}</pre><br><br>
+                post :<pre> {{ post | print_r }} </pre><br><br>
+
+                http_host : {{ http_host }}<br><br>
+                guid : {{ post.guid }}<br><br>
+
+            </div>
+        </article>
+
+    {% endfor %}
+
+{% endblock %}

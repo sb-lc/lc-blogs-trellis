@@ -1,0 +1,60 @@
+body{
+	background-color: $color-white;
+	color: #8a6497;
+	font-size: 12pt;
+}
+
+form{
+	width: 70%;
+	margin: auto;
+}
+
+//@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+h1{
+	font-family: 'Indie Flower', cursive;
+	font-size: 50pt;
+	text-transform: uppercase;
+}
+
+@media (max-width: $screen-sm) {
+	h1{
+		font-size: 45pt;
+		text-align: center;
+	}
+
+	.content img{
+		text-align: center;
+		margin: 10px auto;
+	}
+}
+
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.list-item{
+	clear: both;
+	margin-bottom: 20px;
+}
+
+/* .content img { 
+	height: auto; 
+	max-width: 100%; 
+	margin: 10px auto;
+} */
+
+/* 
+@media (max-width: $screen-sm) {
+
+	.content img { 
+		height: auto; 
+		display: block;
+		max-width: 100%; 
+		margin: 10px auto;
+	}
+
+} */

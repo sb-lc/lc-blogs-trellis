@@ -27,5 +27,17 @@ vendor/*
 node_modules
 
 # Vagrant
+.DS_STORE
 bin
 .vagrant
+
+*.sublime-project
+*.sublime-workspace
+
+web/app/debug.log
+composer.lock
+
+Vagrantfile
+public/
+
+sgsdg

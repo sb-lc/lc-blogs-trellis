@@ -24,38 +24,324 @@
     "forum": "https://discourse.roots.io/category/bedrock"
   },
   "config": {
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "secure-http": false
   },
-  "repositories": [
+
+  "repositories": [     
     {
-      "type": "composer",
-      "url": "https://wpackagist.org"
+      "type":"composer",
+      "url":"https://wpackagist.org"
+    },
+    {
+      "type": "composer", 
+      "url": "http://lc-toran.co.uk/app.php/repo/packagist/"
+    },
+    {
+      "packagist": false
+    },    
+    {
+      "type": "package",
+      "package": {
+          "name": "raffjones/chrome-admin-menu-fix",
+          "type": "wordpress-plugin",
+          "version": "*@dev",
+          "dist": {
+              "type": "zip",
+              "url": "https://github.com/raffjones/chrome-admin-menu-fix/archive/master.zip"
+          },
+          "require": {
+              "composer/installers": "~1.0.12"
+          }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+          "name": "WebDevStudios/WDS-Required-Plugins",
+          "type": "wordpress-plugin",
+          "version": "*@dev",
+          "dist": {
+              "type": "zip",
+              "url": "https://github.com/WebDevStudios/WDS-Required-Plugins/archive/master.zip"
+          },
+          "require": {
+              "composer/installers": "~1.0.12"
+          }
+      }
+    },    
+    {
+      "type": "package",
+      "package": {
+          "name": "WebDevStudios/CMB2-Date-Range-Field",
+          "type": "wordpress-plugin",
+          "version": "*@dev",
+          "dist": {
+              "type": "zip",
+              "url": "https://github.com/WebDevStudios/CMB2-Date-Range-Field/archive/master.zip"
+          },
+          "require": {
+              "composer/installers": "~1.0.12"
+          }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+          "name": "mustardBees/cmb-field-select2",
+          "type": "library",
+          "version": "2.0.4",
+          "dist": {
+              "type": "zip",
+              "url": "https://github.com/mustardBees/cmb-field-select2/archive/v2.0.4.zip"
+          },
+          "require": {
+              "composer/installers": "~1.0.12"
+          }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+          "name": "WebDevStudios/cmb2-attached-posts",
+          "type": "library",
+          "version": "1.2.2",
+          "dist": {
+              "type": "zip",
+              "url": "https://github.com/WebDevStudios/cmb2-attached-posts/archive/v1.2.2.zip"
+          },
+          "require": {
+              "composer/installers": "~1.0.12"
+          }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "WebDevStudios/CMB2-Post-Search-field",
+        "type": "library",
+        "version": "0.2.3",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/WebDevStudios/CMB2-Post-Search-field/archive/v0.2.3.zip"
+        },
+        "require": {
+          "composer/installers": "~1.0.12"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mustardBees/cmb_field_map",
+        "type": "library",
+        "version": "2.1.1",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/mustardBees/cmb_field_map/archive/v2.1.1.zip"
+        },
+        "require": {
+          "composer/installers": "~1.0.12"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mustardBees/cmb-field-gallery",
+        "type": "library",
+        "version": "2.0.2",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/mustardBees/cmb-field-gallery/archive/v2.0.2.zip"
+        },
+        "require": {
+          "composer/installers": "~1.0.12"
+        }
+      }
+    },  
+    {
+      "type": "package",
+      "package": {
+          "name": "Mte90/CMB2-User-Search-field",
+          "type": "library",
+          "version": "dev-master",
+          "dist": {
+              "type": "zip",
+              "url": "https://github.com/Mte90/CMB2-User-Search-field/archive/master.zip"
+          },
+          "require": {
+              "composer/installers": "~1.0.12"
+          }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+          "name": "JayWood/CMB2_RGBa_Picker",
+          "type": "library",
+          "version": "dev-master",
+          "dist": {
+              "type": "zip",
+              "url": "https://github.com/JayWood/CMB2_RGBa_Picker/archive/master.zip"
+          },
+          "require": {
+              "composer/installers": "~1.0.12"
+          }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+          "name": "mattkrupnik/cmb2-field-slider",
+          "type": "library",
+          "version": "dev-master",
+          "dist": {
+              "type": "zip",
+              "url": "https://github.com/mattkrupnik/cmb2-field-slider/archive/master.zip"
+          },
+          "require": {
+              "composer/installers": "~1.0.12"
+          }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+          "name": "WebDevStudios/CMB2-Remote-Image-Select-Field",
+          "type": "library",
+          "version": "dev-master",
+          "dist": {
+              "type": "zip",
+              "url": "https://github.com/WebDevStudios/CMB2-Remote-Image-Select-Field/archive/master.zip"
+          },
+          "require": {
+              "composer/installers": "~1.0.12"
+          }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+          "name": "jcchavezs/cmb2-conditionals",
+          "type": "library",
+          "version": "1.0.4",
+          "dist": {
+              "type": "zip",
+              "url": "https://github.com/jcchavezs/cmb2-conditionals/archive/1.0.4.zip"
+          },
+          "require": {
+              "composer/installers": "~1.0.12"
+          }
+      }
+    },          
+    {
+      "type": "package",
+      "package": {
+        "name": "stephenharris/Post-Type-Archive-Links",
+        "type": "wordpress-plugin",
+        "version": "1.3.1",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/stephenharris/WordPress-Post-Type-Archive-Links/archive/1.3.1.zip"
+        }
+      }
+    },  
+    {
+      "type": "package",
+      "package": {
+
+        "name": "jajouka79/medusa-content-suite",
+        "type": "wordpress-plugin",
+        "version": "dev-master",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/jajouka79/medusa-content-suite/archive/master.zip"
+        },
+        "require": {
+          "composer/installers": "~1.0.12"
+        }
+      }
     }
+
   ],
+
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+
   "require": {
     "php": ">=5.5",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.5.3",
+    "johnpbloch/wordpress": "4.5.2",
     "oscarotero/env": "^1.0",
-    "roots/wp-password-bcrypt": "1.0.0",
-    "roots/soil": "3.7.0",
-    "solarissmoke/disable-comments-mu": "^1.1"
+    "WebDevStudios/CMB2-Date-Range-Field": "*",
+    "jajouka79/medusa-content-suite": "dev-master",
+    "stephenharris/Post-Type-Archive-Links": "1.3.1",
+    "wpackagist-plugin/disable-comments": "1.5",
+    "wpackagist-plugin/formidable": "2.02.01",
+    "wpackagist-plugin/timber-library": "1.0.4",
+    "wpackagist-plugin/press-permit-core": "2.3.11",
+    "wpackagist-plugin/ajax-thumbnail-rebuild": "1.12",
+    "wpackagist-plugin/attachments": "3.5.7",
+    "wpackagist-plugin/cms-tree-page-view": "1.3.3",
+    "wpackagist-plugin/manual-image-crop": "1.12",
+    "wpackagist-plugin/force-regenerate-thumbnails": "2.0.5",
+    "wpackagist-plugin/duplicate-post": "2.6",
+    "wpackagist-plugin/open-graph-protocol-framework": "1.0.10",
+    "wpackagist-plugin/paste-as-plain-text": "1.0.1",
+    "wpackagist-plugin/wp-maintenance-mode": "2.0.3",
+    "wpackagist-plugin/rvg-optimize-database": "4.1.6",
+    "wpackagist-plugin/ajax-load-more": "2.11.1",
+    "wpackagist-plugin/fakerpress": "0.4.4"
+
+
   },
-  "require-dev": {
-    "squizlabs/php_codesniffer": "^2.5.1"
+
+  "require-dev": {    
+    "wpackagist-plugin/wp-export-categories-taxonomies":"1.0.3",
+    "wpackagist-plugin/wordpress-importer":"0.6.1",
+    "wpackagist-plugin/monkeyman-rewrite-analyzer":"1.0",
+    "wpackagist-plugin/query-monitor": "2.11.0"
   },
+
+  "scripts": {
+
+    "pre-install-cmd": [      
+      "sh pyTin-install.sh",
+      "bin/pre-install.py"
+    ],
+
+    "post-install-cmd": [
+      "bin/post-install.py"
+    ],
+
+    "post-root-package-install": [
+      
+    ],
+
+    "pre-autoload-dump": [
+
+    ]
+    
+  },
+
+  "psr-4": {
+
+  },
+
   "extra": {
+
     "installer-paths": {
       "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
+
     "wordpress-install-dir": "web/wp"
-  },
-  "scripts": {
-    "test": [
-      "vendor/bin/phpcs --ignore=web/wp/,vendor/ -n -s ."
-    ]
+
+
+    
   }
+  
 }

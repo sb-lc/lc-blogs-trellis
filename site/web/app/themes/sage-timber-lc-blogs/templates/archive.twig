@@ -1,0 +1,17 @@
+{% extends "templates/base.twig" %}
+
+{% block content %}
+    
+    <h1>{{ title }}</h1>
+
+    {% for post in posts %}
+	    
+	    <div class="page-header">
+		    <a href="{{ post.guid }}">{{ post.title }}</a>
+	    </div>
+
+    {% endfor %}
+
+    {% include 'templates/partials/pagination.twig' %} 
+
+{% endblock %}

@@ -1,0 +1,27 @@
+header{
+	.container{
+
+		//background-color: $color-black;
+		//background: url("../images/background.jpg") no-repeat;
+		height: 290px;
+		background-size: contain;
+		
+		@media (max-width: $screen-lg) {
+			height: auto;
+			//background: none;
+		}
+
+		#header-image-wrap{
+
+			//clear: both;
+
+			#header-image{
+
+				img{
+					margin: auto;
+				}
+
+			}
+		}		
+	}
+}
