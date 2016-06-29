@@ -3,8 +3,9 @@ header{
 
 		//background-color: $color-black;
 		//background: url("../images/background.jpg") no-repeat;
-		height: 290px;
+		height: 140px;
 		background-size: contain;
+		border-top: 10px solid $color-black;
 		
 		@media (max-width: $screen-lg) {
 			height: auto;
@@ -12,15 +13,49 @@ header{
 		}
 
 		#header-image-wrap{
+			border-bottom: 1px solid $color-black;
+			margin-top: -30px;
 
 			//clear: both;
+			>div{
+				display: inline-block;
+			}
 
 			#header-image{
-
 				img{
-					margin: auto;
+					margin: 0;
+					&.img-responsive{
+					max-width: 80%;
+					height: auto;
+					}
 				}
+			}
 
+
+			.site-name{
+
+				font-family: 'Oswald';
+				font-size: 34pt;
+				text-transform: uppercase;
+				color: $color-black;
+				margin-left: -10px;
+
+				span{
+
+					display:block;
+
+					&:first-child{
+						font-weight: 300;
+						line-height: 0.7;
+					}
+
+					&:last-child{
+					}
+
+
+
+
+				}
 			}
 		}		
 	}

@@ -1,11 +1,24 @@
 <!--
-contributors widget data :
+subscribers widget data :
 
+{{ contributors | print_r }}
 {{ name }}
 {{ image }}
 
 -->
 
-{{name}}
-<br>
-{{image}}
+{# <pre>{{ subscribers | print_r }}</pre> #}
+
+<ul class="contributors">
+
+{% for contributor in subscribers %}
+
+	<li>
+		<a href="{{ contributor.url }}" >
+			{{ contributor.image }}
+		</a>
+	</li>
+
+{% endfor %}
+
+</ul>

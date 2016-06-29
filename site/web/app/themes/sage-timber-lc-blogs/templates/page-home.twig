@@ -2,10 +2,8 @@
 
 {% block content %}
 
-    {% for post in posts %}
-
-         {{ post.content }}
-
-    {% endfor %}
+	{% filter shortcodes %}
+	[ajax_load_more post_type="blog" repeater="default" posts_per_page="5" transition="fade" button_label="Older Blogs " ]
+	{% endfilter %}
 
 {% endblock %}

@@ -26,6 +26,7 @@
 
 @import "jonnycole/_jonny";
 @import "jonnycole/_menu";
+//@import "jonnycole/_font";
 @import "jonnycole/_woocommerce";
 
 
@@ -33,3 +34,10 @@
 
 @import "components/_pagination";
 @import "components/_transitions";
+
+@import "widgets/_widgets";
+@import "widgets/_contributors";
+@import "widgets/_social";
+
+@import "layouts/_list-posts";
+

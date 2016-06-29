@@ -52,22 +52,17 @@ function add_to_context( $data ) {
   #$data['header_menu'] = get_the_widget( 'Medusa_Widgets_Menu', 'menu_src=menu&menu_location=main-menu-location&classes=navbar-nav, nav&id=nav&container_classes=navbar-collapse,collapse ' );
   #$data['footer_menu'] = get_the_widget( 'Medusa_Widgets_Menu', 'menu_src=menu&menu_location=footer-menu-location' );
   
-/*
-  $data['header_image_id'] = 118;
-
   $attr = array(
     'class' => 'image img-responsive',
-    'alt'   => $post->post_title . ', Black Country Commedy',
-    'title'   => $post->post_title. ', Black Country Commedy',
+    /*'alt'   => $post->post_title . ', Black Country Commedy',
+    'title'   => $post->post_title. ', Black Country Commedy',*/
   );
 
-  $data['header_image'] = wp_get_attachment_image( $data['header_image_id'], 'thumb-width-100', false,  $attr );
-*/
 
+  $imgId = attachment_url_to_postid( get_theme_mod( 'themeslug_logo' ) );
+
+  $data['site_logo'] = wp_get_attachment_image( $imgId, 'header', false,  $attr );
 
   return $data;
+
 }
-
-
-
-

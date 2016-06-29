@@ -1,46 +1,16 @@
 <?php
 
-use MedusaContentSuite\Functions\Common as Common;
-use MedusaContentSuite\Post\PostTypes as PostTypes;
+$year = get_query_var( 'year' );
+$month = get_query_var( 'monthnum' );
 
-$pt = get_query_var( 'post_type' );
-if( empty( $pt ) ) $pt = get_post_type( ); 
-
-
-$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-
-
-$args = array(
-  'posts_per_page' => 4,
-  'paged' => $paged,
-  'post_type' => $pt,
-);
+$author = get_query_var( 'author' );
+$blog_category = get_query_var( 'blog_category' );
 
 
 $context = Timber::get_context( );
-$posts = Timber::get_posts( $args );
+if( isset( $blog_category ) ) $context['blog_category'] = $blog_category;
+if( isset( $year ) ) $context['year'] = $year;
+if( isset( $month ) ) $context['month'] = $month;
+if( isset( $author ) ) $context['author'] = $author;
 
-
-require 'MedusaGeneralImageFunctions.php';
-require 'MedusaArchiveImageFunctions.php';
-
-
-$medusaArchiveImageFunctions = new MedusaContentSuite\Images\MedusaArchiveImageFunctions( $posts );
-
-
-//$medusaImageFunctions->getImageSourceType( )
-
-
-write_log( $medusaArchiveImageFunctions->getImageSourceType( ) );
-
-
-$context['posts'] = $posts;
-$context['pagination'] = Timber::get_pagination( );
-$context['page_title'] = PostTypes::getLabelByPt( $pt );
-$context[$pt] = Timber::get_posts( false, 'TimberPostMcs' );
-
-//$context['list_image'] = new TimberImage($cover_image_id);
-
-
-Timber::render( array( 'templates/archive-' . $pt . '.twig', 'templates/archive.twig' ), $context );
-
+Timber::render('templates/archive.twig', $context);

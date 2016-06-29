@@ -1,25 +1,46 @@
 {% extends "templates/base.twig" %}
 
 {% block content %}
+<!--
+post.title 
+post.content
+date
+author
+category.name 
+category.link
+user_img
+user_link
 
-    {% for post in posts %}
+-->
+    
 
-        <article {{ function('post_class') }}>
-            <header>
-                <h1 class="entry-title">{{ post.title }}</h1>
-            </header>
-            <div class="entry-content">
-                {{ post.content }}
+<article {{ function('post_class') }}>
 
-                news_category : <pre>{{ news_category | print_r }}</pre><br><br>
-                post :<pre> {{ post | print_r }} </pre><br><br>
+    <header>
 
-                http_host : {{ http_host }}<br><br>
-                guid : {{ post.guid }}<br><br>
+        {{ image }}
 
-            </div>
-        </article>
+        {% for category in categories %} 
+            <a href = "{{ category.link }}">{{ category.name }}</a>
+        {% endfor %}
 
-    {% endfor %}
+        <h1 class="entry-title">{{ post.title }}</h1>
+
+        <div class="author-img"><a href="{{ user_link }}">{{ user_img }}</a></div>
+        <div class="author"><a href="{{ user_link }}">{{ author }}</a></div>
+
+        <div class="date"> {{ date }}</div>
+
+
+    </header>
+
+    <div class="entry-content">
+        {{ post.content }}
+
+
+    </div>
+</article>
+
+    
 
 {% endblock %}

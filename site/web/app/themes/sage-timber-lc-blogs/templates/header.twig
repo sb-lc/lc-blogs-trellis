@@ -2,26 +2,16 @@
     <div class="container">
 
          
-        {# <nav class="nav-primary collapse">
-
-        {% for item in menu.get_items %}
-            <li class="nav-main-item {{item.classes | join(' ')}}">
-                <a class="nav-main-link" href="{{item.get_link}}">{{item.title}}</a>
-                {% if item.get_children %}
-                    <ul class="nav-drop">
-                        {% for child in item.get_children %}
-                            <li class="nav-drop-item">
-                                <a href="{{child.get_link}}">{{child.title}}</a>
-                            </li>
-                        {% endfor %}
-                    </ul>
-                {% endif %}
-            </li>
-        {% endfor %}
-
-        </nav> #}
-
-
+        <div id="header-image-wrap">
+            <div id="header-image">
+                <a href="{{ site.url }}">
+                    {{ site_logo }}
+                </a>
+            </div>
+            <div class="site-name">
+                {{ site.name | splitSiteTitleFilter }}
+            </div>
+        </div>
 
 
         <nav class="navbar navbar-default nav-primary">
@@ -57,14 +47,6 @@
 
 
 
-        <div id="header-image-wrap">
-
-            <div id="header-image">
-                {{header_image}}
-            </div>
-
-        </div>
-
-
     </div>
+
 </header>
