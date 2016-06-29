@@ -1,0 +1,33 @@
+.alm-listing li {
+	margin: 0px;
+	padding: 0px;
+	overflow: visible;
+    position: relative;
+    list-style: none;
+    background-color: $color-light-grey;
+    //height: 850px;
+
+    margin-bottom: ( $grid-gutter-width / 2 );
+
+    img{
+    	position: relative;
+    }
+
+    div.wrap{
+
+    	padding: ( $grid-gutter-width / 2 );
+
+
+
+	    img{
+
+	    	&.contributor{
+			    max-width: 40px;
+			    max-height: 40px;
+			    height:auto;
+			    border-radius: 40px;
+
+	    	}
+	    }
+    }
+}
