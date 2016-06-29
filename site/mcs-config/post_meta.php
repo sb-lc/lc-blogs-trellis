@@ -59,46 +59,6 @@ $config = array();
 
 
 
-	#_cmb_contributor_options_
-
-		$prefix = '_cmb_contributor_options_';
-		$config[]=array(
-			'id' => 'metabox_contributor_options',
-			'prefix' => $prefix,
-			'title' => 'Contributor Options',
-			'object_types' => array( 'contributor' ), // post type
-			'context' => 'normal',
-			'priority' => 'low',
-			'show_names' => true, // Show field names on the left
-			'fields' => array(
-
-
-
-				 array(
-				    'name'     => 'Contributor User',
-				    'desc'     => 'Select the user for this entry',
-				    'id' 	   => $prefix . 'user',
-				    'taxonomy' => 'blog_category', //Enter Taxonomy Slug
-				    'type'     => 'taxonomy_multicheck',
-				    // Optional:
-				    'options' => array(
-				        'no_terms_text' => 'Sorry, no terms could be found.' // Change default text. Default: "No terms"
-				    ),
-				),
-
-
-				array(
-					'name'         => __( 'Contributor Profile Image', 'cmb' ),
-					'desc'         => __( 'Upload or add contributor profile photo.', 'cmb2' ),
-					'id'           => $prefix . 'contibutor_profile_image',
-					'type'         => 'file',
-					'preview_size' => array( 100, 100 ), // Default: array( 50, 50 )
-				),
-
-			)
-		);
-
-
 
 
 
@@ -106,7 +66,7 @@ $config = array();
 
 	#_cmb_user_options_
 
-		/*$prefix = '_cmb_user_options_';
+		$prefix = '_cmb_user_options_';
 		$config[]=array(
 			'id' => 'metabox_user_articles_options',
 			'prefix' => $prefix,
@@ -128,21 +88,34 @@ $config = array();
 				),
 
 				array(
-					'name'         => __( 'User Profile Image', 'cmb' ),
+					'name'         => __( 'User Profile Image', 'cmb2' ),
 					'desc'         => __( 'Upload or add user profile photo.', 'cmb2' ),
 					'id'           => $prefix . 'user_profile_image',
 					'type'         => 'file',
 					'preview_size' => array( 100, 100 ), // Default: array( 50, 50 )
 				),
 
+				array(
+					'name' => __( 'Role', 'cmb2' ),
+					'desc' => __( 'Type users role', 'cmb2' ),
+					'id' => $prefix . 'role',
+					'type'    => 'text',
+	
+				),
+
+				array(
+					'name' => __( 'Department', 'cmb2' ),
+					'desc' => __( 'Type users dept.', 'cmb2' ),
+					'id' => $prefix . 'dept',
+					'type'    => 'text',
+	
+				),
 
 			)
 
-		);*/
+		);
 
 
 
 
 return $config;
-
-

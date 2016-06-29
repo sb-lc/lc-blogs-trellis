@@ -36,7 +36,7 @@ $config = array();
 	$pt = array ( 
 		array (
 			'id' => 'blog', 
-			'show_tax_meta' => true 
+			'show_tax_meta' => false 
 		)
 	);
 

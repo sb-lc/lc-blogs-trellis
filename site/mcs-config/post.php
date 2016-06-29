@@ -23,10 +23,10 @@ $config = array( );
 	);
 
 	$rewrite = array(
-        'slug'=>'blog',
-        'with_front'=> true,
-        'feed'=> true,
-        'pages'=> true
+        'slug' =>'blog',
+        'with_front' => true,
+        'feed' => true,
+        'pages' => true
 	);
 
 	$columns = array(
@@ -44,7 +44,7 @@ $config = array( );
 		'description'   => 'Holds our blog entries and blog entry data',
 		'public'        => true,
 		'menu_position' => 20,
-		'supports'      => array( 'title', 'editor', 'attributes', 'thumbnail' ), //'excerpt', , 'comments', 'page-attributes'
+		'supports'      => array( 'title', 'editor', 'attributes', 'thumbnail', 'author' ), //'excerpt', , 'comments', 'page-attributes'
 		'has_archive'   => true,
 		'hierarchical' => false,
 		'exclude_from_search' => false,

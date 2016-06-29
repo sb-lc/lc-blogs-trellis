@@ -56,13 +56,16 @@ function custom_getarchives_where( $where ){
 }
 
 
-function get_custom_excerpt( $count ){
-  global $post;
-  $permalink = get_permalink($post->ID);
-  $excerpt = get_the_content();
-  $excerpt = strip_tags($excerpt);
-  $excerpt = substr($excerpt, 0, $count);
-  $excerpt = $excerpt.'... <a href="'.$permalink.'"><span class="read-more">read more</span></a>';
+function get_custom_excerpt( $post, $count ){
+
+  $permalink = get_permalink( $post->ID );
+  
+  $content = $post->post_content;
+  $content = strip_tags( $content );
+
+  $excerpt = substr( $content, 0, $count );
+  $excerpt = $excerpt . '... <a href="' . $permalink . '"><span class="read-more">read more</span></a>';
+
   return $excerpt;
 }
 
