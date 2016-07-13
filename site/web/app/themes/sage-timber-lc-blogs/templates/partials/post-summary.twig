@@ -1,0 +1,39 @@
+
+<li>
+	<div class="wrap">
+
+		<div class="categories">
+			{% for term in post.terms %}
+				<a href="{{ term.term_link }}">
+					<span class="category">
+						{{ term.term_name }}
+					</span>		
+				</a>
+			{% endfor %}
+		</div>
+
+		<h3>
+			<a href="{{ post.link }}" title="{{ post.post_title }}">
+				{{ post.post_title }}
+			</a>
+		</h3>
+
+		<div>
+			<span class="user">
+				<a href="{{ post.user_link }}">
+					<span class="image">{{ post.user_img }}</span>
+				</a>
+				<a href="{{ post.user_link }}">
+					<span class="name"> By {{ post.user_name }}</span>
+				</a>
+			</span>
+
+			<span class="date"> | {{ post.post_date_formatted }}</span>
+
+		</div>
+
+		<div class="excerpt">
+			{{ post.post_excerpt }}
+		</div>
+	</div>
+</li>
