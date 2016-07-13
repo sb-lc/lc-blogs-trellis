@@ -121,3 +121,13 @@ function themeslug_theme_customizer( $wp_customize ) {
 }
 
 add_action( 'customize_register', 'themeslug_theme_customizer' );
+
+
+
+function test_debug_log_file( ) {
+
+  write_log("qwertyuio")
+
+}
+
+add_action( 'init', 'test_debug_log_file' );
