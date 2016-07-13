@@ -121,6 +121,3 @@ function themeslug_theme_customizer( $wp_customize ) {
 }
 
 add_action( 'customize_register', 'themeslug_theme_customizer' );
-
-
-

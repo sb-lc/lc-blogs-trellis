@@ -31,63 +31,106 @@
 			"file": "/home/sbeasley/ownCloud/info.txt",
 			"settings":
 			{
-				"buffer_size": 10737,
+				"buffer_size": 10736,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "trellis/group_vars/development/wordpress_sites.yml",
+			"file": "site/web/app/plugins/pbd-ajax-load-posts/pbd-ajax-load-posts.php",
 			"settings":
 			{
-				"buffer_size": 579,
+				"buffer_size": 1196,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "trellis/group_vars/development/vault.yml",
+			"file": "site/web/app/plugins/pbd-ajax-load-posts/js/load-posts.js",
 			"settings":
 			{
-				"buffer_size": 380,
+				"buffer_size": 1813,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "trellis/group_vars/staging/wordpress_sites.yml",
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\" xmlns:og=\"http://ogp.me/ns#\" class=\"show feel-handwritten\">\n   <head>\n      <meta charset=\"UTF-8\">\n      <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\n      <!--[if IE]>\n      <link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"https://s.smore.com/css/show-author.0946ec1d.ie.css\"/>\n      <![endif]-->\n\n      <title>Connect - July 2016</title>\n      <meta name=\"robots\" content=\"noindex, nofollow\"/>\n      <link rel=\"stylesheet\" media=\"all\" href=\"styles.css\"/>\n      <link rel=\"stylesheet\" href=\"colorbox.css\" />\n      <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\"></script>\n      <script src=\"jquery.colorbox-min.js\"></script>\n\n      <script>\n         $(document).ready(function(){\n            $(\".group1\").colorbox({rel:'group1'});\n            $(\"a.group1\").colorbox({ top: 100, left: \"0\" })\n         });\n      </script>\n\n      <!--[if lt IE 8]>\n      <script type=\"text/javascript\" src=\"//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js\"></script>\n      <![endif]-->\n      <link rel=\"shortcut icon\" href=\"https://s.smore.com/favicon.ico\"/>\n      <!--[if IE]>\n      <script type=\"text/javascript\">document.getElementsByTagName('html')[0].className += ' ie';</script>\n      <![endif]-->\n   </head>\n   <body class=\"main-body background-fill logged_in fonts-joopica swatch-custom_deep_orange_500 bg-https://d1zqayhc1yz6oo.cloudfront.net/backgrounds/custom_bg-5745608f406037194ab4b864-ca6dd5fc0b23.jpg bgtype-image\" id=\"body\" style=\"width:800px\">\n\n   <div id=\"bs\" class=\"bg-stretch\" aria-disabled=\"true\" aria-hidden=\"true\"><img style=\"top: -708px\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/backgrounds/custom_bg-5745608f406037194ab4b864-ca6dd5fc0b23.jpg\" nopin=\"true\" width=\"1920\" height=\"1920\"></div>\n\n\n      <div class=\"main-area\">\n         <div class=\"page-area\">\n            <div class=\"post-container top-z\">\n               <div class=\"display-page\" role=\"main\" tabindex=\"-1\" autofocus=\"autofocus\">\n                  <div class=\" theme-bg-color3 page-top\"></div>\n                  <div class=\"page-content-wrap\" id=\"page-content-wrap\">\n                     <div class=\"widget widget-header-text var-feel-handwritten-text-standard\" id=\"w-6160768489\">\n                        <div class=\"paperstop\"></div>\n                        <div data-clicktarget=\"#\">\n                           <div class=\"standard\">\n                              <h1 class=\"theme-title\" data-target=\"title\"><span class=\"autofit\"  style=\"font-size: 99%\"  data-autofit-done=\"true\" >Connect </span></h1>\n                              <h3 class=\"theme-subtitle\"><span class=\"autofit\"  style=\"font-size: 99%\"  data-autofit-done=\"true\" data-target=\"subtitle\" >July 2016</span></h3>\n                           </div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-standard\" id=\"w-2099937523\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"six columns alpha omega\">\n                                 <div class=\"content\">\n                                    <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">Principal&#39;s News </h2>\n                                    <div class=\"theme-p theme-color-4\" data-target=\"content\">\n                                       <p>My thanks to all those who attended my presentations last week. For those of you who weren’t able to come, the headlines are:</p>\n                                       <p> </p>\n                                       <p>Notwithstanding another very challenging and unpredictable year, the College has enjoyed many successes. Inspections and audits from Ofsted – in part, obviously - to QAA have proved very positive. Learners have continued to win competitions and awards across the College, expertly supported by staff. New buildings have opened and resonated to the sound of motor vehicle and sports provision, not forgetting the hundreds sitting English and Maths GCSE exams. Attendance across the College is up 4% overall on last year, and retention of our 16-18 year old learners is up 2%. Our work with employers continues to grow as new businesses move into the City, and income from our work with Jobcentre Plus is well above our expectations for the year. </p>\n                                       <p> </p>\n                                       <p>Our priorities for 16/17 are clear: to continue to improve quality and raise success rates across the board but particularly in English and Maths; to maintain and grow our income from all sources; to emerge from Area Review (which kicks off on the 12th of September) a stronger, more confident and resilient College with robust plans for the future as the demographics (particularly in the City) turn in favour of post-16 education. </p>\n                                       <p> </p>\n                                       <p>And finally…..</p>\n                                       <p> </p>\n                                       <p>As I mentioned in my presentations, we are expected to promote British Values to our learners. For us as a College it is also very important that we are clear about our own organisational values of <strong>Aspiration, Inclusion, Collaboration</strong> and <strong>Excellence</strong> and that we encourage all our learners and staff to commit to and work within them. We will be promoting the College values more widely over the summer and you will start to see some examples of what the values mean to us and to our learners and staff as we start the new term.</p>\n                                       <p> </p>\n                                       <p>I hope you all have some kind of relaxing break over the summer. Thank you for all your support and commitment this past year.</p>\n                                       <p> </p>\n                                       <p>            </p>\n                                       <p>Best wishes, Verity</p>\n                                    </div>\n                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-image\" id=\"w-1699302447\">\n                        <div class=\"content\">\n                           <div class=\"side-img-container right side-img-floater no-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/3bb1e8f54b3e0278d7a01f4883975b20.png\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-0b8e68ed3947c68788f4a6bc3cc58035.png\" alt=\"In This Month&#39;s Connect\" />             \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">In This Month&#39;s Connect</h2>\n                           <div class=\"theme-p  theme-color-4\" data-target=\"content\">We have a new editor at the helm this month, bringing you a fresh take on happenings in and around College (but still under Helen's watchful eye). Featured in this edition you'll find details on learner achievements; summer events (including a publishers' fair at APC); Lesley Pilling's face on a billboard; muddy runners; old favourites such as news items from the wardens and the library; our long-standing Caption Competition; a new Quirky Photo Contest, and even travel inspiration for your upcoming holidays.</div>\n                           <div class=\"side-img-container  only-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/3bb1e8f54b3e0278d7a01f4883975b20.png\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-0b8e68ed3947c68788f4a6bc3cc58035.png\" />            \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-standard\" id=\"w-9790880119\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"six columns alpha omega\">\n                                 <div class=\"content\">\n                                    <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">Out and About</h2>\n                                    <div class=\"theme-p theme-color-4\" data-target=\"content\">\n                                       As usual, College staff and learners have been busy with a flurry of activities, events, and <em>important birthdays</em> this month. You may in fact have seen the prominently placed banners, photos, and glitter trails to celebrate Director of Marketing and Communications Claire Willis' 50th birthday here at St Margaret's. Or did you know that local firefighters popped in for tea after spending all night fighting flames when the disused hosiery factory on St John Street caught fire (again)? \n                                       <p><br/></p>\n                                       <p>Equally, learners have been impressing with a variety of accolades, wins, and nominations, and the Exams Team executed a flawless performance when it came to making provision for hundreds of simultaneous GCSE exams. We've captured all the College goings-on for you on camera:</p>\n                                    </div>\n                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-gallery var-gallery-standard\" id=\"w-1247958743\">\n                        <div class=\"content\">\n                           <div class=\"gallery-items no-mobile\">\n                              <table>\n                                 <tr>\n                                    <td class=\"gallery-image-cell\" align=\"center\">\n                                       <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                          <div class=\"pic-wrapper\">\n                                             <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/b9e9cc7f655be987a0850d3552b33c99.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\" data-title=\"Girls just wanna have fun.\" data-html-description=\"%3Cp%3E%3C%2Fp%3E\">\n                                                <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-b9e9cc7f655be987a0850d3552b33c99.jpg\" alt=\"Girls just wanna have fun.\"/>                                             \n                                                <div class=\"pic-border\"></div>\n                                             </a>\n                                          </div>\n                                       </div>\n                                    </td>\n                                    <td class=\"gallery-image-cell\" align=\"center\">\n                                       <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                          <div class=\"pic-wrapper\">\n                                             <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/e83e3621d27aa8aad774291a836c8ba4.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\" data-title=\"The firefighters who came to tea.\" data-html-description=\"%3Cp%3E%3C%2Fp%3E\">\n                                                <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-e83e3621d27aa8aad774291a836c8ba4.jpg\" alt=\"The firefighters who came to tea.\"/>                                             \n                                                <div class=\"pic-border\"></div>\n                                             </a>\n                                          </div>\n                                       </div>\n                                    </td>\n                                    <td class=\"gallery-image-cell\" align=\"center\">\n                                       <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                          <div class=\"pic-wrapper\">\n                                             <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/cc6fd92499ded9ba3cc59732bae63156.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\" data-title=\"Learners impress at the Mock Interview event.\" data-description=\"\n                                                \" data-html-description=\"%3Cp%3E%3C%2Fp%3E\">\n                                                <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-cc6fd92499ded9ba3cc59732bae63156.jpg\" alt=\"Learners impress at the Mock Interview event.\"/>                                             \n                                                <div class=\"pic-border\"></div>\n                                             </a>\n                                          </div>\n                                       </div>\n                                    </td>\n                                 </tr>\n                                 <tr>\n                                    <td class=\"gallery-content-cell\">\n                                       <h2 class=\"theme-p-title theme-color3\" data-target=\"title1\" data-empty-if-target=\"url1\" data-clicktarget=\"#\"> Girls just wanna have fun.h2>\n                                       <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description1\"  data-empty-if-target=\"url1\">\n                                          <p></p>\n                                       </div>\n                                    </td>\n                                    <td class=\"gallery-content-cell\">\n                                       <h2 class=\"theme-p-title theme-color3\" data-target=\"title2\" data-empty-if-target=\"url2\" data-clicktarget=\"#\"> The firefighters who came to tea.</h2>\n                                       <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description2\"  data-empty-if-target=\"url2\">\n                                          <p></p>\n                                       </div>\n                                    </td>\n                                    <td class=\"gallery-content-cell\">\n                                       <h2 class=\"theme-p-title theme-color3\" data-target=\"title3\" data-empty-if-target=\"url3\" data-clicktarget=\"#\"> Learners impress at the Mock Interview event.</h2>\n                                       <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description3\"  data-empty-if-target=\"url3\">\n                                          <p></p>\n                                       </div>\n                                    </td>\n                                 </tr>\n                              </table>\n                           </div>\n                           <div class=\"only-mobile\">\n                              <div class=\"gallery-item-container\">\n                                 <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                    <div class=\"pic-wrapper\">\n                                       <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/b9e9cc7f655be987a0850d3552b33c99.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\"    data-title=\"Girls just wanna have fun.\"    data-description=\"\n                                          \"                            >\n                                          <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-b9e9cc7f655be987a0850d3552b33c99.jpg\"/>                             \n                                          <div class=\"pic-border\"></div>\n                                       </a>\n                                    </div>\n                                 </div>\n                                 <h2 class=\"theme-p-title theme-color3\" data-target=\"title1\" data-empty-if-target=\"url1\" data-clicktarget=\"#\">Girls just wanna have fun.\">\n                                 <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description1\" data-empty-if-target=\"url1\">\n                                    <p></p>\n                                 </div>\n                                 <div class=\"clear\"></div>\n                              </div>\n                              <div class=\"gallery-item-container\">\n                                 <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                    <div class=\"pic-wrapper\">\n                                       <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/e83e3621d27aa8aad774291a836c8ba4.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\"    data-title=\"The firefighters who came to tea.\"    data-description=\"\n                                          \"                            >\n                                          <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-e83e3621d27aa8aad774291a836c8ba4.jpg\"/>                             \n                                          <div class=\"pic-border\"></div>\n                                       </a>\n                                    </div>\n                                 </div>\n                                 <h2 class=\"theme-p-title theme-color3\" data-target=\"title2\" data-empty-if-target=\"url2\" data-clicktarget=\"#\">The firefighters who came to tea.\">\n                                 <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description2\" data-empty-if-target=\"url2\">\n                                    <p></p>\n                                 </div>\n                                 <div class=\"clear\"></div>\n                              </div>\n                              <div class=\"gallery-item-container\">\n                                 <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                    <div class=\"pic-wrapper\">\n                                       <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/cc6fd92499ded9ba3cc59732bae63156.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\"    data-title=\"Learners impress at the Mock Interview event.\"    data-description=\"\n                                          \"                            >\n                                          <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-cc6fd92499ded9ba3cc59732bae63156.jpg\"/>                             \n                                          <div class=\"pic-border\"></div>\n                                       </a>\n                                    </div>\n                                 </div>\n                                 <h2 class=\"theme-p-title theme-color3\" data-target=\"title3\" data-empty-if-target=\"url3\" data-clicktarget=\"#\">Learners impress at the Mock Interview event.\">\n                                 <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description3\" data-empty-if-target=\"url3\">\n                                    <p></p>\n                                 </div>\n                                 <div class=\"clear\"></div>\n                              </div>\n                           </div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-gallery var-gallery-standard\" id=\"w-9965441428\">\n                        <div class=\"content\">\n                           <div class=\"gallery-items no-mobile\">\n                              <table>\n                                 <tr>\n                                    <td class=\"gallery-image-cell\" align=\"center\">\n                                       <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                          <div class=\"pic-wrapper\">\n                                             <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/b1e2251daa22583a089ff9000a08aabb.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\" data-title=\"Wolf Runners from the Employer Engagement Team.\" data-description=\"\n                                                \" data-html-description=\"%3Cp%3E%3C%2Fp%3E\">\n                                                <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-b1e2251daa22583a089ff9000a08aabb.jpg\" alt=\"Wolf Runners from the Employer Engagement Team.\"/>                                             \n                                                <div class=\"pic-border\"></div>\n                                             </a>\n                                          </div>\n                                       </div>\n                                    </td>\n                                    <td class=\"gallery-image-cell\" align=\"center\">\n                                       <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                          <div class=\"pic-wrapper\">\n                                             <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/46be9dfbca4097da2959ea0ced9c232f.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\" data-title=\"PJEA learners win CIPS award.\" data-description=\"\n                                                \" data-html-description=\"%3Cp%3E%3C%2Fp%3E\">\n                                                <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-46be9dfbca4097da2959ea0ced9c232f.jpg\" alt=\"PJEA learners win CIPS award.\"/>                                             \n                                                <div class=\"pic-border\"></div>\n                                             </a>\n                                          </div>\n                                       </div>\n                                    </td>\n                                    <td class=\"gallery-image-cell\" align=\"center\">\n                                       <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                          <div class=\"pic-wrapper\">\n                                             <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/5458e1cf730edc0e3425df0279630e6a.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\" data-title=\"Rodica with her eye-catching top design.\" data-description=\"\n                                                \" data-html-description=\"%3Cp%3E%3C%2Fp%3E\">\n                                                <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-5458e1cf730edc0e3425df0279630e6a.jpg\" alt=\"Rodica with her eye-catching top design.\"/>                                             \n                                                <div class=\"pic-border\"></div>\n                                             </a>\n                                          </div>\n                                       </div>\n                                    </td>\n                                 </tr>\n                                 <tr>\n                                    <td class=\"gallery-content-cell\">\n                                       <h2 class=\"theme-p-title theme-color3\" data-target=\"title1\" data-empty-if-target=\"url1\" data-clicktarget=\"#\"> Wolf Runners from the Employer Engagement Team.</h2>\n                                       <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description1\"  data-empty-if-target=\"url1\">\n                                          <p></p>\n                                       </div>\n                                    </td>\n                                    <td class=\"gallery-content-cell\">\n                                       <h2 class=\"theme-p-title theme-color3\" data-target=\"title2\" data-empty-if-target=\"url2\" data-clicktarget=\"#\"> PJEA learners win CIPS award.</h2>\n                                       <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description2\"  data-empty-if-target=\"url2\">\n                                          <p></p>\n                                       </div>\n                                    </td>\n                                    <td class=\"gallery-content-cell\">\n                                       <h2 class=\"theme-p-title theme-color3\" data-target=\"title3\" data-empty-if-target=\"url3\" data-clicktarget=\"#\"> Rodica with her eye-catching top design.</h2>\n                                       <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description3\"  data-empty-if-target=\"url3\">\n                                          <p></p>\n                                       </div>\n                                    </td>\n                                 </tr>\n                              </table>\n                           </div>\n                           <div class=\"only-mobile\">\n                              <div class=\"gallery-item-container\">\n                                 <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                    <div class=\"pic-wrapper\">\n                                       <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/b1e2251daa22583a089ff9000a08aabb.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\"    data-title=\"Wolf Runners from the Employer Engagement Team.\"    data-description=\"\n                                          \"                            >\n                                          <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-b1e2251daa22583a089ff9000a08aabb.jpg\"/>                             \n                                          <div class=\"pic-border\"></div>\n                                       </a>\n                                    </div>\n                                 </div>\n                                 <h2 class=\"theme-p-title theme-color3\" data-target=\"title1\" data-empty-if-target=\"url1\" data-clicktarget=\"#\">Wolf Runners from the Employer Engagement Team.\">\n                                 <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description1\" data-empty-if-target=\"url1\">\n                                    <p></p>\n                                 </div>\n                                 <div class=\"clear\"></div>\n                              </div>\n                              <div class=\"gallery-item-container\">\n                                 <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                    <div class=\"pic-wrapper\">\n                                       <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/46be9dfbca4097da2959ea0ced9c232f.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\"    data-title=\"PJEA learners win CIPS award.\"    data-description=\"\n                                          \"                            >\n                                          <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-46be9dfbca4097da2959ea0ced9c232f.jpg\"/>                             \n                                          <div class=\"pic-border\"></div>\n                                       </a>\n                                    </div>\n                                 </div>\n                                 <h2 class=\"theme-p-title theme-color3\" data-target=\"title2\" data-empty-if-target=\"url2\" data-clicktarget=\"#\">PJEA learners win CIPS award.\">\n                                 <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description2\" data-empty-if-target=\"url2\">\n                                    <p></p>\n                                 </div>\n                                 <div class=\"clear\"></div>\n                              </div>\n                              <div class=\"gallery-item-container\">\n                                 <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                    <div class=\"pic-wrapper\">\n                                       <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/5458e1cf730edc0e3425df0279630e6a.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\"    data-title=\"Rodica with her eye-catching top design.\"    data-description=\"\n                                          \"                            >\n                                          <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-5458e1cf730edc0e3425df0279630e6a.jpg\"/>                             \n                                          <div class=\"pic-border\"></div>\n                                       </a>\n                                    </div>\n                                 </div>\n                                 <h2 class=\"theme-p-title theme-color3\" data-target=\"title3\" data-empty-if-target=\"url3\" data-clicktarget=\"#\">Rodica with her eye-catching top design.\">\n                                 <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description3\" data-empty-if-target=\"url3\">\n                                    <p></p>\n                                 </div>\n                                 <div class=\"clear\"></div>\n                              </div>\n                           </div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-gallery var-gallery-standard\" id=\"w-9485203265\">\n                        <div class=\"content\">\n                           <div class=\"gallery-items no-mobile\">\n                              <table>\n                                 <tr>\n                                    <td class=\"gallery-image-cell\" align=\"center\">\n                                       <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                          <div class=\"pic-wrapper\">\n                                             <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/eb666f933ab83789d9776c3a2777981b.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\" data-title=\"Yolanda was nominated for National Entrepreneur of the Year.\" data-description=\"\n                                                \" data-html-description=\"%3Cp%3E%3C%2Fp%3E\">\n                                                <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-eb666f933ab83789d9776c3a2777981b.jpg\" alt=\"Yolanda was nominated for National Entrepreneur of the Year.\"/>                                             \n                                                <div class=\"pic-border\"></div>\n                                             </a>\n                                          </div>\n                                       </div>\n                                    </td>\n                                    <td class=\"gallery-image-cell\" align=\"center\">\n                                       <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                          <div class=\"pic-wrapper\">\n                                             <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/fac2441f96afae6f829c229392835db9.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\" data-title=\"Celebrating 25 years&#39; loyal service.\" data-description=\"\n                                                \" data-html-description=\"%3Cp%3E%3C%2Fp%3E\">\n                                                <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-fac2441f96afae6f829c229392835db9.jpg\" alt=\"Celebrating 25 years&#39; loyal service.\"/>                                             \n                                                <div class=\"pic-border\"></div>\n                                             </a>\n                                          </div>\n                                       </div>\n                                    </td>\n                                    <td class=\"gallery-image-cell\" align=\"center\">\n                                       <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                          <div class=\"pic-wrapper\">\n                                             <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/2bc2ba6a28803deb325c8934e0c6fe59.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\" data-title=\"Samson has bagged a job at the Savoy!\" data-description=\"\n                                                \" data-html-description=\"%3Cp%3E%3C%2Fp%3E\">\n                                                <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-2bc2ba6a28803deb325c8934e0c6fe59.jpg\" alt=\"Samson has bagged a job at the Savoy!\"/>                                             \n                                                <div class=\"pic-border\"></div>\n                                             </a>\n                                          </div>\n                                       </div>\n                                    </td>\n                                 </tr>\n                                 <tr>\n                                    <td class=\"gallery-content-cell\">\n                                       <h2 class=\"theme-p-title theme-color3\" data-target=\"title1\" data-empty-if-target=\"url1\" data-clicktarget=\"#\"> Yolanda was nominated for National Entrepreneur of the Year.</h2>\n                                       <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description1\"  data-empty-if-target=\"url1\">\n                                          <p></p>\n                                       </div>\n                                    </td>\n                                    <td class=\"gallery-content-cell\">\n                                       <h2 class=\"theme-p-title theme-color3\" data-target=\"title2\" data-empty-if-target=\"url2\" data-clicktarget=\"#\"> Celebrating 25 years&#39; loyal service.</h2>\n                                       <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description2\"  data-empty-if-target=\"url2\">\n                                          <p></p>\n                                       </div>\n                                    </td>\n                                    <td class=\"gallery-content-cell\">\n                                       <h2 class=\"theme-p-title theme-color3\" data-target=\"title3\" data-empty-if-target=\"url3\" data-clicktarget=\"#\"> Samson has bagged a job at the Savoy!</h2>\n                                       <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description3\"  data-empty-if-target=\"url3\">\n                                          <p></p>\n                                       </div>\n                                    </td>\n                                 </tr>\n                              </table>\n                           </div>\n                           <div class=\"only-mobile\">\n                              <div class=\"gallery-item-container\">\n                                 <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                    <div class=\"pic-wrapper\">\n                                       <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/eb666f933ab83789d9776c3a2777981b.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\"    data-title=\"Yolanda was nominated for National Entrepreneur of the Year.\"    data-description=\"\n                                          \"                            >\n                                          <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-eb666f933ab83789d9776c3a2777981b.jpg\"/>                             \n                                          <div class=\"pic-border\"></div>\n                                       </a>\n                                    </div>\n                                 </div>\n                                 <h2 class=\"theme-p-title theme-color3\" data-target=\"title1\" data-empty-if-target=\"url1\" data-clicktarget=\"#\">Yolanda was nominated for National Entrepreneur of the Year.\">\n                                 <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description1\" data-empty-if-target=\"url1\">\n                                    <p></p>\n                                 </div>\n                                 <div class=\"clear\"></div>\n                              </div>\n                              <div class=\"gallery-item-container\">\n                                 <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                    <div class=\"pic-wrapper\">\n                                       <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/fac2441f96afae6f829c229392835db9.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\"    data-title=\"Celebrating 25 years&#39; loyal service.\"    data-description=\"\n                                          \"                            >\n                                          <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-fac2441f96afae6f829c229392835db9.jpg\"/>                             \n                                          <div class=\"pic-border\"></div>\n                                       </a>\n                                    </div>\n                                 </div>\n                                 <h2 class=\"theme-p-title theme-color3\" data-target=\"title2\" data-empty-if-target=\"url2\" data-clicktarget=\"#\">Celebrating 25 years&#39; loyal service.\">\n                                 <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description2\" data-empty-if-target=\"url2\">\n                                    <p></p>\n                                 </div>\n                                 <div class=\"clear\"></div>\n                              </div>\n                              <div class=\"gallery-item-container\">\n                                 <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                    <div class=\"pic-wrapper\">\n                                       <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/2bc2ba6a28803deb325c8934e0c6fe59.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\"    data-title=\"Samson has bagged a job at the Savoy!\"    data-description=\"\n                                          \"                            >\n                                          <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-2bc2ba6a28803deb325c8934e0c6fe59.jpg\"/>                             \n                                          <div class=\"pic-border\"></div>\n                                       </a>\n                                    </div>\n                                 </div>\n                                 <h2 class=\"theme-p-title theme-color3\" data-target=\"title3\" data-empty-if-target=\"url3\" data-clicktarget=\"#\">Samson has bagged a job at the Savoy!\">\n                                 <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description3\" data-empty-if-target=\"url3\">\n                                    <p></p>\n                                 </div>\n                                 <div class=\"clear\"></div>\n                              </div>\n                           </div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-gallery var-gallery-standard\" id=\"w-0509357473\">\n                        <div class=\"content\">\n                           <div class=\"gallery-items no-mobile\">\n                              <table>\n                                 <tr>\n                                    <td class=\"gallery-image-cell\" align=\"center\">\n                                       <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                          <div class=\"pic-wrapper\">\n                                             <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/16945ff1d88abf3d78c160d551897052.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\" data-title=\"Team effort for the massive Maths and English GCSE cohort.\" data-description=\"\n                                                \" data-html-description=\"%3Cp%3E%3C%2Fp%3E\">\n                                                <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-16945ff1d88abf3d78c160d551897052.jpg\" alt=\"Team effort for the massive Maths and English GCSE cohort.\"/>                                             \n                                                <div class=\"pic-border\"></div>\n                                             </a>\n                                          </div>\n                                       </div>\n                                    </td>\n                                    <td class=\"gallery-image-cell\" align=\"center\">\n                                       <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                          <div class=\"pic-wrapper\">\n                                             <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/0fed813975ba20a4fb23294eef1bd6ac.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\" data-title=\"It was all smiles at the Adult Learner Awards.\" data-description=\"\n                                                \" data-html-description=\"%3Cp%3E%3C%2Fp%3E\">\n                                                <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-0fed813975ba20a4fb23294eef1bd6ac.jpg\" alt=\"It was all smiles at the Adult Learner Awards.\"/>                                             \n                                                <div class=\"pic-border\"></div>\n                                             </a>\n                                          </div>\n                                       </div>\n                                    </td>\n                                    <td class=\"gallery-image-cell\" align=\"center\">\n                                       <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                          <div class=\"pic-wrapper\">\n                                             <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/08834687b94f46cf7f2c8c301e925162.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\" data-title=\"An exhausted (delirious) Exams Team.\" data-description=\"\n                                                \" data-html-description=\"%3Cp%3E%3C%2Fp%3E\">\n                                                <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-08834687b94f46cf7f2c8c301e925162.jpg\" alt=\"An exhausted (delirious) Exams Team.\"/>                                             \n                                                <div class=\"pic-border\"></div>\n                                             </a>\n                                          </div>\n                                       </div>\n                                    </td>\n                                 </tr>\n                                 <tr>\n                                    <td class=\"gallery-content-cell\">\n                                       <h2 class=\"theme-p-title theme-color3\" data-target=\"title1\" data-empty-if-target=\"url1\" data-clicktarget=\"#\"> Team effort for the massive Maths and English GCSE cohort.</h2>\n                                       <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description1\"  data-empty-if-target=\"url1\">\n                                          <p></p>\n                                       </div>\n                                    </td>\n                                    <td class=\"gallery-content-cell\">\n                                       <h2 class=\"theme-p-title theme-color3\" data-target=\"title2\" data-empty-if-target=\"url2\" data-clicktarget=\"#\"> It was all smiles at the Adult Learner Awards.</h2>\n                                       <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description2\"  data-empty-if-target=\"url2\">\n                                          <p></p>\n                                       </div>\n                                    </td>\n                                    <td class=\"gallery-content-cell\">\n                                       <h2 class=\"theme-p-title theme-color3\" data-target=\"title3\" data-empty-if-target=\"url3\" data-clicktarget=\"#\"> An exhausted (delirious) Exams Team.</h2>\n                                       <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description3\"  data-empty-if-target=\"url3\">\n                                          <p></p>\n                                       </div>\n                                    </td>\n                                 </tr>\n                              </table>\n                           </div>\n                           <div class=\"only-mobile\">\n                              <div class=\"gallery-item-container\">\n                                 <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                    <div class=\"pic-wrapper\">\n                                       <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/16945ff1d88abf3d78c160d551897052.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\"    data-title=\"Team effort for the massive Maths and English GCSE cohort.\"    data-description=\"\n                                          \"                            >\n                                          <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-16945ff1d88abf3d78c160d551897052.jpg\"/>                             \n                                          <div class=\"pic-border\"></div>\n                                       </a>\n                                    </div>\n                                 </div>\n                                 <h2 class=\"theme-p-title theme-color3\" data-target=\"title1\" data-empty-if-target=\"url1\" data-clicktarget=\"#\">Team effort for the massive Maths and English GCSE cohort.\">\n                                 <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description1\" data-empty-if-target=\"url1\">\n                                    <p></p>\n                                 </div>\n                                 <div class=\"clear\"></div>\n                              </div>\n                              <div class=\"gallery-item-container\">\n                                 <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                    <div class=\"pic-wrapper\">\n                                       <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/0fed813975ba20a4fb23294eef1bd6ac.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\"    data-title=\"It was all smiles at the Adult Learner Awards.\"    data-description=\"\n                                          \"                            >\n                                          <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-0fed813975ba20a4fb23294eef1bd6ac.jpg\"/>                             \n                                          <div class=\"pic-border\"></div>\n                                       </a>\n                                    </div>\n                                 </div>\n                                 <h2 class=\"theme-p-title theme-color3\" data-target=\"title2\" data-empty-if-target=\"url2\" data-clicktarget=\"#\">It was all smiles at the Adult Learner Awards.\">\n                                 <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description2\" data-empty-if-target=\"url2\">\n                                    <p></p>\n                                 </div>\n                                 <div class=\"clear\"></div>\n                              </div>\n                              <div class=\"gallery-item-container\">\n                                 <div class=\"framed-image-container\" data-clicktarget=\"#\">\n                                    <div class=\"pic-wrapper\">\n                                       <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/08834687b94f46cf7f2c8c301e925162.jpg\" class=\"group1 fancy-pic skip-tracking\" rel=\"gallery\"    data-title=\"An exhausted (delirious) Exams Team.\" >\n                                          <img class=\"framed-image lightboxed\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-08834687b94f46cf7f2c8c301e925162.jpg\"/>\n                                          <div class=\"pic-border\"></div>\n                                       </a>\n                                    </div>\n                                 </div>\n                                 <h2 class=\"theme-p-title theme-color3\" data-target=\"title3\" data-empty-if-target=\"url3\" data-clicktarget=\"#\">\n                                    An exhausted (delirious) Exams Team.\n                 </h2>\n                                 <div class=\"theme-p theme-color-4  gallery-description\" data-target=\"description3\" data-empty-if-target=\"url3\">\n                                    <p></p>\n                                 </div>\n                                 <div class=\"clear\"></div>\n                              </div>\n                           </div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-standard\" id=\"w-7938863580\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"six columns alpha omega\">\n                                 <div class=\"content\">\n                                    <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">Enrolment Days 2016/17</h2>\n                                    <div class=\"theme-p theme-color-4\" data-target=\"content\">\n                                       <p>See the table below for this summer's enrolment dates.</p>\n                                    </div>\n                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-image var-image-standard\" id=\"w-9979673621\">\n                        <div class=\"pagegrid\">\n                           <div class=\"six columns alpha omega\">\n                              <div class=\"wrapper\">\n                                 <div class=\"framed-image-container no-drag\" data-clicktarget=\"#\">                     <img class=\"framed-image\"         src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-6d5b2ec6e1ba492ccf02e39710a60054.png\" alt=\"Big image\"/>                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-image\" id=\"w-5792988122\">\n                        <div class=\"content\">\n                           <div class=\"side-img-container right side-img-floater no-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/16ed7adda24e1e36466d83d86db630ab.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-16ed7adda24e1e36466d83d86db630ab.jpg\"                     alt=\"Publishers&#39; Fair Coming to Abbey Park Campus\" />             \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">        Publishers&#39; Fair Coming to Abbey Park Campus    </h2>\n                           <div class=\"theme-p  theme-color-4\" data-target=\"content\">\n                              <p><strong>A publishers’ fair will be happening on Thursday 25</strong><strong>th </strong><strong>August from 10.00 until 3.00 at Abbey Park Campus Library.</strong></p>\n                              <p><br/></p>\n                              <p>We already have The Book People and Educational Publishers' Promotions attending.<br/></p>\n                              <p>The Book People sell on the day and the latter will cover a range of resources for different Curriculum areas.<br/></p>\n                              <p><br/></p>\n                              <p> </p>\n                              <p>Other publishers have yet to confirm their attendance.<br/></p>\n                              <p><br/></p>\n                              <p>We would encourage as many people as possible to come and have a look for themselves. For added resources to our current stock, it will be possible to inform library staff of suitable items, so they can be purchased.</p>\n                              <p><br/></p>\n                              <p>Books can also be bought by individuals from the Book People for their own interest.</p>\n                           </div>\n                           <div class=\"side-img-container  only-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/16ed7adda24e1e36466d83d86db630ab.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-16ed7adda24e1e36466d83d86db630ab.jpg\" />            \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-image\" id=\"w-1992202943\">\n                        <div class=\"content\">\n                           <div class=\"side-img-container right side-img-floater no-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/1daafde852718d1b157d6508fd91c84f.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-1daafde852718d1b157d6508fd91c84f.jpg\"                     alt=\"1698 Entrants for GCSE English and Maths!\" />             \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">        1698 Entrants for GCSE English and Maths!    </h2>\n                           <div class=\"theme-p  theme-color-4\" data-target=\"content\">\n                              <p>Summer 2016 witnessed unprecedented numbers of learners taking these vital exam qualifications- the largest cohort the College has ever seen. This year’s GCSE English and Maths exams were taken over three days with 724 learners entered for the two Maths exam days, and 947 for the English exam day. </p>\n                              <p><br/></p>\n                              <p>With so many learners to cater for, you won't be surprised to learn that over 270 members of staff were involved on each big exam day, or that the oversight of the whole enterprise was a masterpiece of planning and logistics. Read all about this fantastic achievement <a data-id=\"l-3734130012\" href=\"https://intranetplus13.lec.ac.uk/_layouts/15/WopiFrame.aspx?sourcedoc=/Connect%20Newsletter/Connect%20June%202016%20Articles/English%20and%20Maths%20Exams.docx&amp;action=default\" rel=\"nofollow\" target=\"_blank\">here</a>.</p>\n                           </div>\n                           <div class=\"side-img-container  only-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/1daafde852718d1b157d6508fd91c84f.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-1daafde852718d1b157d6508fd91c84f.jpg\" />            \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-standard\" id=\"w-0723793801\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"six columns alpha omega\">\n                                 <div class=\"content\">\n                                    <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">Defibrillators Installed on Each Campus</h2>\n                                    <div class=\"theme-p theme-color-4\" data-target=\"content\"> LifePak Defibrillators have recently been installed in each of the College's campuses. The training video below explains how they can be used to save a life in an emergency, and underlines the fact that the quicker a person in cardiac arrest gets help, the more likely it is that they'll regain consciousness. A person using the defibrillator should also be trained in how to use CPR. The video below is therefore essential viewing- the device is simple to use and potentially life-saving.</div>\n                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-video-youtube var-youtube-standard\" id=\"w-9234052624\">\n                        <div class=\"content no-screenshot\">\n                           <div class=\"framed-image-container no-drag\">\n                              <div class=\"video-box\">     <iframe title=\"YouTube video player\" class=\"player\" data-title=\"LifePak Defibrillator Training\"    src=\"https://www.youtube.com/embed/Q4ENcoCL4l0?wmode=opaque&enablejsapi=1&playerapiid=w-9234052624&rel=0\"                    frameborder=\"0\" allowfullscreen=\"true\" data-clicktarget=\"#\"></iframe>        </div>\n                           </div>\n                        </div>\n                        <div class=\"content only-screenshot only-drag\">\n                           <div class=\"framed-image-container\">\n                              <div class=\"video-box\">\n                                 <div class=\"video-thumbnail\"                 style=\"background: url('/external_image?url=https://img.youtube.com/vi/Q4ENcoCL4l0/hqdefault.jpg') no-repeat center center\" data-clicktarget=\"https://www.youtube.com/watch?v=Q4ENcoCL4l0\">\n                                    <div class=\"youtube-overlay\"></div>\n                                    <div class=\"video-description\">LifePak Defibrillator Training</div>\n                                 </div>\n                              </div>\n                           </div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-image\" id=\"w-7744618773\">\n                        <div class=\"content\">\n                           <div class=\"side-img-container right side-img-floater no-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/a472e37e0259fbdf80997d4a95adbf56.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-a472e37e0259fbdf80997d4a95adbf56.jpg\"                     alt=\"First HE Scholarship and Research Conference a Huge Success\" />             \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">        First HE Scholarship and Research Conference a Huge Success    </h2>\n                           <div class=\"theme-p  theme-color-4\" data-target=\"content\">\n                              <p>On Friday 27th May, Trent Bridge Cricket Club in Nottingham was home to the first East Midlands College HE Scholarship and Research conference.</p>\n                              <p>HE staff and students from 6 East Midlands College HE providers attended the event, which was hosted by the consortium of Leicester, Derby and Central Nottingham colleges. The day started with a keynote speech from education and careers specialist Johnny Rich, which focused on the skills employers want from graduates and how we can help develop them.</p>\n                              <p>To read more about the conference, <a href=\"https://intranetplus13.lec.ac.uk/_layouts/15/WopiFrame.aspx?sourcedoc=/Connect%20Newsletter/Connect%20June%202016%20Articles/Gail%20Hall.docx&amp;action=default\" rel=\"nofollow\" target=\"_blank\">click here</a>. </p>\n                           </div>\n                           <div class=\"side-img-container  only-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/a472e37e0259fbdf80997d4a95adbf56.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-a472e37e0259fbdf80997d4a95adbf56.jpg\" />            \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-image\" id=\"w-6214691076\">\n                        <div class=\"content\">\n                           <div class=\"side-img-container right side-img-floater no-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/1946a95116c8be00d559e36bb38c669d.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-1946a95116c8be00d559e36bb38c669d.jpg\"                     alt=\"Classroom Makeover Competition Winners\" />             \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">        Classroom Makeover Competition Winners    </h2>\n                           <div class=\"theme-p  theme-color-4\" data-target=\"content\">\n                              <p>Congratulations to the staff in the Curriculum Area of Care, Health, Humanities and Science who were awarded the winners of the Classroom Makeover Competition. Anne Wood, Quality Development Manager, presented the team with a very large basket of chocolates on April 27th 2016. To see the full article about this award, simply click <a data-id=\"l-1552550584\" href=\"https://intranetplus13.lec.ac.uk/_layouts/15/WopiFrame2.aspx?sourcedoc=/Connect%20Newsletter/Connect%20June%202016%20Articles/Room%20Makeover%20winners.docx&amp;action=default\" rel=\"nofollow\" target=\"_blank\">here</a>.</p>\n                           </div>\n                           <div class=\"side-img-container  only-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/1946a95116c8be00d559e36bb38c669d.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-1946a95116c8be00d559e36bb38c669d.jpg\" />            \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-image\" id=\"w-2477179026\">\n                        <div class=\"content\">\n                           <div class=\"side-img-container right side-img-floater no-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/4dd26a26ee89a9651ec399f8e66adf65.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-4dd26a26ee89a9651ec399f8e66adf65.jpg\"                     alt=\"Jon Ashworth MP visits taste \" />             \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">        Jon Ashworth MP visits taste     </h2>\n                           <div class=\"theme-p  theme-color-4\" data-target=\"content\">        On 26th May, learners in taste restaurant hosted a fabulous European Gala Dinner for 120 people, including local MP Jon Ashworth, who later wrote to restaurant manager Nicky Randall to praise the &quot;wonderful gospel choir...great venue...excellent food [and] out of this world... vegetarian option&quot;. Diners were treated to delicacies including seared tuna with sesame seed crust, king prawn and crab linguine, and a selection of Leicestershire and British cheeses. Congratulations to everyone at taste!    </div>\n                           <div class=\"side-img-container  only-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/4dd26a26ee89a9651ec399f8e66adf65.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-4dd26a26ee89a9651ec399f8e66adf65.jpg\" />            \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-standard\" id=\"w-1776457125\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"six columns alpha omega\">\n                                 <div class=\"content\">\n                                    <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">SharePoint is Changing</h2>\n                                    <div class=\"theme-p theme-color-4\" data-target=\"content\">\n                                       <p><br/></p>\n                                       <p>SharePoint as you know it will be changing. </p>\n                                       <p>To bring SharePoint up to date and reflect the recent changes to the College site structure, top title menus, tabs and site page structure will change slightly. The planned changes have all been reviewed by members of the SLT and will be in place by September 2016, ready for the new academic year. To see what the changes are and how they will affect you, take a look at the files on SharePoint <a data-id=\"l-4142056493\" href=\"https://onedrive.live.com/?authkey=%21AFGGr_0x5eeytT0&amp;id=61344F945F985DA6%21929&amp;cid=61344F945F985DA6\" rel=\"nofollow\" target=\"_blank\">here</a>.</p>\n                                    </div>\n                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-image\" id=\"w-4201076655\">\n                        <div class=\"content\">\n                           <div class=\"side-img-container right side-img-floater no-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/d673e4cbc4d1e7f7371c96c30a9bf57f.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-d673e4cbc4d1e7f7371c96c30a9bf57f.jpg\"                     alt=\"Employer Engagement Team Completes Summer Wolf Run and Raises £380 for Alzheimer&#39;s Society\" />             \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">        Employer Engagement Team Completes Summer Wolf Run and Raises £380 for Alzheimer&#39;s Society    </h2>\n                           <div class=\"theme-p  theme-color-4\" data-target=\"content\">\n                              <p>The Wolf Run is wild running, which is a unique combination of three kinds of off-road running: mud runs, trail runs and obstacle runs. The only Wild Run in the UK, it’s a hardcore 10k run across raw natural terrain, including open ground, woodland, lakes and thick mud. To read more about the Employer Engagement Team's muddy lupine exploits, click <a data-id=\"l-3954234445\" href=\"https://intranetplus13.lec.ac.uk/_layouts/15/WopiFrame.aspx?sourcedoc=/Connect%20Newsletter/Connect%20June%202016%20Articles/News%20letter%20waiter%20of%20the%20year%202016.docx&amp;action=default\" rel=\"nofollow\" target=\"_blank\">here</a>.</p>\n                              <p><br/></p>\n                              <p>It's not too late to donate, either- the team's <a data-id=\"l-5592687632\" href=\"https://www.justgiving.com/fundraising/Alison-Tupling\" rel=\"nofollow\" target=\"_blank\">Just Giving</a> page is still open.</p>\n                           </div>\n                           <div class=\"side-img-container  only-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/d673e4cbc4d1e7f7371c96c30a9bf57f.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-d673e4cbc4d1e7f7371c96c30a9bf57f.jpg\" />            \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-image\" id=\"w-9518009127\">\n                        <div class=\"content\">\n                           <div class=\"side-img-container right side-img-floater no-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/73a43b7e6b9164096d6d7c8abf097e84.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-73a43b7e6b9164096d6d7c8abf097e84.jpg\"                     alt=\"Waiter/Waitress of the Year Competition 2016\" />             \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">        Waiter/Waitress of the Year Competition 2016    </h2>\n                           <div class=\"theme-p  theme-color-4\" data-target=\"content\">\n                              <p style=\"text-align: left;\">On the evening of Wednesday 6th June 2016, a mixture of first and second year Catering College Culinary Arts students took part in the Waiter/ess of the Year Competition in the taste restaurant at Freemen’s Park Campus.<br/></p>\n                              <p style=\"text-align: left;\"><br/></p>\n                              This year the competition was sponsored by the Belmont House Hotel, Ragdale Hall Health Hydro and Spa, and The Case Restaurant: three great local hospitality businesses. To read more about the competition, talented winners, and fabulous prizes, simply click <a data-id=\"l-7090772632\" href=\"https://intranetplus13.lec.ac.uk/_layouts/15/WopiFrame.aspx?sourcedoc=/Connect%20Newsletter/Connect%20June%202016%20Articles/News%20letter%20waiter%20of%20the%20year%202016.docx&amp;action=default\" rel=\"nofollow\" target=\"_blank\">here</a>.    \n                           </div>\n                           <div class=\"side-img-container  only-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/73a43b7e6b9164096d6d7c8abf097e84.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-73a43b7e6b9164096d6d7c8abf097e84.jpg\" />            \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-image\" id=\"w-6795720568\">\n                        <div class=\"content\">\n                           <div class=\"side-img-container right side-img-floater no-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/6956496ff2685000892a96ca64b14ff5.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-6956496ff2685000892a96ca64b14ff5.jpg\"                     alt=\"Leicester College Alumna Featured in National Press for her Shoe Company\" />             \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">        Leicester College Alumna Featured in National Press for her Shoe Company    </h2>\n                           <div class=\"theme-p  theme-color-4\" data-target=\"content\">\n                              After studying for her BTEC Diploma in Fashion Design at the College, Caroline Stillman went on to design shoes especially for tall women who require bigger sizes. The market for such products is well understood by Caroline personally: she lives with genetic condition Marphan Syndrome, and has typical physical features of the disorder, such as long limbs and a tall, thin body type. Standing at 6&quot;4 and taking size 11 shoes, Caroline was understandably tired of the uninspiring footwear options available both online and on the highstreet. Channeling her entrepreneurial spirit, she went ahead and started her own shoe design business catering to other women who take a larger shoe size. Read all about her story on the College website <a data-id=\"l-8584227290\" href=\"https://leicestercollege.ac.uk/news/my-big-beautiful-shoes-carobella-is-not-just-about-fashion-its-helped-me-find-acceptance/\" rel=\"nofollow\" target=\"_blank\">here</a>.\n                              <p><br/></p>\n                              <p>Caroline's website and online boutique, Carobella, is <a data-id=\"l-5853846556\" href=\"http://www.carobellaboutique.co.uk/\" rel=\"nofollow\" target=\"_blank\">here</a>.</p>\n                              <p><br/></p>\n                              <p>She's also been featured in The <a data-id=\"l-7337325745\" href=\"http://www.leicestermercury.co.uk/8203-Woman-bullied-school-tall-launchs-shoe/story-29076313-detail/story.html\" rel=\"nofollow\" target=\"_blank\">Leicester Mercury</a>, The <a data-id=\"l-9839395717\" href=\"http://www.express.co.uk/news/uk/660716/woman-size-11-feet-launches-plus-size-shoes-Carobella-Boutique\" rel=\"nofollow\" target=\"_blank\">Daily Express</a>, and The <a data-id=\"l-6525379316\" href=\"http://www.telegraph.co.uk/news/uknews/1512704/The-girl-who-was-bullied-for-being-tall.html\" rel=\"nofollow\" target=\"_blank\">Daily Telegraph</a>.</p>\n                           </div>\n                           <div class=\"side-img-container  only-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/6956496ff2685000892a96ca64b14ff5.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-6956496ff2685000892a96ca64b14ff5.jpg\" />            \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-standard\" id=\"w-5610856142\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"six columns alpha omega\">\n                                 <div class=\"content\">\n                                    <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">Familiar Faces</h2>\n                                    <div class=\"theme-p theme-color-4\" data-target=\"content\">\n                                       <p>Look familiar? This smiling face gazing from the College's latest promotional billboard is none other than Lesley Pilling, our former Marketing Communications Manager. In one final show of goodwill before she left the College, Lesley posed for this photo...which was promptly slapped on a billboard and placed in a prominent city centre position. That's what happens when your friends all work in marketing.</p>\n                                       <p><br/></p>\n                                       <p>Thanks to Primesight for allocating us the billboard free of charge.</p>\n                                    </div>\n                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-image var-image-standard\" id=\"w-3922201100\">\n                        <div class=\"pagegrid\">\n                           <div class=\"six columns alpha omega\">\n                              <div class=\"wrapper\">\n                                 <div class=\"framed-image-container no-drag\" data-clicktarget=\"#\">                     <img class=\"framed-image\"         src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-0f1b18f0d31983cdd2df73e0b2c9859a.png\" alt=\"Big image\"/>                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-image\" id=\"w-5092767429\">\n                        <div class=\"content\">\n                           <div class=\"side-img-container right side-img-floater no-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/a6eced74c6f626c7182595d8171f50d4.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-a6eced74c6f626c7182595d8171f50d4.jpg\"                     alt=\"Leicestershire Cares Mock Interview Event\" />             \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">        Leicestershire Cares Mock Interview Event    </h2>\n                           <div class=\"theme-p  theme-color-4\" data-target=\"content\">\n                              <p style=\"text-align: left;\">April 28th saw Leicestershire Cares' visit to APC, where local volunteers from Thermofisher Scientific, Sytner - Bentley, Leicester City Council, Gateley, Walkers Sausage and Deli, and Santander came to share their professional skills and expertise with our learners as part of Employability Week.</p>\n                              <p style=\"text-align: left;\"><br/></p>\n                              <p style=\"text-align: left;\">The aim of the day was to offer learners valuable interview experience, and indeed 111 individuals benefitted from the sessions, turning up on time and in full professional dress for their &quot;job interviews&quot; with industry insiders. Learners' feedback was positive too, with many saying they felt increased levels of confidence and knowledge of the interview process- essential for their imminent entry into the working world.</p>\n                              <p style=\"text-align: left;\"><br/></p>\n                              <p style=\"text-align: left;\">See Leicestershire Cares' LinkedIn article all about the day <a data-id=\"l-9007750474\" href=\"https://www.linkedin.com/pulse/business-leicester-college-gail-brown?trk=hp-feed-article-title-publish\" rel=\"nofollow\" target=\"_blank\">here</a>.</p>\n                           </div>\n                           <div class=\"side-img-container  only-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/a6eced74c6f626c7182595d8171f50d4.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-a6eced74c6f626c7182595d8171f50d4.jpg\" />            \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-image\" id=\"w-2200958603\">\n                        <div class=\"content\">\n                           <div class=\"side-img-container right side-img-floater no-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/a16042c17789fa602306e0e93880fe33.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-a16042c17789fa602306e0e93880fe33.jpg\"                     alt=\"The Queen&#39;s 90th Birthday in taste Restaurant\" />             \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">        The Queen&#39;s 90th Birthday in taste Restaurant    </h2>\n                           <div class=\"theme-p  theme-color-4\" data-target=\"content\">\n                              <p>The catering and hospitality students outdid themselves this past 21st April, with an all-out patriotic display in the College's <a data-id=\"l-0374667535\" href=\"http://leicestercollege.ac.uk/about-us/commercial-services/taste-restaurant/\" rel=\"nofollow\" target=\"_blank\">taste Restaurant</a>, featuring Union Jack bunting and red, white, and blue napkins (alongside the usual stellar food and service, of course). </p>\n                              <p><br/></p>\n                              <p>If you haven't tried it yet, taste offers fantastic value for money: lunch is just £9 per person for 3 courses, while dinner will set you back just £16.50 (and that includes 3 courses plus coffee and petit fours). Don't just take our word for it: Taste gets an average 5-star rating on <a data-id=\"l-7978147738\" href=\"https://www.tripadvisor.co.uk/Restaurant_Review-g186334-d2435059-Reviews-Taste_Leicester_College-Leicester_Leicestershire_England.html\" rel=\"nofollow\" target=\"_blank\">TripAdvisor</a>, and by eating there you're also supporting the learners' development. </p>\n                           </div>\n                           <div class=\"side-img-container  only-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/a16042c17789fa602306e0e93880fe33.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-a16042c17789fa602306e0e93880fe33.jpg\" />            \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-standard\" id=\"w-9857136141\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"six columns alpha omega\">\n                                 <div class=\"content\">\n                                    <div class=\"theme-p theme-color-4\" data-target=\"content\">\n                                       <p><strong>Why not keep up to date with Leicester College in the news by regularly checking our press archive? This is constantly being updated and is located on the College website <a data-id=\"l-1492337008\" href=\"http://leicestercollege.ac.uk/news/\" rel=\"nofollow\" target=\"_blank\">here.</a></strong><br/></p>\n                                    </div>\n                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-image\" id=\"w-9330618535\">\n                        <div class=\"content\">\n                           <div class=\"side-img-container right side-img-floater no-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/67d285b93e99032a86708a34f5dfc668.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-67d285b93e99032a86708a34f5dfc668.jpg\"                     alt=\"College Celebrates Workers&#39; 25 Years&#39; Service\" />             \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">        College Celebrates Workers&#39; 25 Years&#39; Service    </h2>\n                           <div class=\"theme-p  theme-color-4\" data-target=\"content\">        This annual event has been hosted this June by Verity Hancock, celebrating workers' committed service of 25 years or more. This important milestone is celebrated with a short awards ceremony, certificates, and a chance to have some lunch. This year the College said a heartfelt &quot;thank you&quot; to Mandy Ratnett, Susan Preistnall, Tracey Stewart, and Julie Blackwell. Well done team.    </div>\n                           <div class=\"side-img-container  only-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/67d285b93e99032a86708a34f5dfc668.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-67d285b93e99032a86708a34f5dfc668.jpg\" />            \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-standard\" id=\"w-9530958970\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"six columns alpha omega\">\n                                 <div class=\"content\">\n                                    <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">The LEET Multi Faith Chaplaincy News</h2>\n                                    <div class=\"theme-p theme-color-4\" data-target=\"content\">\n                                       <p> Bus 2 Brum: the Discover Britain trip<br/></p>\n                                       <p><br/></p>\n                                       <p>42 learners were treated to a day out in Birmingham on 18th May 2016 by the LEET Multi faith Chaplaincy team.</p>\n                                       <p><br/></p>\n                                       <p>Students experienced shopping, the cathedral, and the cultural diversity of the city centre. One student even visited the city museum to see the 7th century Qur'an on exhibition to the public. A great day was had by all with lots of laughter and food to share on the way back to Leicester. A student remarked that whilst Birmingham was good to visit, Leicester was still the best (especially for football).<br/></p>\n                                       <p><br/></p>\n                                       <p>Sharen Ravat from the LEET Multi faith Chaplaincy team said: 'the students were well behaved and respectful, we got back on time which was a bonus! They had a great time and made new friends on the bus, it was good to take them and the Chaplaincy was proud to be part of their learning.'<br/></p>\n                                    </div>\n                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-standard\" id=\"w-9608773814\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"six columns alpha omega\">\n                                 <div class=\"content\">\n                                    <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">Campus Warden News by Michael Mullins </h2>\n                                    <div class=\"theme-p theme-color-4\" data-target=\"content\">\n                                       <p>If you cycle to College, always secure your bicycle with a security D Lock (thin chains and cables can quickly be cut off).</p>\n                                       <p> </p>\n                                       <p>Do not leave valuable equipment (yours or the College's) unattended, and if you are the last person to leave a staffroom or a classroom always lock up on your way out. Tutors: please don't leave students unattended in classrooms!</p>\n                                       <p> </p>\n                                       <p>The Campus Wardens are always out and about making sure the campuses are safe. It's our job to ensure that everyone can work and study in a secure, relaxed atmosphere, and to facilitate this, we check IDs everyday. So please wear your College lanyard as it's College policy - the wardens are on the lookout for anything unusual, or anyone who shouldn't be in College. By wearing your lanyard you make this task a lot easier, and consequently make College a little safer.</p>\n                                       <p> </p>\n                                       <p>The wardens are here to help, and all of the team will go that extra mile to help you in any way we can.</p>\n                                       <p> </p>\n                                       <p>The Wardens can be contacted at APC on EXT 4102; at FPC on EXT 2502; and for car-parking issues on EXT 2501.</p>\n                                       <p> </p>\n                                       <p>          </p>\n                                       <p>Security talks are ongoing, and staff members wishing to book groups of students on these talks should contact Campus Warden Team Leader Michael Mullins on EXT 4062. </p>\n                                    </div>\n                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-standard\" id=\"w-3431468894\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"six columns alpha omega\">\n                                 <div class=\"content\">\n                                    <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">Car Parking and Mini Bus News</h2>\n                                    <div class=\"theme-p theme-color-4\" data-target=\"content\">\n                                       <p><strong>Car Parking</strong></p>\n                                       <p>All College car parks will be open to non-permit holding staff from 11th July through to 19th August. </p>\n                                       <p> </p>\n                                       <p>A polite reminder to all staff who wish to be considered for a parking permit for 2016/17: applications will be processed during the summer with the aim of issuing new permits in time to take effect from 1st September.</p>\n                                       <p> </p>\n                                       <p>Before the end of July Admin Days, please <strong>check</strong> and <strong>update</strong> your current application on the Green Travel and Car Parking SharePoint site to make sure it accurately reflects your circumstances including:</p>\n                                       <p>· Change of vehicle (scan and attach a copy of the insurance if claiming business use)</p>\n                                       <p>· Change in base campus</p>\n                                       <p>· Days for which permit is required</p>\n                                       <p>· Home postcode and distance to base campus</p>\n                                       <p>(Any amendments made <u>after</u> 1st August will also require e-mail notification to <a data-id=\"l-4492060086\" href=\"mailto:wfearn@lec.ac.uk\" rel=\"nofollow\" target=\"_blank\">wfearn@lec.ac.uk</a>) </p>\n                                       <p><br/></p>\n                                       <p> </p>\n                                       <p><strong>Inter Campus Minibus</strong></p>\n                                       <p>The inter campus mini bus service is to be suspended for the summer.</p>\n                                       <p> </p>\n                                       <p>There will be no service for the six weeks from 11th July through to 19th August.</p>\n                                       <p> </p>\n                                       <p>Normal service will resume on 22nd August but will be a term time only service throughout 2016/17. For details of the service dates for 2016/17 please refer to the Green Travel and Car Parking SharePoint site.</p>\n                                       <p><br/></p>\n                                       <p> </p>\n                                       <p><strong>Campus Services</strong></p>\n                                       <p><strong>27th June 2016</strong></p>\n                                    </div>\n                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-standard\" id=\"w-7367580605\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"six columns alpha omega\">\n                                 <div class=\"content\">\n                                    <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">Our Caption Competition Winner</h2>\n                                    <div class=\"theme-p theme-color-4\" data-target=\"content\">\n                                       This month's winner of the caption competition is James Hollingsworth, our ICT Service Desk Technician. Chosen because we have a soft spot for puns, James' winning words were: &quot;blooming smokers&quot;- the perfect caption for the image below, as we're sure you'll all agree.\n                                       <p><br/></p>\n                                       <p>Well done James! Look out for the College postwoman, who will be delivering you some goodies from the Marketing Department shortly. </p>\n                                    </div>\n                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-image var-image-standard\" id=\"w-9685245372\">\n                        <div class=\"pagegrid\">\n                           <div class=\"six columns alpha omega\">\n                              <div class=\"wrapper\">\n                                 <div class=\"framed-image-container no-drag\" data-clicktarget=\"#\">                     <img class=\"framed-image\"         src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-2d19ca26992f7d21976c4b29cd0a8b60.jpg\" alt=\"Big image\"/>                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-standard\" id=\"w-5840752350\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"six columns alpha omega\">\n                                 <div class=\"content\">\n                                    <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">*This Month&#39;s New Caption Competition*</h2>\n                                    <div class=\"theme-p theme-color-4\" data-target=\"content\"> This month we've outdone ourselves with our image, snapped in the canteen at SMC. Send witty caption ideas (hint: puns preferred) to <a data-id=\"l-7418453527\" href=\"mailto:khollingsworth@leicestercollege.ac.uk\" rel=\"nofollow\" target=\"_blank\">khollingsworth@leicestercollege.ac.uk</a> for your chance to win next month's prize.</div>\n                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-image var-image-standard\" id=\"w-9409722360\">\n                        <div class=\"pagegrid\">\n                           <div class=\"six columns alpha omega\">\n                              <div class=\"wrapper\">\n                                 <div class=\"framed-image-container no-drag\" data-clicktarget=\"#\">                     <img class=\"framed-image\"         src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-3ddbefcfb0fd1aaea6f4da541b34bee3.jpg\" alt=\"Big image\"/>                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-image\" id=\"w-3355263170\">\n                        <div class=\"content\">\n                           <div class=\"side-img-container right side-img-floater no-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/e90c2e6a11693c896eb55a683b2d04bc.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-e90c2e6a11693c896eb55a683b2d04bc.jpg\"                     alt=\"Library News by Judith Gurney   \" />             \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">        Library News by Judith Gurney       </h2>\n                           <div class=\"theme-p  theme-color-4\" data-target=\"content\">\n                              <p><strong>Could you do with a travel guide to find out more about your holiday destination?</strong><br/></p>\n                              <p><br/></p>\n                              <p>Then take a look in our libraries.</p>\n                              <p><br/></p>\n                              <p>All three College libraries have a great selection of guide and travel books.</p>\n                              <p>These are used by different groups of learners to give them inspiration.<br/></p>\n                              <p>During exam season, though, these books tend to get forgotten. So while they are sitting on the library shelves, come and take a peek.<br/></p>\n                              <p>Please take the opportunity to come into any of our libraries, or look at our online catalogue, and see if we have any guides to your holiday destination.<br/></p>\n                              <p><br/></p>\n                              <p>Don’t forget, staff borrowing periods are for six weeks for standard loans, and arrangements can be made at the end of term for items to be brought back at the start of the new academic year.<br/></p>\n                              <p><br/></p>\n                              <p>To phone the libraries across the College, the numbers you need are:</p>\n                              <p><br/></p>\n                              <p>Abbey Park Library – ext 4089</p>\n                              <p><br/></p>\n                              <p>Freemen’s Park – ext 2046<br/></p>\n                              <p><br/></p>\n                              <p>St Margaret’s – ext 2163<br/></p>\n                           </div>\n                           <div class=\"side-img-container  only-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/e90c2e6a11693c896eb55a683b2d04bc.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-e90c2e6a11693c896eb55a683b2d04bc.jpg\" />            \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-image\" id=\"w-4139914986\">\n                        <div class=\"content\">\n                           <div class=\"side-img-container right side-img-floater no-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/57769bc583c40903250617a32f96bc22.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-57769bc583c40903250617a32f96bc22.jpg\"                     alt=\"Library Summer Opening Hours\" />             \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">        Library Summer Opening Hours    </h2>\n                           <div class=\"theme-p  theme-color-4\" data-target=\"content\">\n                              <p><br/></p>\n                              <p style=\"text-align: left\"><br/></p>\n                              <strong>Leicester College library summer vacation opening times</strong>\n                              <p><br/></p>\n                              <p><br/></p>\n                              <p>Our libraries will be open as usual during the summer break. Usual holiday opening hours apply (9am to 4.30pm). However, occasionally, due to unforeseen circumstances these may change. If you are making a special journey to see us, please check for announcements on our E-Library or give us a ring (numbers given above).</p>\n                              <p><br/></p>\n                              <p>Please note the libraries will not be open in the evenings.<br/></p>\n                           </div>\n                           <div class=\"side-img-container  only-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/57769bc583c40903250617a32f96bc22.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-57769bc583c40903250617a32f96bc22.jpg\" />            \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-standard\" id=\"w-9190899059\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"six columns alpha omega\">\n                                 <div class=\"content\">\n                                    <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">Library Times in September: Temporary Changes</h2>\n                                    <div class=\"theme-p theme-color-4\" data-target=\"content\">\n                                       <p><strong>Important changes to our library opening times are happening in September.</strong></p>\n                                       <p><br/></p>\n                                       <p>Between Monday 12th and Friday 23rd September inclusive, all three libraries will change their opening hours to accommodate both library inductions and access to the resources. </p>\n                                       <p>To check on library opening times for this period, and for information on booking inductions, click <a data-id=\"l-8374282380\" href=\"https://intranetplus13.lec.ac.uk/_layouts/15/WopiFrame.aspx?sourcedoc=/Connect%20Newsletter/Connect%20June%202016%20Articles/Library%20Times%20Change.docx&amp;action=default\" rel=\"nofollow\" target=\"_blank\">here</a>.</p>\n                                    </div>\n                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-image\" id=\"w-1283055412\">\n                        <div class=\"content\">\n                           <div class=\"side-img-container right side-img-floater no-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/f29acaf8c8e50113345f7c93cd00c962.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-f29acaf8c8e50113345f7c93cd00c962.jpg\"                     alt=\"Help Your Library to Help You!\" />             \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">        Help Your Library to Help You!    </h2>\n                           <div class=\"theme-p  theme-color-4\" data-target=\"content\">\n                              <p>Do our resources meet your curriculum needs?<br/></p>\n                              <p><br/></p>\n                              <p>The next academic year might seem months away, but our libraries are always thinking ahead, aiming to provide great resources to help our learners’ success in their chosen courses. However, to do that, we need the assistance of our teaching staff.</p>\n                              <p><br/></p>\n                              <p>When reading lists are being compiled to support learner assignments, we would encourage lecturers to check our current catalogue, to see the resources that are already available. If they are not there, then please let us know, so we can do something about it. Alternatively lecturers can bring reading lists to the library, so our staff can check our stock and order necessary resources.<br/></p>\n                              <p><br/></p>\n                              <p>Our experience from learners is that if they are given a list, then they expect to find all or most of the items available to them. Help us to help you -and the learners!- by sharing your resource needs with us.<br/></p>\n                           </div>\n                           <div class=\"side-img-container  only-mobile\" data-clicktarget=\"#\">\n                              <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/f29acaf8c8e50113345f7c93cd00c962.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                 <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-f29acaf8c8e50113345f7c93cd00c962.jpg\" />            \n                                 <div class=\"pic-border\"></div>\n                              </a>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-standard\" id=\"w-6877042078\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"six columns alpha omega\">\n                                 <div class=\"content\">\n                                    <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">Spotlight on Resources: Gale General OneFile </h2>\n                                    <div class=\"theme-p theme-color-4\" data-target=\"content\">\n                                       <p>Gale General OneFile is a general interest and academic database pulling together content from a number of different information resources such as newspapers, academic journals, books, video and audio. For more on this fantastic resource, see the item written by Chloe Turner <a data-id=\"l-8692989807\" href=\"https://intranetplus13.lec.ac.uk/_layouts/15/WopiFrame.aspx?sourcedoc=/Connect%20Newsletter/Connect%20June%202016%20Articles/Chloe%20Turner.docx&amp;action=default\" rel=\"nofollow\" target=\"_blank\">here</a>.</p>\n                                    </div>\n                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-standard\" id=\"w-7296052019\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"six columns alpha omega\">\n                                 <div class=\"content\">\n                                    <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">More than just books and photocopies...</h2>\n                                    <div class=\"theme-p theme-color-4\" data-target=\"content\">\n                                       What else can our College libraries offer?\n                                       <p><br/></p>\n                                       <p>Here is just a sample of the great offer provided to both learners and staff.</p>\n                                    </div>\n                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-image var-image-standard\" id=\"w-7573717641\">\n                        <div class=\"pagegrid\">\n                           <div class=\"six columns alpha omega\">\n                              <div class=\"wrapper\">\n                                 <div class=\"framed-image-container no-drag\" data-clicktarget=\"#\">                     <img class=\"framed-image\"         src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-e99db306f87f5bb03fdb05ea2601d795.png\" alt=\"Big image\"/>                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-standard\" id=\"w-3322863681\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"six columns alpha omega\">\n                                 <div class=\"content\">\n                                    <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">Music and Sound Department&#39;s Album of the Month</h2>\n                                    <div class=\"theme-p theme-color-4\" data-target=\"content\">\n                                       <p style=\"text-align: center\"><strong><em>Prince: </em>Sign o’ the Times</strong><em></em></p>\n                                       <p><em><br/></em></p>\n                                       <p>This is unfortunately the second Album of the Month related to an untimely death, and hopefully the last.<br/></p>\n                                       <p><br/></p>\n                                       <p>A frequent resident of critics’ Top 10 of All Time lists, this is Prince at his best: it’s funky, poppy, yet experimental. It shows Prince’s talents as a writer, musician, and producer at the top of his game.<br/></p>\n                                       <p><br/></p>\n                                       <p>Highlights: ‘If I was Your Girlfriend’, ‘Sign ‘o the Times', and ‘I Could Never Take the Place of your Man’.<br/></p>\n                                       <p><br/></p>\n                                       <p style=\"text-align: center;\"><em>John Meredith (Head of Music)</em></p>\n                                    </div>\n                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-image var-image-standard\" id=\"w-2174820661\">\n                        <div class=\"pagegrid\">\n                           <div class=\"six columns alpha omega\">\n                              <div class=\"wrapper\">\n                                 <div class=\"framed-image-container no-drag\" data-clicktarget=\"#\">                     <img class=\"framed-image\"         src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-b59a0fc866cd5d2fd7747900b3b7017a.jpg\" alt=\"Big image\"/>                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-standard\" id=\"w-3925758429\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"six columns alpha omega\">\n                                 <div class=\"content\">\n                                    <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">The Links Effect </h2>\n                                    <div class=\"theme-p theme-color-4\" data-target=\"content\"> In general we think you should switch off your smartphone and pay attention to those around you. But for when you don't want to do that, Connect is here with another selection of the web's best links for your enjoyment. You're welcome.</div>\n                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-image var-image-standard\" id=\"w-4700202762\">\n                        <div class=\"pagegrid\">\n                           <div class=\"six columns alpha omega\">\n                              <div class=\"wrapper\">\n                                 <div class=\"framed-image-container no-drag\" data-clicktarget=\"#\">                     <img class=\"framed-image\"         src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-8b840a6300d9196da841332f90fc3f4b.jpg\" alt=\"Big image\"/>                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-standard\" id=\"w-8824625449\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"six columns alpha omega\">\n                                 <div class=\"content\">\n                                    <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">From Around the Web: Travel Inspiration</h2>\n                                    <div class=\"theme-p theme-color-4\" data-target=\"content\">\n                                       With the end of term upon us, and the summer office exodus just around the corner, our thoughts have turned to travel. \n                                       <p><br/></p>\n                                       <p>If you're looking for an affordable last minute getaway, check out Martin Lewis' guide to <a data-id=\"l-7646931011\" href=\"http://www.moneysavingexpert.com/travel/cheap-holiday-haggling-guide\" rel=\"nofollow\" target=\"_blank\">cheap package holidays</a>.</p>\n                                       <p><br/></p>\n                                       <p>If a resort doesn't appeal, how about something a little more off the beaten track? Here at Connect we can personally recommend Bosnia as a fascinating destination with a heartbreaking recent history. See Lonely Planet's guide to <a data-id=\"l-8580872032\" href=\"https://www.lonelyplanet.com/travel-tips-and-articles/best-value-destinations-for-2016\" rel=\"nofollow\" target=\"_blank\">Best Value Destinations 2016</a>.</p>\n                                       <p><br/></p>\n                                       <p>Consider yourself a foodie? Croatia, the Basque country, or even Portland, Oregon could be next on your list. Freebie magazine <em>The Stylist</em> has compiled an article on <a data-id=\"l-4203534384\" href=\"http://www.stylist.co.uk/travel/10-holidays-for-the-food-obsessed#art\" rel=\"nofollow\" target=\"_blank\">10 Holidays for the Food Obsessed</a>.</p>\n                                       <p><br/></p>\n                                       <p>Unusual places, underrated sights, and articles on the world's best toilets will inspire you to book your next break - quirky destination guides are a speciality over at <a data-id=\"l-3512736350\" href=\"https://www.buzzfeed.com/travel\" rel=\"nofollow\" target=\"_blank\">Buzzfeed Travel</a>.</p>\n                                       <p><br/></p>\n                                       <p>Like culture (or beer)? Taking part in festivals from Munich's Oktoberfest to Spain's La Tomatina -where participants throw tomatoes at each other- to Mexico's Day of the Dead make for some great memories (and Instagram photos). See Escape Normal's <a data-id=\"l-5320816716\" href=\"http://www.escapenormal.com/2011/03/29/50-greatest-festivals-in-the-world/\" rel=\"nofollow\" target=\"_blank\">Top 50 Festivals</a>.</p>\n                                       <p><br/></p>\n                                       <p>Booked your trip, but don't know what to take? There's a handy guide to culturally-appropriate clothing at <a data-id=\"l-1276751597\" href=\"http://www.whattowearonholiday.com/gb/index.php\" rel=\"nofollow\" target=\"_blank\">What to Wear on Holiday</a>.</p>\n                                       <p><br/></p>\n                                       <p>Worried you won't get everything you need for the trip in your hand luggage? See this quick Youtube tutorial on <a data-id=\"l-5900888957\" href=\"https://www.youtube.com/watch?v=P_qCppTlZpI\" rel=\"nofollow\" target=\"_blank\">How to Pack a Carry-On Like A Boss</a>. Equally, this man fits an impressive month's worth of stuff into a tiny bag- see <a data-id=\"l-1244303152\" href=\"https://www.youtube.com/watch?v=L5UlxHsgD58\" rel=\"nofollow\" target=\"_blank\">Packing Like a Pro</a>.</p>\n                                       <p><br/></p>\n                                       <p>And finally, remember that we've got wonders including Nessie, the northern lights, and swimming in fairy pools right here at home. All you have to do is <a data-id=\"l-7827425465\" href=\"https://www.visitscotland.com/\" rel=\"nofollow\" target=\"_blank\">Visit Scotland</a>.</p>\n                                    </div>\n                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-image var-image-standard\" id=\"w-3433084509\">\n                        <div class=\"pagegrid\">\n                           <div class=\"six columns alpha omega\">\n                              <div class=\"wrapper\">\n                                 <div class=\"framed-image-container no-drag\" data-clicktarget=\"#\">                     <img class=\"framed-image\"         src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-2e61fdbe73e1ceace6bddff2042a716a.jpg\" alt=\"Big image\"/>                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-paragraph var-paragraph-standard\" id=\"w-6551392721\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"six columns alpha omega\">\n                                 <div class=\"content\">\n                                    <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">And the Last Word Goes To ...</h2>\n                                    <div class=\"theme-p theme-color-4\" data-target=\"content\"> Anja from Marketing's quirky picture, taken in Wistow. It features a seal chilling out in a field. Got anything better than this? (Unlikely.) Send your kooky snaps to <a href=\"\">khollingsworth@leicestercollege.ac.uk and the best one will be featured in the next issue of Connect, and there will be a prize for the winner- maybe a banana, because we've got a lot of those in the office at the moment.</div>\n                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-image var-image-standard\" id=\"w-5189537413\">\n                        <div class=\"pagegrid\">\n                           <div class=\"six columns alpha omega\">\n                              <div class=\"wrapper\">\n                                 <div class=\"framed-image-container no-drag\" data-clicktarget=\"#\">                     <img class=\"framed-image\"         src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-ac969ea03ec5020cca34631c2401cb4b.jpg\" alt=\"Big image\"/>                                 </div>\n                              </div>\n                           </div>\n                           <div class=\"clear\"></div>\n                        </div>\n                     </div>\n                     <div class=\"widget widget-text-bio var-bio-standard\" id=\"w-6919367240\">\n                        <div class=\"pagegrid\">\n                           <div class=\"row\">\n                              <div class=\"two columns alpha no-mobile\">\n                                 <div class=\"content content-left\">\n                                    <div class=\"side-img-container\" data-clicktarget=\"#\">\n                                       <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/903061ed51a9ae8d1f80656535ae03ad.jpg\" class=\"group1 fancy-pic skip-tracking\">\n                                          <img class=\"side-img\" src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-903061ed51a9ae8d1f80656535ae03ad.jpg\"                                 alt=\"Connect Needs Your Contributions \"             />                                     \n                                          <div class=\"pic-border\"></div>\n                                       </a>\n                                    </div>\n                                 </div>\n                              </div>\n                              <div class=\"four columns omega\">\n                                 <div class=\"content content-right\">\n                                    <h2 class=\"theme-p-title theme-color3\" data-target=\"title\" data-clicktarget=\"#\">         Connect Needs Your Contributions         </h2>\n                                    <div class=\"only-mobile\">\n                                       <div class=\"side-img-container\" data-clicktarget=\"#\">             <a href=\"https://d1zqayhc1yz6oo.cloudfront.net/903061ed51a9ae8d1f80656535ae03ad.jpg\"                                   class=\"group1 fancy-pic skip-tracking\"> <img class=\"side-img framed-image\"                         src=\"https://d1zqayhc1yz6oo.cloudfront.net/thumbs/thumb-903061ed51a9ae8d1f80656535ae03ad.jpg\"/>             </a>         </div>\n                                    </div>\n                                    <div class=\"theme-p  theme-color-4\" data-target=\"content\">\n                                       Please send us your photos, articles and suggestions for Connect. Articles of up to 200 words, (written in one size/colour text) are very welcome. Please attach any photos separately and send to <a data-id=\"l-2632382084\" href=\"mailto:khollingsworth@leicestercollege.ac.uk\" rel=\"nofollow\" target=\"_blank\">khollingsworth@leicestercollege.ac.uk</a>.<strong> The deadline for submissions for the next issue is the 15th August. </strong><br/>\n                                       <p>Thanks for making and reading Connect. <br/></p>\n                                    </div>\n                                 </div>\n                                 <!-- .content --> \n                                 <div class=\"clear\"></div>\n                              </div>\n                              <!-- columns -->            \n                           </div>\n                           <!-- rows -->            \n                           <div class=\"clear\"></div>\n                        </div>\n                        <!-- page grid -->\n                     </div>\n                     <div class=\"clear\"></div>\n                  </div>\n                  <div class=\"page-bottom\"></div>\n               </div>\n            </div>\n         </div>\n      </div>\n   </body>\n</html>",
+			"file": "/tmp/fz3temp-1/connect-2016-07.html",
+			"file_size": 130147,
+			"file_write_time": 131127918950030430,
 			"settings":
 			{
-				"buffer_size": 848,
+				"buffer_size": 130124,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "trellis/group_vars/all/users.yml",
+			"file": "/etc/hosts",
 			"settings":
 			{
-				"buffer_size": 686,
+				"buffer_size": 768,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "trellis/group_vars/staging/vault.yml",
+			"file": "site/composer.json",
 			"settings":
 			{
-				"buffer_size": 887,
+				"buffer_size": 9587,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "trellis/group_vars/staging/main.yml",
+			"file": "site/web/app/themes/sage-timber-lc-blogs/page-home.php",
 			"settings":
 			{
-				"buffer_size": 214,
+				"buffer_size": 1312,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": ".git/config",
+			"file": "site/web/app/themes/sage-timber-lc-blogs/templates/page-home.twig",
 			"settings":
 			{
-				"buffer_size": 302,
+				"buffer_size": 875,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/web/app/themes/sage-timber-lc-blogs/archive.php",
+			"settings":
+			{
+				"buffer_size": 1659,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/web/app/themes/sage-timber-lc-blogs/templates/archive.twig",
+			"settings":
+			{
+				"buffer_size": 905,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/mcs-config/post.php",
+			"settings":
+			{
+				"buffer_size": 2252,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/web/app/themes/sage-timber-lc-blogs/author.php",
+			"settings":
+			{
+				"buffer_size": 1844,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/web/app/themes/sage-timber-lc-blogs/templates/author.twig",
+			"settings":
+			{
+				"buffer_size": 1100,
 				"line_ending": "Unix"
 			}
 		}
@@ -134,16 +177,68 @@
 	"expanded_folders":
 	[
 		"/home/sbeasley/Sites/lc-blogs-trellis",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/mcs-config",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/pbd-ajax-load-posts",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/pbd-ajax-load-posts/js",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/lib",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/all",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/production",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/staging"
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles"
 	],
 	"file_history":
 	[
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/functions.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/mcs-config/post.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/mcs-config/post_meta.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/mcs-config/tax.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/archive.twig",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/page-homeBAK.twig",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/wordpress.patch",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/ajax-load-more/core/repeater/default.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/alm-post-ppl.php",
+		"/home/sbeasley/Sites/ajax-thumbnail-rebuild/ajax-thumbnail-rebuild.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/composer.json",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/functions-lc-blogs-widgets.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/staging/vault.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/deploy.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/common/defaults/main.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-setup/tasks/database.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-install/tasks/main.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-install/tasks/directories.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-setup/tasks/main.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/deploy-hooks/finalize-after.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/deploy-hooks/build-after.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/deploy-hooks/build-before.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/staging/wordpress_sites.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/wordpress_sites.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/vault.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/Vagrantfile",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/all/users.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/main.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/php/templates/php-fpm.conf.j2",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/nginx/templates/wordpress.conf.j2",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/php.yml",
+		"/tmp/fz3temp-1/.htpasswd",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-setup/tasks/nginx.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-setup/tasks/self-signed-certificate.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/vendor/roles/composer/README.md",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/mail.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/hosts/staging",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/hosts/development",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/.env",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/ansible.cfg",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/.vault_pass",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/all/vault.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/staging/main.yml",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/server.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/.git/config",
 		"/home/sbeasley/Downloads/Results (8).xml",
 		"/home/sbeasley/.ssh/known_hosts",
 		"/home/sbeasley/Sites/lc-blogs/mcs-config/post_meta.php",
@@ -226,51 +321,7 @@
 		"/var/www/pyTin/test.yaml",
 		"/var/www/pyTin/post-install.py",
 		"/var/www/pyTin/yaml.py",
-		"/var/www/stt/install.sh",
-		"/var/www/pyTin/composer.json",
-		"/home/sbeasley/Sites/stt/bin/install.py",
-		"/home/sbeasley/Sites/stt/.gitignore",
-		"/var/www/pyTin/README.MD",
-		"/home/sbeasley/Sites/stt/.git/config",
-		"/home/sbeasley/Sites/lc-dev1/public/wp-content/plugins/.git/config",
-		"/var/www/pyTin/includes/wp-themes.py",
-		"/var/www/stt/bin/.gitkeep",
-		"/var/www/pyTin/includes/dev.py",
-		"/var/www/pyTin/includes/paths.py",
-		"/var/www/pyTin/includes/ymal.yaml",
-		"/var/www/pyTin/includes/wp-cli.py",
-		"/var/www/stt/bin/install.sh",
-		"/var/www/stt/bin/includes/validate.py",
-		"/var/www/stt/bin/includes/wp-themes.py",
-		"/var/www/stt/bin/includes/paths.py",
-		"/var/www/stt/bin/pre-install.py",
-		"/var/www/stt/bin/post-install.py",
-		"/home/sbeasley/Sites/pyTin/.git/config",
-		"/home/sbeasley/Sites/lc-dev1/public/wp-content/plugins/.gitignore",
-		"/var/www/medusa-content-suite/composer.json",
-		"/home/sbeasley/Sites/stt/web/app/debug.log",
-		"/home/sbeasley/Sites/stt/.env",
-		"/var/www/stt/web/app/debug.log",
-		"/home/sbeasley/Sites/lc-dev1/public/.git/config",
-		"/home/sbeasley/Sites/lc-dev1/public/.git/config#",
-		"/home/sbeasley/Sites/lc-dev1/public/suetownsendtheatre/events_archive.php",
-		"/home/sbeasley/Sites/lc-dev1/public/suetownsendtheatre/.git/config",
-		"/home/sbeasley/Sites/lc-dev1/public/suetownsendtheatre/whats-on.php",
-		"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/functions.php",
-		"/var/www/lc-dev1/public/wp-content/plugins/medusa_custom_meta_boxes/medusa_custom_meta_boxes.php",
-		"/var/www/lc-dev1/public/wp-content/plugins/medusa_configuration/medusa_configuration.php",
-		"/var/www/lc-dev1/public/wp-content/debug.log",
-		"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/subject-areas-list.php",
-		"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/taxonomy-curriculum_areas.php",
-		"/var/www/lc-dev1/public/wp-content/plugins/medusa_configuration/medusa_resources_common_functions.php",
-		"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/views/page-governors.twig",
-		"/var/www/lc-dev1/public/wp-content/plugins/medusa_settings_image_sizes/medusa_settings_image_sizes.php",
-		"/var/www/lc-dev1/public/wp-content/plugins/lc_jobs_manager/classes/GeoCode.php",
-		"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/page-governors.php",
-		"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/includes/twiglet-header-image.php",
-		"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/sidebar.php",
-		"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/archive-event.php",
-		"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/archive-governor.php"
+		"/var/www/stt/install.sh"
 	],
 	"find":
 	{
@@ -281,6 +332,9 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/home/sbeasley/Sites/lc-blogs-trellis/site",
+			"/home/sbeasley/Sites/lc-blogs-trellis",
+			"/home/sbeasley/Sites/lc-blogs-trellis/trellis",
 			"/var/www/medusa-content-suite",
 			"/var/www/stt",
 			"/var/www/medusa-content-suite/Config",
@@ -349,6 +403,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"group1",
+			"here",
+			"large-blog-800-425",
+			"Contributors Widget",
+			"WPBeginner",
+			"lc-tor",
+			"composer_http_basic",
+			"sage",
+			"composer_global_packages",
+			"pure36",
+			"ansible.",
+			"inventory_path",
+			"your_server_hostname",
 			"Access",
 			"credit",
 			"atlassi",
@@ -463,20 +530,7 @@
 			"show_on",
 			"link",
 			"search",
-			"post",
-			"post-search",
-			"search",
-			"xxx-",
-			"internal",
-			"governor",
-			"governr",
-			"sidebar",
-			"repeat",
-			"Staff Profile",
-			"staff_profile",
-			"_cmb_staff_profile_options_",
-			"staff_profile",
-			"_cmb_staff_profile_options_"
+			"post"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -536,7 +590,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -545,153 +599,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10737,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1265,
-								1265
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 204.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "trellis/group_vars/development/wordpress_sites.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 579,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								243,
-								243
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "trellis/group_vars/development/vault.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 380,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								305,
-								305
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "trellis/group_vars/staging/wordpress_sites.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 848,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								821,
-								821
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "trellis/group_vars/all/users.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 686,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								360,
-								360
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "trellis/group_vars/staging/vault.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 887,
+						"buffer_size": 10736,
 						"regions":
 						{
 						},
@@ -704,9 +612,122 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 296.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "site/web/app/plugins/pbd-ajax-load-posts/pbd-ajax-load-posts.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								833,
+								833
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "site/web/app/plugins/pbd-ajax-load-posts/js/load-posts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1813,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								655,
+								655
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/tmp/fz3temp-1/connect-2016-07.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 130124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								126017,
+								126017
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 3,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 27545.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/etc/hosts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 768,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								512,
+								512
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -716,59 +737,236 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "trellis/group_vars/staging/main.yml",
+					"buffer": 5,
+					"file": "site/composer.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 214,
+						"buffer_size": 9587,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								9438,
+								9438
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5098.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": ".git/config",
+					"buffer": 6,
+					"file": "site/web/app/themes/sage-timber-lc-blogs/page-home.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 302,
+						"buffer_size": 1312,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								302,
-								302
+								48,
+								48
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "site/web/app/themes/sage-timber-lc-blogs/templates/page-home.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 875,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP-Twig.tmbundle-master/Syntaxes/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 50.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "site/web/app/themes/sage-timber-lc-blogs/archive.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1608,
+								1608
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 509.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "site/web/app/themes/sage-timber-lc-blogs/templates/archive.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 905,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								487,
+								487
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP-Twig.tmbundle-master/Syntaxes/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "site/mcs-config/post.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2233,
+								2233
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1241.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "site/web/app/themes/sage-timber-lc-blogs/author.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1844,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								613,
+								613
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 34.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "site/web/app/themes/sage-timber-lc-blogs/templates/author.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1100,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353,
+								353
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP-Twig.tmbundle-master/Syntaxes/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 17.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
 					"type": "text"
 				}
 			]
@@ -851,7 +1049,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 272.0,
+	"side_bar_width": 354.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

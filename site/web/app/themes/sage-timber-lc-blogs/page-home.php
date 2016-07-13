@@ -3,9 +3,7 @@
 /* Template Name: LC Blogs Home Page */
 
 $context = Timber::get_context( );
-
-$args = array(  'posts_per_page' => 5, 'post_type' => 'blog' );
-
+$args = array( 'posts_per_page' => 2, 'post_type' => 'blog' );
 $posts = query_posts( $args );
 
 $x = 0;
@@ -35,10 +33,11 @@ foreach( $posts as $post ) :
 	$posts2[$x]['user_link'] = $user_link;
 
 	$user_img_id = get_the_author_meta( '_cmb_user_options_user_profile_image_id', $post->post_author );
+	
 	$user_img = wp_get_attachment_image(
 		$user_img_id,
 		'thumbnail', 
-		array( "class" => "contributor" ) 
+		array( "class" => "contributor" )
 	);
 
 	$posts2[$x]['user_img'] = $user_img;
@@ -53,4 +52,3 @@ endforeach;
 $context['posts'] = $posts2;
 
 Timber::render('templates/page-home.twig', $context); 
-
