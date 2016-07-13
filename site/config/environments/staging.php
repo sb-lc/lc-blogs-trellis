@@ -11,6 +11,5 @@ define('DISALLOW_FILE_MODS', true);
 #SIEDEV - CONSTANTS ADDED
 
 define('WP_DEBUG_LOG', true);
-define('WP_DEBUG_DISPLAY', true);
 define('ROOT_DIR', $root_dir);
 
