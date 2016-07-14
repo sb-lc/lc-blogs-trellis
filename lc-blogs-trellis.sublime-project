@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "/home/sbeasley/Sites/lc-ajax-loader"
 		}
 	]
 }
