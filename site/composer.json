@@ -328,7 +328,7 @@
     "wpackagist-plugin/wp-export-categories-taxonomies":"~1.0.3",
     "wpackagist-plugin/wordpress-importer":"~0.6.1",
     "wpackagist-plugin/monkeyman-rewrite-analyzer":"~1.0",
-    "wpackagist-plugin/query-monitor": "~2.11.1"
+    "wpackagist-plugin/query-monitor": "~2.11.4"
   },
 
   "scripts": {
