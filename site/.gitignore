@@ -37,6 +37,7 @@ bin
 web/app/debug.log
 
 Vagrantfile
-public/
+bin
+.vagrant
 
 debug.log
