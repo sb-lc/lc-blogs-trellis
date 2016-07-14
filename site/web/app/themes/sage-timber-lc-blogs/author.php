@@ -24,8 +24,7 @@ $context['image'] = wp_get_attachment_image(
 
 
 
-
-$args = array(  'posts_per_page' => 5, 'post_type' => 'blog' );
+$args = array(  'posts_per_page' => 5, 'post_type' => 'blog', 'author'=>$author );
 
 $posts = query_posts( $args );
 
