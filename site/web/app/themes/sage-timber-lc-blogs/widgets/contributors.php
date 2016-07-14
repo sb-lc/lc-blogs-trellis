@@ -40,7 +40,6 @@ class contributors_widget extends WP_Widget {
 
 		$subscribers_plus = get_users( array( 'who' => 'subscriber' )  );
 
-		//write_log($subscribers_plus);
 
 		$subscribers = array( );
 
@@ -49,6 +48,8 @@ class contributors_widget extends WP_Widget {
 
 		foreach ( $subscribers_plus as $user ) :
 
+
+
 			if( isset( $user->caps['subscriber'] ) ) :
 				if( $user->caps['subscriber'] ) :
 					$valid = true;
@@ -56,11 +57,18 @@ class contributors_widget extends WP_Widget {
 			endif;
 
 
+			if( isset( $user->caps['author'] ) ) :
+				if( $user->caps['author'] ) :
+					$valid = true;
+				endif;
+			endif;
+
 			if( isset( $user->caps['editor'] ) ) :
 				if( $user->caps['editor'] ) :
 					$valid = true;
 				endif;
 			endif;
+
 
 			if( $valid ) :
 
@@ -80,7 +88,7 @@ class contributors_widget extends WP_Widget {
 		endforeach;
 
 		$context['subscribers'] = $subscribers;
-
+		
 
 		Timber::render('templates/widget-contributors.twig', $context); 
 
