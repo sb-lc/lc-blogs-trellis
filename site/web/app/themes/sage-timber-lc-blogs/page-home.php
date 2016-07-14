@@ -3,7 +3,7 @@
 /* Template Name: LC Blogs Home Page */
 
 $context = Timber::get_context( );
-$args = array( 'posts_per_page' => 2, 'post_type' => 'blog' );
+$args = array( 'posts_per_page' => 5, 'post_type' => 'blog' );
 $posts = query_posts( $args );
 
 $x = 0;

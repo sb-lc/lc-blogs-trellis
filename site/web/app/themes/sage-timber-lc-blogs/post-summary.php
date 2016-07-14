@@ -34,7 +34,6 @@
 	$post2['post_date_formatted'] = get_the_time( 'd-m-y', $post->ID );
 	$post2['post_excerpt'] = get_custom_excerpt( $post, 800 );
 
-
 	$context['post'] = $post2;
 
 	Timber::render('templates/partials/post-summary.twig', $context); 
