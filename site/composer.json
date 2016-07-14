@@ -320,6 +320,7 @@
     "wp-plugin-repo-pro/wp-migrate-db-pro": "~1.6",
     "wp-plugin-repo-pro/wp-migrate-db-pro-media-files": "~1.4.4",
     "wp-plugin-repo-pro/wp-migrate-db-pro-cli": "~1.2.4",
+    "wp-plugin-repo-pro/admin-columns-pro": "~3.8.7",
     "wpackagist-plugin/instagram-feed": "~1.4.6.1"
 
   },

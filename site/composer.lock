@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a32af844e923ee9551b299a723c1c65c",
-    "content-hash": "bdaebd2735c498050cc9a5f77ce32808",
+    "hash": "6cb941b44f74a1bf70ae8756d5ac8ea3",
+    "content-hash": "7f92b4f7064630ee0f0d3cd1647e9ac1",
     "packages": [
         {
             "name": "WebDevStudios/CMB2-Date-Range-Field",
@@ -418,6 +418,23 @@
                 "environment"
             ],
             "time": "2016-06-14 14:14:52"
+        },
+        {
+            "name": "wp-plugin-repo-pro/admin-columns-pro",
+            "version": "3.8.7",
+            "dist": {
+                "type": "zip",
+                "url": "http://plugins.lc-toran.co.uk/admin-columns-pro.3.8.7.zip",
+                "reference": null,
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "http://lc-toran.co.uk/repo/private/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "wp-plugin-repo-pro/wp-migrate-db-pro",
