@@ -35,7 +35,6 @@ bin
 *.sublime-workspace
 
 web/app/debug.log
-composer.lock
 
 Vagrantfile
 public/
