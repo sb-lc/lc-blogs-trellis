@@ -126,7 +126,7 @@ add_action( 'customize_register', 'themeslug_theme_customizer' );
 
 function test_debug_log_file( ) {
 
-  write_log("qwertyuio");
+  #write_log("qwertyuio");
 
 }
 
