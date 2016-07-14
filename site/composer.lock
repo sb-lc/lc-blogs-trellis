@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2677f56e5b00292ac36ed5c0f88d35b7",
-    "content-hash": "39601afdd0afdea6d0c8978d87e50a57",
+    "hash": "a32af844e923ee9551b299a723c1c65c",
+    "content-hash": "bdaebd2735c498050cc9a5f77ce32808",
     "packages": [
         {
             "name": "WebDevStudios/CMB2-Date-Range-Field",
