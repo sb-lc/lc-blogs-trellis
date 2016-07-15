@@ -28,6 +28,8 @@ node_modules
 
 # Vagrant
 .DS_STORE
+._.DS_Store
+
 bin
 .vagrant
 
