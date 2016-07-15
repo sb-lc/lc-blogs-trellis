@@ -64,7 +64,7 @@ function get_custom_excerpt( $post, $count ){
   $content = strip_tags( $content );
 
   $excerpt = substr( $content, 0, $count );
-  $excerpt = $excerpt . '... <a href="' . $permalink . '"><span class="read-more">read more</span></a>';
+  $excerpt = $excerpt . '... <a href="' . $permalink . '"><span class="btn read-more">read more</span></a>';
 
   return $excerpt;
 }

@@ -1,11 +1,12 @@
-
 <li>
+	{{ post.post_image }}
+
 	<div class="wrap">
 
 		<div class="categories">
 			{% for term in post.terms %}
 				<a href="{{ term.term_link }}">
-					<span class="category">
+					<span class="btn category">
 						{{ term.term_name }}
 					</span>		
 				</a>

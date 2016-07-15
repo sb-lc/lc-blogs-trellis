@@ -1,10 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
 
 body{
 	background-color: $color-white;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 400;
+	font-size: 12pt;
 	a{
 		color: $color-dark-grey;
 	}
@@ -18,21 +18,22 @@ form{
 
 
 h1{
-	font-family: 'Montserrat', sans-serif;
 	font-size: 30pt;
 	text-decoration: underline;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 h3{
-	font-family: 'Montserrat', sans-serif;
 	font-size: 18pt;
-	text-decoration: underline;
-	margin-top: 20px;
+	margin-top: 0px;
 	margin-bottom: 20px;
-
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 	a{
 		color: $color-dark-grey;
+		&:hover{
+			opacity: 0.9;
+		}
 	}
 }
 
@@ -58,6 +59,16 @@ h3{
 .list-item{
 	clear: both;
 	margin-bottom: 20px;
+}
+.content.row{
+	margin-top: 15px;
+}
+@media (max-width: $screen-md) {
+
+	.content.row{
+	margin-top: 5px;
+	}
+
 }
 
 /* .content img { 

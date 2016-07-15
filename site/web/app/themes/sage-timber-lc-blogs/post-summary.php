@@ -3,6 +3,8 @@
 	$post2 = ( array ) $post;
 	$post2['link'] = $post->guid;
 
+	$post2['post_image'] = get_the_post_thumbnail( $post, 'large-blog-800-425', array( "class" => "thumb img-responsive") );
+
 	$terms = get_the_terms( $post, 'blog_category' );
 
 	$y = 0;
@@ -26,6 +28,7 @@
 	$user_img = wp_get_attachment_image(
 		$user_img_id,
 		'thumbnail', 
+		'',
 		array( "class" => "contributor" )
 	);
 

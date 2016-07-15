@@ -3,7 +3,6 @@ header{
 
 		//background-color: $color-black;
 		//background: url("../images/background.jpg") no-repeat;
-		height: 140px;
 		background-size: contain;
 		border-top: 10px solid $color-black;
 		
@@ -12,9 +11,13 @@ header{
 			//background: none;
 		}
 
-		#header-image-wrap{
+		#header-wrap{
 			border-bottom: 1px solid $color-black;
-			margin-top: -30px;
+		}
+
+		#header-image-wrap{
+			margin-top: 15px;
+			margin-bottom: 5px;
 
 			//clear: both;
 			>div{
@@ -25,7 +28,7 @@ header{
 				img{
 					margin: 0;
 					&.img-responsive{
-					max-width: 80%;
+					max-width: 60%;
 					height: auto;
 					}
 				}
@@ -35,10 +38,10 @@ header{
 			.site-name{
 
 				font-family: 'Oswald';
-				font-size: 34pt;
+				font-size: 25pt;
 				text-transform: uppercase;
 				color: $color-black;
-				margin-left: -10px;
+				margin-left: -25px;
 
 				span{
 

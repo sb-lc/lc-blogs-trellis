@@ -7,7 +7,6 @@
 			text-decoration: underline;
 
 			&:after{
-				content: 'test';
 				width: 100%;
 			    position: absolute;
 			    left: 0;
@@ -15,6 +14,10 @@
 			    border-width: 0 0 1px;
 			    border-style: solid;
 			}
+		}
+
+		ul{
+			list-style-type: none;
 		}
 	}
 }

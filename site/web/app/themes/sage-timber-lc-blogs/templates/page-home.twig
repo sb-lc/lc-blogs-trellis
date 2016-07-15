@@ -3,13 +3,11 @@
 {% block content %}
 
 	<div class="blog-list">
-
-		{% for post in posts %}
-			
-			{% include 'templates/partials/post-summary.twig' %}
-			
-		{% endfor %}
-
+		<ul>
+			{% for post in posts %}	
+				{% include 'templates/partials/post-summary.twig' %}
+			{% endfor %}
+		</ul>
 	</div>
 
 {% endblock %}

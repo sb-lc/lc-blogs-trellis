@@ -1,8 +1,134 @@
-.category{
-	border: 1px solid #000;
-    border-radius: 5px;
-    display: inline;
-    padding: 10px 10px;
-    text-transform: uppercase;
-    margin-right: 10px;
+a:hover{
+	text-decoration: none;
+}
+
+.blog-list ul{
+	padding-bottom: 15px;
+	overflow: hidden;
+	li{
+
+		.btn{
+			font-weight: 200;
+		}
+
+		.read-more{
+			display: block;
+			float: right;
+			clear: both;
+			color: #fff;
+			background-color: $color-orange;
+			height: 30px;
+			border-radius: 5px;
+			padding: 8px 10px;
+			text-transform: uppercase;
+			font-weight: 300;
+			font-size: 12pt;
+			margin-top: 10px;
+			font-family: 'Lato', sans-serif;
+			transition: all .25s  ease-in-out;
+			line-height: 9pt;
+
+
+
+		}
+
+		&:nth-child(3n+1){
+			.read-more{
+				background-color: $color-orange;
+				&:hover{
+					opacity: 0.8;
+				}
+			}
+		}
+
+		&:nth-child(3n+2){
+			.read-more{
+				background-color: $color-red;
+
+				&:hover{
+					opacity: 0.8;
+				}
+			}
+		}
+
+		&:nth-child(-3n+6), &:nth-child(-3n+3){
+			.read-more{
+				background-color: $color-blue;
+
+				&:hover{
+					opacity: 0.8;
+				}
+			}
+		}
+
+		.categories{
+			margin-top: 9px;
+			margin-bottom: 20px;
+
+			.category{
+				border: 1px solid #000;
+			    border-radius: 5px;
+			    display: inline;
+			    padding: 8px 10px;
+			    text-transform: uppercase;
+			    margin-right: 10px;			    
+			}
+		}
+
+
+		&:nth-child(3n+1){			
+			.categories{
+				.category{
+					border: 1px solid $color-orange;
+					color: $color-orange;
+					font-family: 'Lato', sans-serif;
+					font-weight: 300;
+					transition: all .25s  ease-in-out;
+
+					&:hover{
+
+						background-color: $color-orange;
+						color: white;
+					}
+				}
+			}
+		}
+
+
+		&:nth-child(3n+2){
+			.categories{
+				.category{
+					border: 1px solid $color-red;
+					color: $color-red;
+					font-family: 'Lato', sans-serif;
+					font-weight: 300;
+					transition: all .25s  ease-in-out;
+
+					&:hover{
+
+						background-color: $color-red;
+						color: white;
+					}				    
+				}
+			}
+		}
+
+
+		&:nth-child(3n){			
+			.categories{
+				.category{
+					border: 1px solid $color-blue;
+				    color: $color-blue;
+				    font-family: 'Lato', sans-serif;
+					font-weight: 300;
+					transition: all .25s  ease-in-out;
+
+					&:hover{
+						background-color: $color-blue;
+						color: white;
+					}
+				}
+			}
+		}
+	}
 }

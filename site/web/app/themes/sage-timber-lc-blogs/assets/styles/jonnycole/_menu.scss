@@ -15,14 +15,16 @@
 		background-color:blue;
 	} */
 
+
 	nav{
 		&.nav-primary{
 
 			margin-bottom: 0px;
+			min-height: 0px;
 
 			ul.navbar-nav{
 
-				margin: 30px auto;
+				margin: 0px auto;
 				width: 100%;
 				display: inline-block;
 				text-align: center;
@@ -90,6 +92,23 @@
 // }
 
 .navbar-default {
+
+	.navbar-toggle{
+		margin-top: -79px;
+		height: 36px;
+		width: 36px;
+		position: relative;
+	    float: right;
+	    margin-right: 0px;
+	    padding: 10px 6px;
+	    margin-bottom: 8px;
+	    background-color: transparent;
+	    background-image: none;
+	    border: 1px solid transparent;
+	    border-radius: 0px;
+	}
+		
+
 	.navbar-toggle, .navbar-toggle:focus, .navbar-toggle:hover {
 
 		border-color: $color-white;
