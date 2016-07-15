@@ -4,7 +4,7 @@
 	$post2['link'] = $post->guid;
 
 	$terms = get_the_terms( $post, 'blog_category' );
-	
+
 	$y = 0;
 	if( ! empty( $terms ) ) :
 		foreach( $terms as $t ) :
@@ -36,6 +36,4 @@
 
 	$context['post'] = $post2;
 
-	Timber::render('templates/partials/post-summary.twig', $context); 
-
-	//print_r( $post2 );
+	Timber::render('templates/partials/post-summary.twig', $context);

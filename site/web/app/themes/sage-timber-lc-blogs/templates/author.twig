@@ -2,28 +2,26 @@
 
 {% block content %}
 
-<div class="user_info">
+	<div class="user_info">
 
-	{{image}}<br>
-	{{name}}<br>
-	{{role}}<br>
-	{{dept}}<br>
+		{{image}}<br>
+		{{name}}<br>
+		{{role}}<br>
+		{{dept}}<br>
 
-	<div class="bio">
-		{{bio}}<br>
+		<div class="bio">
+			{{bio}}
+		</div>
+
 	</div>
-
-</div>
 
 
 	<div class="blog-list">
-
-		{% for post in posts %}
-			
-			{% include 'templates/partials/post-summary.twig' %}
-			
-		{% endfor %}
-
+		<ul>
+			{% for post in posts %}				
+				{% include 'templates/partials/post-summary.twig' %}				
+			{% endfor %}
+		</ul>
 	</div>
 
 
