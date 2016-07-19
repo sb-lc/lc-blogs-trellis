@@ -350,7 +350,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-07-15 10:40:56"
+            "time": "2016-07-19 14:58:47"
         },
         {
             "name": "stephenharris/Post-Type-Archive-Links",
@@ -749,7 +749,7 @@
         },
         {
             "name": "wpackagist-plugin/press-permit-core",
-            "version": "2.3.12",
+            "version": "2.3.13",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/press-permit-core/",
@@ -769,15 +769,15 @@
         },
         {
             "name": "wpackagist-plugin/rvg-optimize-database",
-            "version": "4.1.8",
+            "version": "4.1.10",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/rvg-optimize-database/",
-                "reference": "tags/4.1.8"
+                "reference": "tags/4.1.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/rvg-optimize-database.4.1.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/rvg-optimize-database.4.1.10.zip",
                 "reference": null,
                 "shasum": null
             },

@@ -18,7 +18,7 @@ form{
 
 
 h1{
-	font-size: 30pt;
+	font-size: 23pt;
 	text-decoration: underline;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -31,15 +31,16 @@ h3{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	display: inline-block;
+	padding-bottom: 2px;
+	border-bottom: 2px $color-dark-grey solid;
+
 	a{
 		color: $color-dark-grey;
 		&:hover{
 			opacity: 0.9;
+			text-decoration: none;
 		}
 	}
-
-	padding-bottom: 3px;
-	border-bottom: 2px $color-dark-grey solid;
 }
 
 @media (max-width: $screen-sm) {
