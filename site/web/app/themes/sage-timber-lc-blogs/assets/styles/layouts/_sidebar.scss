@@ -1,12 +1,13 @@
 .sidebar {
-}
 
-.col-md-8{
-
-	border-right: 1px solid $color-black;
-	margin-bottom: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 	@media (max-width: $screen-sm) {
-		border-right: none;
+		display:block;
+		clear: both;	
 	}
+
 }

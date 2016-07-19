@@ -2,133 +2,165 @@ a:hover{
 	text-decoration: none;
 }
 
-.blog-list ul{
-	padding-bottom: 15px;
-	overflow: hidden;
-	li{
 
-		.btn{
-			font-weight: 200;
-		}
 
-		.read-more{
-			display: block;
-			float: right;
-			clear: both;
-			color: #fff;
-			background-color: $color-orange;
-			height: 30px;
-			border-radius: 5px;
-			padding: 8px 10px;
-			text-transform: uppercase;
-			font-weight: 300;
-			font-size: 12pt;
-			margin-top: 10px;
-			font-family: 'Lato', sans-serif;
-			transition: all .25s  ease-in-out;
-			line-height: 9pt;
+.btn{
+	font-weight: 200;
+
+	border: 1px solid $color-black;
+	color: $color-white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	transition: all .25s  ease-in-out;
+	font-weight: 300;
+	font-size: 12pt;
+	height: 30px;
+	border-radius: 5px;
+	padding: 8px 10px;
+	text-transform: uppercase;
+
+	&:hover{
+
+		background-color: $color-black;
+		color: $color-white;
+	}
+}
 
 
 
-		}
 
-		&:nth-child(3n+1){
+.blog-list{
+	ul{
+		li{
+			
 			.read-more{
-				background-color: $color-orange;
-				&:hover{
-					opacity: 0.8;
-				}
-			}
-		}
-
-		&:nth-child(3n+2){
-			.read-more{
-				background-color: $color-red;
-
-				&:hover{
-					opacity: 0.8;
-				}
-			}
-		}
-
-		&:nth-child(-3n+6), &:nth-child(-3n+3){
-			.read-more{
-				background-color: $color-blue;
+				display: block;
+				float: right;
+				clear: both;
+				color: #fff;
+				margin-top: 10px;
+				line-height: 9pt;
 
 				&:hover{
 					opacity: 0.8;
 				}
 			}
-		}
 
-		.categories{
-			margin-top: 9px;
-			margin-bottom: 20px;
-
-			.category{
-				border: 1px solid #000;
-			    border-radius: 5px;
-			    display: inline;
-			    padding: 8px 10px;
-			    text-transform: uppercase;
-			    margin-right: 10px;			    
-			}
-		}
-
-
-		&:nth-child(3n+1){			
-			.categories{
-				.category{
-					border: 1px solid $color-orange;
-					color: $color-orange;
-					font-family: 'Lato', sans-serif;
-					font-weight: 300;
-					transition: all .25s  ease-in-out;
-
-					&:hover{
-
-						background-color: $color-orange;
-						color: white;
-					}
+			 &:nth-child(3n+1){
+				.read-more{
+					background-color: $color-orange;
+					border-color: $color-orange;
 				}
 			}
-		}
+	 		
+			 
+			&:nth-child(3n+2){
+				.read-more{
+					background-color: $color-red;
+					border-color: $color-red;
+				}
+			}  
+			
 
-
-		&:nth-child(3n+2){
-			.categories{
-				.category{
-					border: 1px solid $color-red;
-					color: $color-red;
-					font-family: 'Lato', sans-serif;
-					font-weight: 300;
-					transition: all .25s  ease-in-out;
-
-					&:hover{
-
-						background-color: $color-red;
-						color: white;
-					}				    
+			
+			&:nth-child(3n+3){
+				.read-more{
+					background-color: $color-blue;
+					border-color: $color-blue;
 				}
 			}
-		}
 
-
-		&:nth-child(3n){			
-			.categories{
-				.category{
-					border: 1px solid $color-blue;
-				    color: $color-blue;
-				    font-family: 'Lato', sans-serif;
-					font-weight: 300;
-					transition: all .25s  ease-in-out;
-
-					&:hover{
-						background-color: $color-blue;
-						color: white;
-					}
-				}
-			}
+			
 		}
 	}
 }
+
+
+
+
+
+.categories{
+
+	margin-top: 9px;
+	margin-bottom: 20px;
+
+	a{
+
+	    display: inline;
+
+		.category{
+			border: 1px solid #000;
+		    border-radius: 5px;
+		    padding: 10px 10px;
+		    text-transform: uppercase;
+		    margin-right: 10px;		
+		    margin-bottom: 10px;		
+			font-family: 'Lato', sans-serif;
+			font-weight: 300;
+			transition: all .25s  ease-in-out;
+			background-color: $color-white;
+			color: $color-white;
+			line-height: 11pt;
+			height:auto;
+
+			&:hover{
+				background-color: $color-dark-grey;
+			}
+		}
+		
+	}
+}
+
+
+
+.blog-list{
+	ul{
+		li{
+			
+
+			&:nth-child(3n+1){			
+				.categories{
+					.category{
+						border: 1px solid $color-orange;
+						color: $color-orange;
+
+						&:hover{
+							background-color: $color-orange;
+							color: $color-white;
+						}
+					}
+				}
+			}
+
+			&:nth-child(3n+2){
+				.categories{
+					.category{
+						border: 1px solid $color-red;
+						color: $color-red;
+
+						&:hover{
+							background-color: $color-red;
+							color: $color-white;
+						}				    
+					}
+				}
+			}
+
+			&:nth-child(3n+3){			
+				.categories{
+					.category{
+						border: 1px solid $color-blue;
+					  color: $color-blue;
+
+						&:hover{
+							background-color: $color-blue;
+							color: $color-white;
+						}
+					}
+				}
+			}			
+		}
+	}
+
+}
+

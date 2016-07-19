@@ -1,9 +1,26 @@
-$ff-white: #ffffff;
-$ff-red: #A32626;
-$ff-brand-text: #515151;
-$ff-brand-blue: #021DAF;
+//==  Fonts
+//
+//## Define the imported webfontshere.
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900);
 
 
+//==  Colours
+//
+//## Define the colour variables here.
+
+$color-violet: #8a6497;
+$color-pink: #dc143c;
+$color-black: #000000;
+$color-white: #ffffff;
+$color-light-grey: #f1f2f2;
+$color-dark-grey: #333333;
+$color-orange: #eba434;
+$color-red: #db3e2c;
+$color-blue: #61aab0;
 
 
 

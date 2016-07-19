@@ -22,6 +22,25 @@
 			margin-bottom: 0px;
 			min-height: 0px;
 
+			.navbar-header{
+				margin-right: 0;
+				margin-left: 0;
+			}
+
+			.navbar-collapse{
+			    margin-right: 0;
+			    margin-left: 0;			
+			    padding-right: 0;
+			    padding-left: 0;			
+			}
+
+			.container-fluid{
+			    margin-right: 0;
+			    margin-left: 0;			
+			    padding-right: 0;
+			    padding-left: 0;			
+			}
+
 			ul.navbar-nav{
 
 				margin: 0px auto;
