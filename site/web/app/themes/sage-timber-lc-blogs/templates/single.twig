@@ -12,7 +12,6 @@ user_img
 user_link
 
 -->
-    
 
 <article {{ function('post_class') }}>
 
@@ -20,9 +19,15 @@ user_link
 
         {{ image }}
 
-        {% for category in categories %} 
-            <a href = "{{ category.link }}">{{ category.name }}</a>
-        {% endfor %}
+        <div class="categories">
+            {% for term in terms %}
+                <a href="{{ term.term_link }}">
+                    <span class="btn category">
+                        {{ term.name }}
+                    </span>     
+                </a>
+            {% endfor %}
+        </div>
 
         <h1 class="entry-title">{{ post.title }}</h1>
 

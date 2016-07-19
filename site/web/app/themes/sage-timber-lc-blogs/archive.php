@@ -1,33 +1,38 @@
 <?php
-//'count_number'	=> get_option('posts_per_page' )
-
+$count_number = get_option('posts_per_page' );
 $year = get_query_var( 'year' );
 $month = get_query_var( 'monthnum' );
-
+$yearmonth = get_query_var( 'm' );
 $blog_category = get_query_var( 'blog_category' );
 
 $context = Timber::get_context( );
+$date_args = array();
 
 if( isset( $blog_category ) ) $context['blog_category'] = $blog_category;
 if( isset( $year ) ) $context['year'] = $year;
 if( isset( $month ) ) $context['month'] = $month;
 
+$tax_query = false;
+
+if( $blog_category ) :
+	$tax_query = 
+		array( 
+			array( 
+				'taxonomy' => 'blog_category',
+				'field'    => 'slug',
+				'terms'    => $blog_category	
+			) 
+		);
+endif;
+
 $args = array(  
-	'posts_per_page' => 5, 
+	'posts_per_page' => $count_number, 
 	'post_type' => 'blog',
-
-	'tax_query' => array(
-		array(
-			'taxonomy' => 'blog_category',
-			'field'    => 'slug',
-			'terms'    => $blog_category
-		),
-	),
-
+	'm' => get_query_var( 'm' ),
+	'tax_query' => $tax_query
 );
 
 $posts = query_posts( $args );
-
 
 $x = 0;
 $posts2 = array( );
@@ -75,10 +80,4 @@ foreach( $posts as $post ) :
 endforeach;
 
 $context['posts'] = $posts2;
-
-
-
-
-
-
 Timber::render('templates/archive.twig', $context);

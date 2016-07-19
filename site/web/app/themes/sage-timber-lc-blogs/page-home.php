@@ -3,7 +3,13 @@
 /* Template Name: LC Blogs Home Page */
 
 $context = Timber::get_context( );
-$args = array( 'posts_per_page' => 5, 'post_type' => 'blog' );
+$count_number = get_option('posts_per_page' );
+
+$args = array( 
+	'posts_per_page' => $count_number, 
+	'post_type' => 'blog',
+);
+
 $posts = query_posts( $args );
 
 $x = 0;
@@ -53,7 +59,6 @@ foreach( $posts as $post ) :
 	$x++;
 
 endforeach;
-
 
 #print_r($posts2);
 

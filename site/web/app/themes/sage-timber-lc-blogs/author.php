@@ -1,7 +1,7 @@
 <?php
 
 $context = Timber::get_context( );
-
+$count_number = get_option('posts_per_page' );
 $author = get_query_var( 'author' );
 
 if( isset( $author ) ) $context['author'] = $author;
@@ -20,11 +20,11 @@ $context['image'] = wp_get_attachment_image(
 	) 
 );
 
-
-
-
-
-$args = array(  'posts_per_page' => 5, 'post_type' => 'blog', 'author'=>$author );
+$args = array(  
+	'posts_per_page' => $count_number, 
+	'post_type' => 'blog', 
+	'author'=>$author 
+);
 
 $posts = query_posts( $args );
 

@@ -9,11 +9,11 @@
 
         <div class="wrap container" role="document">
             <div class="content row">
-                <main class="col-xs-8">
+                <main class="col-xs-12 col-sm-8">
                     {% block content %}{% endblock %}
                 </main>
                 {% if display_sidebar %}
-                    <aside class="sidebar col-md-4">
+                    <aside class="sidebar cols-xs-12 col-sm-4">
                         {% block sidebar %}
                             {% include 'templates/sidebar.twig' %}
                         {% endblock %}

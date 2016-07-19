@@ -14,11 +14,11 @@ $user_img = wp_get_attachment_image(
 get_the_author_meta('_cmb_user_options_user_profile_image_id'), 'thumbnail', "", array( "class" => "contributor") );
 
 
-$categories = get_the_terms( $post, 'blog_category');
+$terms = get_the_terms( $post, 'blog_category');
 
 $x = 0;
 
-foreach( $categories as $c ):
+foreach( $terms as $c ):
 	$cats[$x] = (array) $c;
 	$cats[$x]['link'] = get_term_link( $c );
 	$x++;
@@ -26,7 +26,7 @@ endforeach;
 
 
 
-$context['categories'] = $cats;
+$context['terms'] = $cats;
 $context['user_img'] = $user_img;
 $context['user_link'] = $user_link;
 $context['date'] = get_the_date('d-m-y');
