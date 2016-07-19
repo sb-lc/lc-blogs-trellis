@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6cb941b44f74a1bf70ae8756d5ac8ea3",
-    "content-hash": "7f92b4f7064630ee0f0d3cd1647e9ac1",
+    "hash": "2b2f8206ab3fadb6f432db3c0d0930b2",
+    "content-hash": "eafb359c3bf90ec21e33a0d003a58919",
     "packages": [
         {
             "name": "WebDevStudios/CMB2-Date-Range-Field",
@@ -350,7 +350,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-07-19 14:58:47"
+            "time": "2016-07-19 16:06:00"
         },
         {
             "name": "stephenharris/Post-Type-Archive-Links",
