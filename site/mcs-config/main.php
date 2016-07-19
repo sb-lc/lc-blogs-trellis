@@ -1,7 +1,7 @@
 <?php
 
 $config = array(
-	'posts_enabled' => false,
+	'posts_enabled' => true,
 	'pages_enabled' => false,//not working
 	'pages_excerpt' => true,
 	'has_products' => false,
