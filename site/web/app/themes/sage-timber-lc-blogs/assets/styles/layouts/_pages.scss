@@ -1,9 +1,24 @@
 main{
-
-	border-right: 1px solid $color-black;
+	border-right: 1px solid $color-dark-grey;
 	margin-bottom: 15px;
 
 	@media (max-width: $screen-sm) {
 		border-right: none;
+	}
+
+	.wrap{
+		background-color: $color-light-grey;
+	}
+
+	.text-wrap{
+		padding-left: ( $grid-gutter-width / 2 );
+		padding-right: ( $grid-gutter-width / 2 );
+	}
+}
+
+
+body.page-template-default{
+	.btn{
+		float: right;
 	}
 }

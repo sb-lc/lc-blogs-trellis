@@ -3,7 +3,8 @@
     "main.js": {
       "files": [
         "scripts/main.js",
-        "scripts/wp-content-reponsive-images.js"
+        "scripts/wp-content-reponsive-images.js",
+        "scripts/formidable-submit-btn.js"
       ],
       "main": true
     },

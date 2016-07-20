@@ -2,10 +2,16 @@
 
 {% block content %}
 
-   {{ image }}
+	<div class="wrap">
+	   {{ image }}
 
-	<h1>{{ post.title }}</h1>
+	   	<div class="text-wrap">
+
+			<h1>{{ post.title }}</h1>
+			
+		   {{ post.content }}
+
+		</div>
+	</div>
 	
-   {{ post.content }}
-
 {% endblock %}

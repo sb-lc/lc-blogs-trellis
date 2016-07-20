@@ -54,14 +54,16 @@ function add_to_context( $data ) {
   
   $attr = array(
     'class' => 'image img-responsive',
-    /*'alt'   => $post->post_title . ', Black Country Commedy',
-    'title'   => $post->post_title. ', Black Country Commedy',*/
+    'alt'   => $post->post_title . ', Leicester College Blogs',
+    'title'   => $post->post_title. ', Leicester College Blogs',
   );
 
 
-  $imgId = attachment_url_to_postid( get_theme_mod( 'themeslug_logo' ) );
+  $headerImgId = attachment_url_to_postid( get_theme_mod( 'themeslug_logo' ) );
+  $footerImgId = attachment_url_to_postid( get_theme_mod( 'themeslug_logo2' ) );
 
-  $data['site_logo'] = wp_get_attachment_image( $imgId, 'header', false,  $attr );
+  $data['site_logo'] = wp_get_attachment_image( $headerImgId, 'header', false,  $attr );
+  $data['footer_logo'] = wp_get_attachment_image( $footerImgId, 'header', false,  $attr );
 
   return $data;
 

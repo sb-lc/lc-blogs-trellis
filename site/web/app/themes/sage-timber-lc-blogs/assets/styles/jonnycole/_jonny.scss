@@ -11,17 +11,16 @@ body{
 }
 
 
-form{
-	width: 70%;
-	margin: auto;
-}
-
 
 h1{
 	font-size: 23pt;
-	text-decoration: underline;
+	text-decoration: none;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 20px;	
+	display: inline-block;
+	padding-bottom: 2px;
+	border-bottom: 2px $color-dark-grey solid;
+
 }
 
 h3{

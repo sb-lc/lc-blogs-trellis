@@ -47,6 +47,33 @@ a:hover{
 			color: $color-white;
 		}
 	}
+
+	&.load-more{			
+		background-color: $color-medium-grey;
+		color: $color-white;
+		border-width: 0;
+		width: 100%;
+
+		&:hover{
+
+			background-color: $color-dark-grey;
+		}
+
+
+		&.no-more-posts{			
+			background-color: $color-light-grey;
+			color: $color-dark-grey;
+			font-decoration: italic;
+			border-width: 0;
+
+			&:hover{
+
+				background-color: $color-light-grey;
+			}
+		}
+
+	}
+
 }
 
 

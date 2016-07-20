@@ -1,5 +1,25 @@
 footer{
 
 	background-color: $color-black;
-	height: 100px;
+	//height: 100px;
+	padding: 10px 0;
+	color: $color-white;
+
+	.wrap{
+		width: 100%;
+		padding: 10px 0;
+
+		.footer_logo{
+			width: 70px;
+			height: auto;
+			margin: auto;
+			margin-bottom: 10px;
+		}
+
+		.trademark{
+			text-align: center;
+		}
+
+	}
+
 }

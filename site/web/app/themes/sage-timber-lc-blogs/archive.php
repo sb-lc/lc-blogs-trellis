@@ -25,14 +25,18 @@ if( $blog_category ) :
 		);
 endif;
 
-$args = array(  
+$args = array(
 	'posts_per_page' => $count_number, 
 	'post_type' => 'blog',
 	'm' => get_query_var( 'm' ),
 	'tax_query' => $tax_query
 );
 
+#print_html_r( $args );
+
 $posts = query_posts( $args );
+
+#echo count( $posts );
 
 $x = 0;
 $posts2 = array( );
