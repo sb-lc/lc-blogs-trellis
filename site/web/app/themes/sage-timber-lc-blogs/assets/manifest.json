@@ -4,7 +4,8 @@
       "files": [
         "scripts/main.js",
         "scripts/wp-content-reponsive-images.js",
-        "scripts/formidable-submit-btn.js"
+        "scripts/formidable-submit-btn.js",
+        "scripts/media-query-vars.js"
       ],
       "main": true
     },

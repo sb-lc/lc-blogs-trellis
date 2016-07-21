@@ -23,18 +23,25 @@ class archive_widget extends WP_Widget {
 	{
 		$title = apply_filters( 'widget_title', $instance['title'] );
 		
-
-
-
 		echo $args['before_widget'];
 		if ( ! empty( $title ) )
-		echo $args['before_title'] . $title . $args['after_title'];
+			echo $args['before_title'] . $title . $args['after_title'];
 
 		// This is where you run the code and display the output
-
 		
-		$archive_links = wp_get_archives('post_type=blog&type=monthly&show_post_count=1&echo=0'); 
-		$context = array( 'archive_links' => $archive_links);
+		//$archive_str = wp_get_archives('post_type=blog&type=monthly&show_post_count=1&echo=0&format=option');
+
+		//print_html_r( htmlspecialchars( $archive_str ) );
+
+		$archives_options = (array) wp_get_archives( 'post_type=blog&type=monthly&show_post_count=1&echo=0&format=option' );
+
+		//print_html_r( $archives_options );
+
+		$context = array( 'archive_options' => $archives_options );
+
+		?>
+
+	<?php
 
 		Timber::render('templates/widget-archives.twig', $context); 
 

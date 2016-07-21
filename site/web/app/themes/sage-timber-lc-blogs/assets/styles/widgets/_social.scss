@@ -12,10 +12,12 @@ ul.social{
 		}
 
 		a{
-			max-width: 40px;
-			border-radius: 40px;
-			font-size: 20pt;
-			line-height: 26pt;
+			i{
+				max-width: 40px;
+				border-radius: 40px;
+				font-size: 3em !important;
+				line-height: 26pt;
+			}
 		}
 	}
 }
