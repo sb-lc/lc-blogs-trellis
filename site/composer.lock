@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2b2f8206ab3fadb6f432db3c0d0930b2",
-    "content-hash": "eafb359c3bf90ec21e33a0d003a58919",
+    "hash": "ee0793fe253830aac45996cba9ac81ff",
+    "content-hash": "906af68e67068afc24af3e29fcfed79e",
     "packages": [
         {
             "name": "WebDevStudios/CMB2-Date-Range-Field",
@@ -350,7 +350,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-07-19 16:11:45"
+            "time": "2016-07-27 09:52:50"
         },
         {
             "name": "stephenharris/Post-Type-Archive-Links",
@@ -488,26 +488,6 @@
             "type": "wordpress-plugin"
         },
         {
-            "name": "wpackagist-plugin/ajax-load-more",
-            "version": "2.11.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/ajax-load-more/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ajax-load-more.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/ajax-load-more/"
-        },
-        {
             "name": "wpackagist-plugin/ajax-thumbnail-rebuild",
             "version": "1.12",
             "source": {
@@ -526,46 +506,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/ajax-thumbnail-rebuild/"
-        },
-        {
-            "name": "wpackagist-plugin/attachments",
-            "version": "3.5.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/attachments/",
-                "reference": "tags/3.5.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/attachments.3.5.7.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/attachments/"
-        },
-        {
-            "name": "wpackagist-plugin/cms-tree-page-view",
-            "version": "1.3.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/cms-tree-page-view/",
-                "reference": "tags/1.3.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cms-tree-page-view.1.3.4.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/cms-tree-page-view/"
         },
         {
             "name": "wpackagist-plugin/disable-comments",
@@ -768,36 +708,16 @@
             "homepage": "https://wordpress.org/plugins/press-permit-core/"
         },
         {
-            "name": "wpackagist-plugin/rvg-optimize-database",
-            "version": "4.1.10",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/rvg-optimize-database/",
-                "reference": "tags/4.1.10"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/rvg-optimize-database.4.1.10.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/rvg-optimize-database/"
-        },
-        {
             "name": "wpackagist-plugin/timber-library",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/timber-library/",
-                "reference": "tags/1.1.0"
+                "reference": "tags/1.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/timber-library.1.1.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/timber-library.1.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -868,6 +788,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/query-monitor/"
+        },
+        {
+            "name": "wpackagist-plugin/rvg-optimize-database",
+            "version": "4.1.10",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/rvg-optimize-database/",
+                "reference": "tags/4.1.10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rvg-optimize-database.4.1.10.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rvg-optimize-database/"
         },
         {
             "name": "wpackagist-plugin/wordpress-importer",

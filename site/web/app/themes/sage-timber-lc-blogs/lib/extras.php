@@ -73,9 +73,11 @@ function remove_plugin_assets() {
 
   wp_dequeue_style('lc-ajax-css');
   wp_dequeue_style('formidable');
+  wp_dequeue_style('frm_fonts');
   wp_dequeue_style('sb_instagram_styles');
 
   wp_dequeue_script('formidable');
+  
   //wp_dequeue_script('lc-ajax-script');
   //wp_dequeue_script('sb_instagram_scripts');
 
