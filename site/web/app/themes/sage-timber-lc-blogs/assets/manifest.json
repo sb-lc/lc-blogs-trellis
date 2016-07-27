@@ -6,12 +6,19 @@
         "scripts/wp-content-reponsive-images.js",
         "scripts/formidable-submit-btn.js",
         "scripts/media-query-vars.js"
+      ],    
+      "vendor": [
       ],
       "main": true
     },
     "main.css": {
       "files": [
         "styles/main.scss"
+      ],      
+      "vendor": [
+        "../../plugins/lc-ajax-loader/css/styles.css",
+        "../../plugins/instagram-feed/css/sb-instagram.min.css",
+        "../../uploads/formidable/css/formidablepro.css"
       ],
       "main": true
     },
