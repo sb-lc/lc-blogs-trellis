@@ -44,3 +44,5 @@ bin
 .vagrant
 
 debug.log
+
+.vault_pass
