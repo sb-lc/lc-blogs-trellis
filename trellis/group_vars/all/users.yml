@@ -7,13 +7,13 @@ users:
     groups:
       - "{{ web_group }}"
     keys:
-      #- "{{ lookup('file', '~/.ssh/github.pub') }}"
+      - "{{ lookup('file', '~/.ssh/digital_ocean.pub') }}"
       - https://github.com/sb-lc.keys
   - name: "{{ admin_user }}"
     groups:
       - sudo
     keys:
-      #- "{{ lookup('file', '~/.ssh/github.pub') }}"
+      - "{{ lookup('file', '~/.ssh/digital_ocean.pub') }}"
       - https://github.com/sb-lc.keys
 
 web_user: web
