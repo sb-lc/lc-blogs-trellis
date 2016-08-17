@@ -23,9 +23,8 @@
     "photoswipe": "4.1.1",
     "modernizr": "~2.6.2",
     "responsive-bootstrap-toolkit": "~2.6.1",
-    "mfglabs-iconset": "https://github.com/sb-lc/mfglabs-iconset.git"
+    "mfglabs-iconset": "git@github.com:sb-lc/mfglabs-iconset.git"
   },
-
   "overrides": {
     "bootstrap-sass": {
       "main": [
@@ -49,24 +48,17 @@
         "./assets/fonts/bootstrap/glyphicons-halflings-regular.woff2"
       ]
     },
-
-    
     "fontawesome": {
       "main": [
         "./scss/font-awesome.scss",
         "./fonts/*"
       ]
     },
-    
     "mfglabs-iconset": {
       "main": [
         "./css/mfglabs_iconset.css",
         "./css/font/*"
       ]
     }
-
-
   }
-
-
 }

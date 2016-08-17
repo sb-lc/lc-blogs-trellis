@@ -47,7 +47,7 @@
 			"file": "/etc/hosts",
 			"settings":
 			{
-				"buffer_size": 768,
+				"buffer_size": 1116,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,88 +55,56 @@
 			"file": "/home/sbeasley/ownCloud/info.txt",
 			"settings":
 			{
-				"buffer_size": 10741,
+				"buffer_size": 12212,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "site/composer.json",
+			"file": "/home/sbeasley/Downloads/lc_intranetplus_master.html",
 			"settings":
 			{
-				"buffer_size": 9947,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "site/web/app/themes/sage-timber-lc-blogs/templates/widget-social.twig",
-			"settings":
-			{
-				"buffer_size": 413,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "site/web/app/themes/sage-timber-lc-blogs/lib/extras.php",
-			"settings":
-			{
-				"buffer_size": 2373,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "site/web/app/plugins/formidable/classes/helpers/FrmAppHelper.php",
-			"settings":
-			{
-				"buffer_size": 62528,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "site/web/app/themes/sage-timber-lc-blogs/assets/manifest.json",
-			"settings":
-			{
-				"buffer_size": 836,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "site/web/app/themes/sage-timber-lc-blogs/gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 9112,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/sbeasley/Sites/lc-ajax-loader/js/scripts.js",
-			"settings":
-			{
-				"buffer_size": 3104,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/sbeasley/Sites/lc-ajax-loader/lc-ajax-loader.php",
-			"settings":
-			{
-				"buffer_size": 1922,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "site/web/app/themes/sage-timber-lc-blogs/dist/styles/main.css",
-			"settings":
-			{
-				"buffer_size": 450657,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "site/web/app/plugins/instagram-feed/instagram-feed.php",
-			"settings":
-			{
-				"buffer_size": 17980,
+				"buffer_size": 168766,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/sbeasley/.ssh/config",
+			"settings":
+			{
+				"buffer_size": 295,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trellis/group_vars/production/wordpress_sites.yml",
+			"settings":
+			{
+				"buffer_size": 721,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trellis/hosts/production",
+			"settings":
+			{
+				"buffer_size": 242,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trellis/group_vars/production/vault.yml",
+			"settings":
+			{
+				"buffer_size": 1345,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trellis/group_vars/development/vault.yml",
+			"settings":
+			{
+				"buffer_size": 379,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -182,30 +150,33 @@
 	"expanded_folders":
 	[
 		"/home/sbeasley/Sites/lc-blogs-trellis",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/config",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/config/environments",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/formidable/classes",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/formidable/classes/helpers",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/formidable/css",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/lib",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/all",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/production",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/staging",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/hosts",
 		"/home/sbeasley/Sites/lc-ajax-loader",
 		"/home/sbeasley/Sites/lc-ajax-loader/js"
 	],
 	"file_history":
 	[
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/debug.log",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bower.json",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_jonny.scss",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/manifest.json",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/header.twig",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/scripts/sticky-header.js",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/layouts/_header.scss",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/composer.json",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/widget-social.twig",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/lib/extras.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/formidable/classes/helpers/FrmAppHelper.php",
+		"/home/sbeasley/Sites/lc-ajax-loader/js/scripts.js",
+		"/home/sbeasley/Sites/lc-ajax-loader/lc-ajax-loader.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/instagram-feed/instagram-feed.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/dist/styles/main.css",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/production/vault.yml",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/staging/vault.yml",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/vault.yml",
@@ -215,24 +186,18 @@
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/instagram-feed/instagram-feed-admin.php",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/formidable/classes/controllers/FrmAppController.php",
 		"/home/sbeasley/Downloads/lc_intranetplus_master.html",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bower.json",
 		"/home/sbeasley/Sites/mfglabs-iconset/css/mfglabs_iconset.css",
 		"/home/sbeasley/Sites/mfglabs-iconset/css/main.css",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/scripts/media-query-vars.js",
 		"/home/sbeasley/Sites/mfglabs-iconset/bower.json",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/dist/styles/main.css",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bower_components/mfglabs-iconset/css/mfglabs_iconset.css",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bower_components/fontawesome/bower.json",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/functions.php",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bower_components/responsive-bootstrap-toolkit/bower.json",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/widget-social.twig",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/widget-archives.twig",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/widgets/archives.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/layouts/_header.scss",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/manifest.json",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/lc-ajax-loader/js/scripts.js",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/layouts/_pages.scss",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/lib/extras.php",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/lc-ajax-loader/css/styles.css",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/main.scss",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/components/_buttons.scss",
@@ -240,17 +205,13 @@
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/layouts/_footer.scss",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bowerBAK.json",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/scripts/formidable-submit-btn.js",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/composer.json",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/components/_forms.scss",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/layouts/_list-posts.scss",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/page.twig",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_jonny.scss",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/archive.php",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/.htaccess",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/common/_global.scss",
-		"/home/sbeasley/Sites/lc-ajax-loader/js/scripts.js",
 		"/home/sbeasley/Sites/lc-ajax-loader/composer.json",
-		"/home/sbeasley/Sites/lc-ajax-loader/lc-ajax-loader.php",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/sidebar.twig",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/page-home.php",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/single.twig",
@@ -328,12 +289,7 @@
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/server.yml",
 		"/home/sbeasley/Sites/lc-blogs-trellis/.git/config",
 		"/home/sbeasley/Downloads/Results (8).xml",
-		"/home/sbeasley/.ssh/known_hosts",
-		"/home/sbeasley/Sites/lc-blogs/mcs-config/post_meta.php",
-		"/home/sbeasley/Sites/lc-blogs/web/app/plugins/ajax-load-more/core/repeater/default.php",
-		"/home/sbeasley/Sites/lc-blogs/web/app/themes/sage-timber-lc-blogs/templates/archive.twig",
-		"/home/sbeasley/Sites/lc-blogs/web/app/themes/sage-timber-lc-blogs/templates/author.twig",
-		"/home/sbeasley/Sites/lc-blogs/web/app/themes/sage-timber-lc-blogs/archive.php"
+		"/home/sbeasley/.ssh/known_hosts"
 	],
 	"find":
 	{
@@ -344,6 +300,8 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/home/sbeasley/Sites/lc-blogs-trellis",
+			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs",
 			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/formidable",
 			"/home/sbeasley/Sites/lc-blogs-trellis/site",
 			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/formidable",
@@ -428,6 +386,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"blogs",
+			"lc-dev1.co.uk",
+			"mfglabs",
 			"fonts.css",
 			"wp_enqueue_script",
 			"wp_enqueue_scripts",
@@ -552,10 +513,7 @@
 			"$this->",
 			"CallSetters",
 			"setStaticVariables",
-			"setConfigLoc",
-			"configLoc",
-			"Paths",
-			"$this->taxMetaConfig"
+			"setConfigLoc"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -627,7 +585,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -636,212 +594,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 768,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								561,
-								561
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/sbeasley/ownCloud/info.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10741,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1182,
-								1182
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 17.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "site/composer.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9947,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8102,
-								8102
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4779.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "site/web/app/themes/sage-timber-lc-blogs/templates/widget-social.twig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 413,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								67,
-								67
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP-Twig.tmbundle-master/Syntaxes/HTML (Twig).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "site/web/app/themes/sage-timber-lc-blogs/lib/extras.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2373,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1978,
-								1978
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 663.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "site/web/app/plugins/formidable/classes/helpers/FrmAppHelper.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 62528,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								54560,
-								54560
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 28732.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "site/web/app/themes/sage-timber-lc-blogs/assets/manifest.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 836,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								747,
-								747
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "site/web/app/themes/sage-timber-lc-blogs/gulpfile.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 9112,
+						"buffer_size": 1116,
 						"regions":
 						{
 						},
@@ -854,9 +607,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -866,55 +617,113 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "/home/sbeasley/Sites/lc-ajax-loader/js/scripts.js",
+					"buffer": 1,
+					"file": "/home/sbeasley/ownCloud/info.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3104,
+						"buffer_size": 12212,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2353,
-								2353
+								6712,
+								6712
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 816.0,
+						"translation.y": 5595.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "/home/sbeasley/Sites/lc-ajax-loader/lc-ajax-loader.php",
+					"buffer": 2,
+					"file": "/home/sbeasley/Downloads/lc_intranetplus_master.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1922,
+						"buffer_size": 168766,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								856,
-								856
+								123324,
+								123324
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1073.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/sbeasley/.ssh/config",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "trellis/group_vars/production/wordpress_sites.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								277,
+								277
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -924,61 +733,89 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "site/web/app/themes/sage-timber-lc-blogs/dist/styles/main.css",
+					"buffer": 5,
+					"file": "trellis/hosts/production",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 450657,
+						"buffer_size": 242,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								347196,
-								347196
+								241,
+								241
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS-sublime-master/LESS.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
-						"translation.x": 121290.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "site/web/app/plugins/instagram-feed/instagram-feed.php",
+					"buffer": 6,
+					"file": "trellis/group_vars/production/vault.yml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17980,
+						"buffer_size": 1345,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14612,
-								14612
+								516,
+								516
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3708.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "trellis/group_vars/development/vault.yml",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								292,
+								292
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
 					"type": "text"
 				}
 			]

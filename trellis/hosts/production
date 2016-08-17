@@ -2,7 +2,7 @@
 # List each machine only once per [group], even if it will host multiple sites.
 
 [production]
-roots-example-project.com
+leicestercollegeblog.co.uk
 
 [web]
-roots-example-project.com
+leicestercollegeblog.co.uk

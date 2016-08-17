@@ -20,9 +20,7 @@ foreach( $posts as $post ) :
 	$posts2[$x] = ( array ) $post;
 	$posts2[$x]['link'] = $post->guid;
 
-
 	$posts2[$x]['post_image'] = get_the_post_thumbnail( $post, 'large-blog-800-425', array( "class" => "thumb img-responsive") );
-
 
 	$terms = get_the_terms( $post, 'blog_category' );
 	

@@ -15,11 +15,10 @@ header{
 			margin-top: 15px;
 			margin-bottom: 5px;
 
-			>div{
-				display: inline-block;
-			}
+
 
 			#header-image{
+				display: inline-block;
 				img{
 					margin: 0;
 					&.img-responsive{

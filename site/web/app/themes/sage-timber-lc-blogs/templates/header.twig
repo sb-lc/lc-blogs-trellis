@@ -1,16 +1,26 @@
 <header class="banner">
     <div class="container">
+        
+        <div id="navigationXXX" class="navigation-bar" data-0="position:static;opacity:0;" data-1000="opacity:1;" data-top-top="position:fixed;top:0;" data-edge-strategy="set">
 
-         
-        <div id="header-image-wrap">
-            <div id="header-image">
-                <a href="{{ site.url }}">
-                    {{ site_logo }}
-                </a>
+            <div id="header-image-wrap">
+
+
+            
+                        
+                <div id="header-image">
+                        <a href="{{ site.url }}">
+                            {{ site_logo }}
+                        </a>
+                </div>
+
+                <div class="site-name">
+                    {{ site.name | splitSiteTitleFilter }}
+                </div>
+
             </div>
-            <div class="site-name">
-                {{ site.name | splitSiteTitleFilter }}
-            </div>
+
+
         </div>
 
 

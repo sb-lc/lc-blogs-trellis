@@ -129,17 +129,6 @@ add_action( 'customize_register', 'themeslug_theme_customizer' );
 
 
 
-function test_debug_log_file( ) {
-
-  #write_log("qwertyuio");
-
-}
-
-add_action( 'init', 'test_debug_log_file' );
-
-
-
-
 
 
 function wp_get_archives_array( $archive_str ){
