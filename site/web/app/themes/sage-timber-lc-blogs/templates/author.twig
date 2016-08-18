@@ -1,0 +1,32 @@
+{% extends "templates/base.twig" %}
+
+{% block content %}
+
+	<div class="user-info">
+
+		<span class="user-image">
+			{{ image }}
+		</span>
+
+		<span class="user-details">			
+			<span class="name"><p>{{ name }}</p><span class="divider"></span></span>
+			<span class="role"><p>{{ role }}</p></span>
+			<span class="dept"><p>{{ dept }}</p></span>
+		</span>
+
+	</div>
+
+	<div class="user-bio">
+		{{ bio }}
+	</div>
+
+	<div class="blog-list">
+		<ul>
+			{% for post in posts %}				
+				{% include 'templates/partials/post-summary.twig' %}				
+			{% endfor %}
+		</ul>
+	</div>
+
+
+{% endblock %}

@@ -1,0 +1,141 @@
+.navbar-default{
+	background-color: transparent;
+	border-width: 0px;
+}
+
+
+.navbar-default .navbar-collapse, 
+.navbar-default .navbar-form {
+    border-width: 0;
+}
+
+//@media (min-width: $screen-md){
+
+	/* body{
+		background-color:blue;
+	} */
+
+
+	nav{
+		&.nav-primary{
+
+			margin-bottom: 0px;
+			min-height: 0px;
+
+			.navbar-header{
+				margin-right: 0;
+				margin-left: 0;
+			}
+
+			.navbar-collapse{
+			    margin-right: 0;
+			    margin-left: 0;			
+			    padding-right: 0;
+			    padding-left: 0;			
+			}
+
+			.container-fluid{
+			    margin-right: 0;
+			    margin-left: 0;			
+			    padding-right: 0;
+			    padding-left: 0;			
+			}
+
+			ul.navbar-nav{
+
+				margin: 0px auto;
+				width: 100%;
+				display: inline-block;
+				text-align: center;
+				float: none;
+
+				>li{
+					list-style: none;
+					background-color: none;
+					margin: 0px;
+					text-transform: uppercase;
+					text-align: center;
+					border-top: 1px solid $color-black;
+					position: relative;
+					float: none;
+					width: 100%;
+					display: block;
+
+					&.current_page_item, &.current-menu-item{
+						background-color: $color-black;
+
+						&>a{
+							color: $color-white;
+						}
+					}
+
+					>a{
+						padding: 10px;
+						color: $color-black;
+						font-size: 12pt;
+						font-weight: normal;
+						text-decoration: none;
+						display: block;
+						width: 100%;
+						position: relative;
+
+						&:hover{
+							color: $color-white;
+						}
+
+					}
+
+					&:hover{
+						background-color: $color-black;
+					}
+				}
+			}
+		}
+	}
+
+//}
+
+
+// @media (min-width: $screen-xs) and (max-width: $screen-md){
+
+// 	nav{
+// 		&.nav-primary{
+// 			ul.navbar-nav{
+// 				>li{
+// 					width: 100px
+// 				}
+// 			}
+// 		}
+// 	}
+
+// }
+
+.navbar-default {
+
+	.navbar-toggle{
+		margin-top: -79px;
+		height: 36px;
+		width: 36px;
+		position: relative;
+	    float: right;
+	    margin-right: 0px;
+	    padding: 10px 6px;
+	    margin-bottom: 8px;
+	    background-color: transparent;
+	    background-image: none;
+	    border: 1px solid transparent;
+	    border-radius: 0px;
+	}
+		
+
+	.navbar-toggle, .navbar-toggle:focus, .navbar-toggle:hover {
+
+		border-color: $color-white;
+		background-color: $color-black;
+
+		.icon-bar {
+		    background-color: $color-white;
+		}
+	}
+}
+

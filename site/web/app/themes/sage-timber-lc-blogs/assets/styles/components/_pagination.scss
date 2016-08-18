@@ -1,0 +1,48 @@
+
+.pagination, .woocommerce nav.woocommerce-pagination{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    
+	ul, ul.page-numbers{
+		clear: both;
+		display: inline-block;
+		white-space: nowrap;
+		padding: 0;
+		border: 1px solid #d3ced2;
+		border-right: 0;
+		margin: 1px;
+
+	    li{
+		    display: inline-block;
+		    border-right: 1px solid #d3ced2;
+		    padding: 0;
+		    margin: 0;
+		    float: left;
+		    display: inline;
+		    overflow: hidden;
+
+		    a, span{
+			    margin: 0;
+			    text-decoration: none;
+			    line-height: 1;
+			    font-size: 1em;
+			    font-weight: 400;
+			    padding: .5em;
+			    min-width: 1em;
+			    display: block;
+
+			    &:focus, &:hover, &.current{
+
+				    background: #ebe9eb;
+				    color: #8a7e88;
+			    	
+			    }		    	
+		    }
+	    }
+	}
+
+}
+
+//:before and :after should be in here

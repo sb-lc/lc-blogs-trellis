@@ -1,0 +1,60 @@
+{% extends "templates/base.twig" %}
+
+{% block content %}
+<!--
+post.title 
+post.content
+date
+author
+category.name 
+category.link
+user_img
+user_link
+
+-->
+
+<article {{ function('post_class') }}>
+
+    <header>
+
+        {{ image }}
+
+        <div class="categories">
+            {% for term in terms %}
+                <a href="{{ term.link }}">
+                    <span class="btn category default">
+                        {{ term.name }}
+                    </span>     
+                </a>
+            {% endfor %}
+        </div>
+
+        <h1 class="entry-title">{{ post.title }}</h1>
+
+        <div>
+            <span class="user">
+                <a href="{{ user_link }}">
+                    <span class="image">{{ user_img }}</span>
+                </a>
+                <span>By</span>
+                <a href="{{ user_link }}">
+                    <span class="name">  {{ author }}</span>
+                </a>
+            </span>
+
+            <span class="date"> | {{ date }}</span>
+
+        </div>
+
+    </header>
+
+    <div class="entry-content">
+        {{ post.content }}
+
+
+    </div>
+</article>
+
+    
+
+{% endblock %}

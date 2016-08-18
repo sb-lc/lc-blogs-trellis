@@ -1,0 +1,23 @@
+<!--
+subscribers widget data :
+
+{{ contributors | print_r }}
+{{ name }}
+{{ image }}
+
+-->
+
+
+<ul class="contributors">
+
+{% for contributor in subscribers %}
+
+	<li>
+		<a href="{{ contributor.url }}" >
+			{{ contributor.image }}
+		</a>
+	</li>
+
+{% endfor %}
+
+</ul>

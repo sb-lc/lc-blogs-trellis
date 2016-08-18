@@ -1,0 +1,26 @@
+.sidebar{
+	.widget{
+
+		margin-bottom: 30px;
+
+		//border-bottom: 1px solid $color-light-grey;
+
+		h3{
+			//text-decoration: underline;
+
+			&:after{
+				width: 100%;
+			    position: absolute;
+			    left: 0;
+			    bottom: 1px;
+			    border-width: 0 0 1px;
+			    border-style: solid;
+			}
+		}
+
+		ul{
+			list-style-type: none;
+			padding-left: 0;
+		}
+	}
+}

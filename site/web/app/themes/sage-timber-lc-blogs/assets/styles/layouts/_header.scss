@@ -1,0 +1,62 @@
+header{
+	.container{
+
+		background-size: contain;
+		border-top: 10px solid $color-black;
+		
+		@media (max-width: $screen-lg) {
+			height: auto;
+		}
+
+
+		#header-image-wrap{
+			//border-bottom: 1px solid $color-black;
+			padding-bottom: 5px;
+			margin-top: 15px;
+			margin-bottom: 5px;
+
+
+
+			#header-image{
+				display: inline-block;
+				img{
+					margin: 0;
+					&.img-responsive{
+					max-width: 60%;
+					height: auto;
+					}
+				}
+			}
+
+			.site-name{
+
+				font-family: 'Oswald';
+				font-size: 25pt;
+				line-height: 25pt;
+				text-transform: uppercase;
+				color: $color-black;
+				margin-left: -25px;
+
+				@media (max-width: $screen-xs) {
+					font-size: 20pt;
+
+
+				}
+
+				span{
+
+					display:block;
+
+					&:first-child{
+						font-weight: 300;
+					}
+
+					&:last-child{
+
+					}
+
+				}
+			}
+		}		
+	}
+}

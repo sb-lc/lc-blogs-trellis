@@ -1,0 +1,8 @@
+{% extends "templates/base.twig" %}
+
+{% block content %}
+	{% filter shortcodes %}
+	[ajax_load_more post_type="blog" repeater="default" posts_per_page="5" transition="fade" button_label="Older Blogs " taxonomy="blog_category" taxonomy_terms="{{blog_category}}" taxonomy_operator="IN" year="{{year}}" month="{{month}}" author="{{author}}"]
+	{% endfilter %}
+
+{% endblock %}

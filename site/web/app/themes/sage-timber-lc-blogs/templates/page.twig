@@ -1,0 +1,17 @@
+{% extends "templates/base.twig" %}
+
+{% block content %}
+
+	<div class="wrap">
+	   {{ image }}
+
+	   	<div class="text-wrap">
+
+			<h1>{{ post.title }}</h1>
+			
+		   {{ post.content }}
+
+		</div>
+	</div>
+	
+{% endblock %}

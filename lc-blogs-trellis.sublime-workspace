@@ -1,0 +1,714 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"Po",
+				"PostConfig"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"plugin_url",
+				"plugin_dir_url"
+			],
+			[
+				"error",
+				"error_reporting"
+			],
+			[
+				"get_qu",
+				"get_query_var"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/etc/hosts",
+			"settings":
+			{
+				"buffer_size": 608,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/sie/ownCloud/sie/documents/lc_docs/info.txt",
+			"settings":
+			{
+				"buffer_size": 13166,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "trellis/ansible.cfg",
+			"settings":
+			{
+				"buffer_size": 608,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Cont",
+		"selected_items":
+		[
+			[
+				"Package Cont",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 746.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/sie/Vagrant/lc-blogs-trellis",
+		"/home/sie/Vagrant/lc-blogs-trellis/trellis",
+		"/home/sie/Vagrant/lc-blogs-trellis/trellis/group_vars",
+		"/home/sbeasley/Sites/lc-ajax-loader"
+	],
+	"file_history":
+	[
+		"/home/sie/Vagrant/lc-blogs-trellis/trellis/group_vars/production/vault.yml",
+		"/home/sie/Vagrant/lc-blogs-trellis/trellis/hosts/production",
+		"/home/sie/Vagrant/lc-blogs-trellis/trellis/group_vars/production/wordpress_sites.yml",
+		"/home/sbeasley/.ssh/config",
+		"/home/sbeasley/Downloads/lc_intranetplus_master.html",
+		"/home/sbeasley/ownCloud/info.txt",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/debug.log",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bower.json",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_jonny.scss",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/manifest.json",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/header.twig",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/scripts/sticky-header.js",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/layouts/_header.scss",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/composer.json",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/widget-social.twig",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/lib/extras.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/formidable/classes/helpers/FrmAppHelper.php",
+		"/home/sbeasley/Sites/lc-ajax-loader/js/scripts.js",
+		"/home/sbeasley/Sites/lc-ajax-loader/lc-ajax-loader.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/instagram-feed/instagram-feed.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/dist/styles/main.css",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/production/vault.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/staging/vault.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/vault.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/all/vault.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/widgets/_social.scss",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/lc-ajax-loader/lc-ajax-loader.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/instagram-feed/instagram-feed-admin.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/formidable/classes/controllers/FrmAppController.php",
+		"/home/sbeasley/Sites/mfglabs-iconset/css/mfglabs_iconset.css",
+		"/home/sbeasley/Sites/mfglabs-iconset/css/main.css",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/scripts/media-query-vars.js",
+		"/home/sbeasley/Sites/mfglabs-iconset/bower.json",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bower_components/mfglabs-iconset/css/mfglabs_iconset.css",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bower_components/fontawesome/bower.json",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/functions.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bower_components/responsive-bootstrap-toolkit/bower.json",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/widget-archives.twig",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/widgets/archives.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/lc-ajax-loader/js/scripts.js",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/layouts/_pages.scss",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/lc-ajax-loader/css/styles.css",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/main.scss",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/components/_buttons.scss",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/footer.twig",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/layouts/_footer.scss",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bowerBAK.json",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/scripts/formidable-submit-btn.js",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/components/_forms.scss",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/layouts/_list-posts.scss",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/page.twig",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/archive.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/.htaccess",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/common/_global.scss",
+		"/home/sbeasley/Sites/lc-ajax-loader/composer.json",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/sidebar.twig",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/page-home.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/single.twig",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/partials/post-summary.twig",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/author.php",
+		"/home/sbeasley/Downloads/better-archives/better-archives-widget/widget-archives.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/functions-lc-blogs-widgets.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/mcs-config/main.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/mcs-config/post.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/index.php",
+		"/home/sbeasley/Downloads/better-archives/better-archives-widget/load-scripts.php",
+		"/home/sbeasley/Downloads/better-archives/better-archives-widget/better-archives-widget.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/base.twig",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/layouts/_sidebar.scss",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/components/_instagram.scss",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_menu.scss",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/page-home.twig",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/single.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_font.scss",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_color.scss",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/common/_variables.scss",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/widgets/_widgets.scss",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/.gitignore",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/author.twig",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/archive.twig",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/post-summary.php",
+		"/tmp/fz3temp-1/config.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/widgets/contributors.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/widget-contributors.twig",
+		"/home/sbeasley/Sites/lc-dev1/public/wp-content/plugins/composer.json",
+		"/home/sbeasley/Sites/medusa-content-suite/medusa_content_suite.php",
+		"/etc/hosts",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/ansible.cfg",
+		"/home/sbeasley/.composer/auth.json",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/config/environments/staging.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/lc-ajax-loader/js/scripts.js",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/lc-ajax-loader/lc-ajax-loader.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/pbd-ajax-load-posts/pbd-ajax-load-posts.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/pbd-ajax-load-posts/js/load-posts.js",
+		"/tmp/fz3temp-1/connect-2016-07.html",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/mcs-config/post_meta.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/mcs-config/tax.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/page-homeBAK.twig",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/wordpress.patch",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/ajax-load-more/core/repeater/default.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/alm-post-ppl.php",
+		"/home/sbeasley/Sites/ajax-thumbnail-rebuild/ajax-thumbnail-rebuild.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/deploy.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/common/defaults/main.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-setup/tasks/database.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-install/tasks/main.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-install/tasks/directories.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-setup/tasks/main.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/deploy-hooks/finalize-after.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/deploy-hooks/build-after.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/deploy-hooks/build-before.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/staging/wordpress_sites.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/wordpress_sites.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/Vagrantfile",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/all/users.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/main.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/php/templates/php-fpm.conf.j2",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/nginx/templates/wordpress.conf.j2",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/php.yml",
+		"/tmp/fz3temp-1/.htpasswd",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-setup/tasks/nginx.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-setup/tasks/self-signed-certificate.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/vendor/roles/composer/README.md",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/mail.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/hosts/staging",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/hosts/development",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/.env",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/.vault_pass"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/sbeasley/Sites/lc-blogs-trellis",
+			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs",
+			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/formidable",
+			"/home/sbeasley/Sites/lc-blogs-trellis/site",
+			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/formidable",
+			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs",
+			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles",
+			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs",
+			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets",
+			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates",
+			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles",
+			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs",
+			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles",
+			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs",
+			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/lc-ajax-loader",
+			"/home/sbeasley/Sites/lc-blogs-trellis/site",
+			"/home/sbeasley/Sites/lc-blogs-trellis",
+			"/home/sbeasley/Sites/lc-blogs-trellis/trellis",
+			"/var/www/medusa-content-suite",
+			"/var/www/stt",
+			"/var/www/medusa-content-suite/Config",
+			"/var/www/medusa-content-suite",
+			"/var/www/stt",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public/wp-content,-*.jpg,-*.png,-*.eps,-*.gif",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public,-*.jpg,-*.eps,-*.png,-*.gif",
+			"/var/www/lc-dev1/public,-*.jpg",
+			"/var/www/lc-dev1/public",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1",
+			"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/library/sass",
+			"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child",
+			"<open files>",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public/wp-content,-*.jpg, -*.pdf",
+			"/var/www/lc-dev1/public/wp-content,-*.jpg",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public",
+			"/var/www/lc-dev1/public/wp-content/plugins",
+			"/var/www/lc-dev1/public/wp-content/plugins/medusa_widgets_google_map",
+			"/var/www/lc-dev1/public/wp-content",
+			"<open files>",
+			"<open folders>",
+			"/var/www/lc-dev1/public/wp-content/plugins",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public/wp-content,-*.jpg, -*.png",
+			"/var/www/lc-dev1/public/wp-content, -*.jpg, -*.png",
+			"/var/www/lc-dev1/public/wp-content -*.jpg, -*.png",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public/wp-content/plugins/lc-course-database",
+			"/var/www/lc-dev1/public/wp-content,-*.jpg,-*.png",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public/wp-content/themes",
+			"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/includes",
+			"/var/www/lc-dev1/public/wp-content,*.js",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public/wp-content/plugins",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/library/sass",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child/library",
+			"/var/www/lc-dev1/public/wp-content/plugins",
+			"/var/www/lc-dev1/public/wp-content/themes",
+			"/var/www/lc-dev1/public/wp-content/plugins,*.php",
+			"/var/www/lc-dev1/public/wp-content/plugins",
+			"/var/www/lc-dev1/public/wp-content/themes, -*.css, -*.js",
+			"/var/www/lc-dev1/public/wp-content/themes,-*.css",
+			"/var/www/lc-dev1/public/wp-content/themes -*.css",
+			"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child",
+			"/var/www/lc-dev1/public/wp-content",
+			"/var/www/lc-dev1/public/wp-content/plugins/lc-course-database",
+			"/var/www/lc-dev1/public/wp-content/themes/lc-bootstrap-child",
+			"/var/www/lc-dev1/public/wp-content/plugins/lc-formidable-extender",
+			"/var/www/lc-dev1/public/wp-content/plugins",
+			"/var/www/lc-dev1/public/wp-content/themes",
+			"/var/www/lc-dev1/public/wp-content/plugins/medusa_resources_common_functions",
+			"/var/www/lc-dev1/public/wp-content/plugins/lc-autocomplete",
+			"/var/www/lc-dev1/public/wp-content/plugins"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"blogs",
+			"lc-dev1.co.uk",
+			"mfglabs",
+			"fonts.css",
+			"wp_enqueue_script",
+			"wp_enqueue_scripts",
+			"fonts",
+			"credit",
+			"sess",
+			"be-load-more",
+			".js",
+			"insta",
+			".js",
+			"formidable.js",
+			"formidable",
+			"load",
+			"css",
+			"sb-instag",
+			"inst",
+			"bootstrapcdn",
+			"enqueue",
+			"remove_plugin_assets",
+			"</i>",
+			"<i",
+			"600px",
+			"mfglabsiconset-webfont.woff",
+			"'fonts/",
+			"font/",
+			"mfg",
+			"fontaw",
+			"font-aw",
+			"font-awesome",
+			"font-awesome.min.css",
+			"media",
+			"themeslug_logo",
+			"attachment_url_to_postid",
+			"conte",
+			"load-more",
+			"lc-sk",
+			"rgb(255,255,255)",
+			"rgb(179,97,179)",
+			"main",
+			"$('.",
+			"main",
+			"$('.main",
+			".main",
+			"main",
+			"blog-list",
+			" \\",
+			"load-more",
+			"360",
+			"social",
+			"Social",
+			"social_widget",
+			"480",
+			"aside",
+			"strip",
+			"stripe",
+			"pensio",
+			"run",
+			"enrich",
+			"maths",
+			"@import",
+			"user_info",
+			"large-blog-800-425",
+			"contributor",
+			"category",
+			"categories",
+			"category",
+			"image",
+			"user",
+			"alm",
+			"stripe",
+			"post-summary",
+			"toran",
+			"stripe",
+			"$post2[$x]",
+			"posts2",
+			"x",
+			"top",
+			"be_post_summary",
+			"group1",
+			"here",
+			"large-blog-800-425",
+			"Contributors Widget",
+			"WPBeginner",
+			"lc-tor",
+			"composer_http_basic",
+			"sage",
+			"composer_global_packages",
+			"pure36",
+			"ansible.",
+			"inventory_path",
+			"your_server_hostname",
+			"Access",
+			"credit",
+			"atlassi",
+			"migr",
+			"medusa-content-suite",
+			"toran",
+			"configLoc",
+			"Menus",
+			"posts_enabled",
+			"MenuConfig",
+			"Menu",
+			"menu",
+			"Menu",
+			"getMenuConfig",
+			"Menu",
+			"toran",
+			"postConfigStatic",
+			"loadFieldTypes",
+			"getActiveVendorPath",
+			"qqqqqqqqq",
+			"fair",
+			"MenuConfig",
+			"menu",
+			"self",
+			"fieldTypes",
+			"getFieldTypes",
+			"checkThisPluginPath",
+			"getThisPluginPath",
+			"loadCMB",
+			"FieldType",
+			"$this->",
+			"CallSetters",
+			"setStaticVariables",
+			"setConfigLoc"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"lc-ajax-script",
+			"</span>",
+			"<span",
+			"'../fonts/",
+			"fonts/",
+			"#000000",
+			"#FFFFFF",
+			"archive",
+			"Archive",
+			"archive_widget",
+			"$post2",
+			"post2",
+			"MainConfig",
+			"taxMetaConfig",
+			"TaxMetaConfig",
+			"TaxostMetaConfig",
+			"tax",
+			"Tax",
+			"parent::getGlobals( )",
+			"activeVendorPathExists",
+			"Globals",
+			"",
+			"external",
+			"LcCareersExplorer",
+			"getCourseByUIOID",
+			"latlng",
+			"bsModalMap",
+			"lc_course_database_add_click_handlers_to_enrol_form",
+			"lc_course_database_funding_rule_",
+			"lc_course_database_functions_funding_rules",
+			"lc_course_database_which_funding_rule",
+			"_cmb_homepage_advert_options_link_page",
+			"advert",
+			"advert_data",
+			"adverts",
+			"hp_adverts_query",
+			"urlRedirectCourse",
+			"getCourseByCode",
+			"",
+			"<span style=\"font-size:12pt; line-height: 14pt\">",
+			"font-size:14px !important;",
+			" width=\"230\"",
+			"",
+			"<h2 style=\"font-size:19pt; margin-top:10px; margin-bottom:10px;\">",
+			"<h2 style=\"font-size:19pt; margin-top:10px; margin-bottom:10px;",
+			"<h3 style=\"font-size:16pt; margin-top:5px; margin-bottom:5px;",
+			"<h3 style=\"font-size:16pt; margin-top:5px;",
+			" course_info.",
+			"Medusa_Widgets_Google_Map",
+			"Medusa_Widgets_Menu",
+			"['",
+			"",
+			"->",
+			"lc-dev1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/etc/hosts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 608,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								608,
+								608
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/sie/ownCloud/sie/documents/lc_docs/info.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2524.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "trellis/ansible.cfg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 608,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								326,
+								326
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lc-blogs-trellis.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 349.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

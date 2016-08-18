@@ -1,0 +1,35 @@
+// Search form
+.search-form {
+  @extend .form-inline;
+}
+.search-form label {
+  font-weight: normal;
+  @extend .form-group;
+}
+.search-form .search-field {
+  @extend .form-control;
+}
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-default;
+}
+
+
+
+
+form{
+	width: 100%;
+	margin: auto;
+	.form-field, .form-field .frm_primary_label{
+
+		font-family: Lato,sans-serif !important;
+		font-weight: 400 !important;
+		font-size: 12pt !important;
+	}
+
+	.frm_style_formidable-style.with_frm_style label.frm_primary_label{
+		color: $color-dark-grey;
+	}
+
+}
+

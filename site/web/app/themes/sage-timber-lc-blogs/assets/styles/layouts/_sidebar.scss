@@ -1,0 +1,13 @@
+.sidebar {
+
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+	@media (max-width: $screen-sm) {
+		display:block;
+		clear: both;	
+	}
+
+}

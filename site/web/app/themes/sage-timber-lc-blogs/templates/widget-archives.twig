@@ -1,0 +1,20 @@
+{# {{ archive_options | print_r }} #}
+
+
+<div>
+	<select id="month-choice" name="month-choice" onchange="location = this.value;">
+		
+		{# <option value="{{ site.url }}"> All months </option> #}
+
+		<option val="no-choice"> Choose a month </option>
+
+		{% for o in archive_options %}
+
+			{{ o }}
+
+		{% endfor %}
+
+	</select>
+</div>
+
+

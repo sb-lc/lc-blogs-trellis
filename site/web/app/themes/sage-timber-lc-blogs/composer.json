@@ -1,0 +1,29 @@
+{
+  "name": "jajouka79/sage-timber-jonnycole",
+  "description": "SSage and Timber theme for Jonny Cole site",
+  "type":"wordpress-theme",
+  "minimum-stability" : "stable",
+  "authors": [
+      {
+          "name": "Simon Beasley",
+          "email": "simon.beasley@neveryoumind.com"
+      }
+  ],
+  "extra": {
+  	"installer-paths": {
+      "../../plugins/{$name}/": [
+        "wpackagist-plugin/*",
+        "type:wordpress-plugin"
+      ]
+  	}
+	},
+  "require": {
+	  "wpackagist-plugin/timber-library": "*"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    }
+  ]
+}

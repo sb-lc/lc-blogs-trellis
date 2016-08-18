@@ -1,0 +1,9 @@
+.fade-transition{
+	opacity: 1;
+    transition: background-color .25s ease-in-out;
+
+    &:hover{
+    	transition: background-color .25s ease-in-out;
+    }
+
+}

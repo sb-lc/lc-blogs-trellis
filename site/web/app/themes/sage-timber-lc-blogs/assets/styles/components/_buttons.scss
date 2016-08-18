@@ -1,0 +1,178 @@
+a:hover{
+	text-decoration: none;
+}
+
+
+
+
+
+
+.categories{
+
+	margin-top: 9px;
+	margin-bottom: 20px;
+
+	a{
+	    display: inline;
+
+		.category{
+		    margin-right: 10px;		
+		    margin-bottom: 10px;		
+		}		
+	}
+}
+
+.btn{
+	font-weight: 200;
+	background-color: $color-white;
+	border: 1px solid $color-orange;
+	color: $color-orange;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	transition: all .25s  ease-in-out;
+	font-weight: 300;
+	font-size: 12pt;
+	line-height: 11pt;
+	height: auto;
+	border-radius: 5px;
+	padding: 10px 10px;
+	text-transform: uppercase;
+			
+	&.default{
+		background-color: $color-white;
+		color: $color-orange;
+
+		&:hover{
+			background-color: $color-orange;
+			color: $color-white;
+		}
+	}
+
+	&.load-more{			
+		background-color: $color-medium-grey;
+		color: $color-white;
+		border-width: 0;
+		width: 100%;
+
+		&:hover{
+
+			background-color: $color-dark-grey;
+		}
+
+
+		&.no-more-posts{			
+			background-color: $color-light-grey;
+			color: $color-dark-grey;
+			font-decoration: italic;
+			border-width: 0;
+
+			&:hover{
+
+				background-color: $color-light-grey;
+			}
+		}
+
+	}
+
+}
+
+
+
+
+.blog-list{
+	ul{
+		li{			
+			.read-more{
+				display: block;
+				float: right;
+				clear: both;
+				color: #fff;
+				margin-top: 10px;
+				line-height: 9pt;
+
+				&:hover{
+					opacity: 0.8;
+				}
+			}
+
+			 &:nth-child(3n+1){
+				.read-more{
+					background-color: $color-orange;
+					border-color: $color-orange;
+				}
+			}
+	 		
+			 
+			&:nth-child(3n+2){
+				.read-more{
+					background-color: $color-red;
+					border-color: $color-red;
+				}
+			}  
+			
+
+			
+			&:nth-child(3n+3){
+				.read-more{
+					background-color: $color-blue;
+					border-color: $color-blue;
+				}
+			}
+
+			
+		}
+	}
+}
+
+
+.blog-list{
+	ul{
+		li{
+			
+
+			&:nth-child(3n+1){			
+				.categories{
+					.category{
+						border: 1px solid $color-orange;
+						color: $color-orange;
+
+						&:hover{
+							background-color: $color-orange;
+							color: $color-white;
+						}
+					}
+				}
+			}
+
+			&:nth-child(3n+2){
+				.categories{
+					.category{
+						border: 1px solid $color-red;
+						color: $color-red;
+
+						&:hover{
+							background-color: $color-red;
+							color: $color-white;
+						}				    
+					}
+				}
+			}
+
+			&:nth-child(3n+3){			
+				.categories{
+					.category{
+						border: 1px solid $color-blue;
+					  color: $color-blue;
+
+						&:hover{
+							background-color: $color-blue;
+							color: $color-white;
+						}
+					}
+				}
+			}			
+		}
+	}
+
+}
+

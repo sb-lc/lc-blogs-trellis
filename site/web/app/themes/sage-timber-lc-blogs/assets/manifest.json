@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/main.js",
+        "scripts/wp-content-reponsive-images.js",
+        "scripts/formidable-submit-btn.js",
+        "scripts/media-query-vars.js",
+        "scripts/sticky-header.js"
+      ],    
+      "vendor": [
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],      
+      "vendor": [
+        "../../plugins/lc-ajax-loader/css/styles.css",
+        "../../plugins/instagram-feed/css/sb-instagram.min.css",
+        "../../uploads/formidable/css/formidablepro.css",
+        "../../plugins/formidable/css/frm_fonts.css"
+      ],
+      "main": true
+    },
+    "customizer.js": {
+      "files": [
+        "scripts/customizer.js"
+      ]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    }
+  },
+  "config": {
+    "devUrl": "lc-blogs.local"
+  }
+}

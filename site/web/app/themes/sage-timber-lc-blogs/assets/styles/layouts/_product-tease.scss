@@ -1,0 +1,16 @@
+body.archive.woocommerce {
+	article{
+		display: inline-block;
+		.product-tease{
+			.onsale{
+				top: 0px;
+			}
+			max-width: 250px;
+			padding-left: $grid-gutter-width / 4;
+			padding-right: $grid-gutter-width / 4;
+			padding-top:  $grid-gutter-width / 4;
+			padding-bottom: $grid-gutter-width / 4;
+			position: relative;
+		}	
+	}
+}
