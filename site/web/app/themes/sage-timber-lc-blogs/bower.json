@@ -22,8 +22,7 @@
     "jquery.transit": "0.9.12",
     "photoswipe": "4.1.1",
     "modernizr": "~2.6.2",
-    "responsive-bootstrap-toolkit": "~2.6.1",
-    "mfglabs-iconset": "git@github.com:sb-lc/mfglabs-iconset.git"
+    "responsive-bootstrap-toolkit": "~2.6.1"
   },
   "overrides": {
     "bootstrap-sass": {
