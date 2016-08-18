@@ -19,7 +19,7 @@ wordpress_sites:
     cache:
       enabled: false
     env:
-      #wp_home: "{{ item.value.ssl.enabled | default(false) | ternary('https', 'http') }}://${HTTP_HOST}"
+      wp_home: "{{ item.value.ssl.enabled | default(false) | ternary('https', 'http') }}://${HTTP_HOST}"
       #wp_home: "https://${HTTP_HOST}"
-      wp_home: "http://${HTTP_HOST}"
+      #wp_home: "http://${HTTP_HOST}"
       wp_siteurl: "${WP_HOME}/wp"
