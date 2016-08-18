@@ -52,6 +52,7 @@
         "./scss/font-awesome.scss",
         "./fonts/*"
       ]
+
     }
   }
 }
