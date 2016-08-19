@@ -27,8 +27,9 @@ class contributors_widget extends WP_Widget {
 			$title = apply_filters( 'widget_title', $instance['title'] );
 		
 			// before and after widget arguments are defined by themes
-			if ( ! empty( $title ) )
-			echo $args['before_title'] . $title . $args['after_title'];
+			if ( ! empty( $title ) ) :
+				echo $args['before_title'] . $title . $args['after_title'];
+			endif;
 		endif;
 
 		// This is where you run the code and display the output
