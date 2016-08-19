@@ -21,11 +21,15 @@ class contributors_widget extends WP_Widget {
 	// This is where the action happensß
 	public function widget( $args, $instance )
 	{
-		$title = apply_filters( 'widget_title', $instance['title'] );
-		// before and after widget arguments are defined by themes
 		echo $args['before_widget'];
-		if ( ! empty( $title ) )
-		echo $args['before_title'] . $title . $args['after_title'];
+		
+		if ( ! empty( $instance['title'] ) ):
+			$title = apply_filters( 'widget_title', $instance['title'] );
+		
+			// before and after widget arguments are defined by themes
+			if ( ! empty( $title ) )
+			echo $args['before_title'] . $title . $args['after_title'];
+		endif;
 
 		// This is where you run the code and display the output
 
@@ -130,13 +134,3 @@ function load_contributors_widget() {
 }
 
 add_action( 'widgets_init', 'load_contributors_widget' );
-
-
-
-
-
-
-
-
-
-
