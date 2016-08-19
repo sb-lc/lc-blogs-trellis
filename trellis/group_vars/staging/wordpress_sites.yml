@@ -7,6 +7,7 @@ wordpress_sites:
     site_hosts:
       - lc-dev1.co.uk
     #www_redirect: true
+    site_title: Leicester College Blogs
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:sb-lc/lc-blogs-trellis.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo

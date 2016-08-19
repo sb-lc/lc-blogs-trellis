@@ -10,6 +10,7 @@ wordpress_sites:
     repo: git@github.com:sb-lc/lc-blogs-trellis.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
     branch: master
+    site_title: Leicester College Blogs
     multisite:
       enabled: false
     ssl:

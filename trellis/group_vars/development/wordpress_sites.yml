@@ -8,6 +8,7 @@ wordpress_sites:
       - lc-blogs-trellis.local
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: admin@lc-blogs-trellis.local
+    site_title: Leicester College Blogs
     multisite:
       enabled: false
     ssl:
