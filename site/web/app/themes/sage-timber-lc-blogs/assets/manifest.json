@@ -5,8 +5,7 @@
         "scripts/main.js",
         "scripts/wp-content-reponsive-images.js",
         "scripts/formidable-submit-btn.js",
-        "scripts/media-query-vars.js",
-        "scripts/sticky-header.js"
+        "scripts/media-query-vars.js"
       ],    
       "vendor": [
       ],
