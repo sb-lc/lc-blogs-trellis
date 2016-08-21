@@ -1,52 +1,9 @@
-
-
 body{
 	background-color: $color-white;
-	font-family: 'Lato', sans-serif;
-	font-weight: 400;
-	font-size: 12pt;
-	a{
-		color: $color-dark-grey;
-	}
 }
 
-
-
-h1{
-	font-size: 23pt;
-	text-decoration: none;
-	margin-top: 20px;
-	margin-bottom: 20px;	
-	display: inline-block;
-	padding-bottom: 2px;
-	border-bottom: 2px $color-dark-grey solid;
-
-}
-
-h3{
-	font-size: 18pt;
-	margin-top: 0px;
-	margin-bottom: 20px;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
-	display: inline-block;
-	padding-bottom: 2px;
-	border-bottom: 2px $color-dark-grey solid;
-
-	a{
-		color: $color-dark-grey;
-		&:hover{
-			opacity: 0.9;
-			text-decoration: none;
-		}
-	}
-}
 
 @media (max-width: $screen-sm) {
-	h1{
-		font-size: 45pt;
-		text-align: center;
-	}
 
 	.content img{
 		text-align: center;
@@ -75,37 +32,3 @@ h3{
 	}
 
 }
-
-/* .content img { 
-	height: auto; 
-	max-width: 100%; 
-	margin: 10px auto;
-} */
-
-/* 
-@media (max-width: $screen-sm) {
-
-	.content img { 
-		height: auto; 
-		display: block;
-		max-width: 100%; 
-		margin: 10px auto;
-	}
-
-} */
-
-
-
-
-
-
-
-/* #navigationXXX {
-  height:100px;
-  list-style: none;
-  padding: 0;
-  margin:0px 0px 0px 0px;
-  background:none;
-  float:none;
-  background:#000;
-} */

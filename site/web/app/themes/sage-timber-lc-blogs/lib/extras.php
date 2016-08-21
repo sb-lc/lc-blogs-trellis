@@ -52,10 +52,12 @@ function add_to_context( $data ) {
   #$data['header_menu'] = get_the_widget( 'Medusa_Widgets_Menu', 'menu_src=menu&menu_location=main-menu-location&classes=navbar-nav, nav&id=nav&container_classes=navbar-collapse,collapse ' );
   #$data['footer_menu'] = get_the_widget( 'Medusa_Widgets_Menu', 'menu_src=menu&menu_location=footer-menu-location' );
   
+  #needs if post is available
+
   $attr = array(
     'class' => 'image img-responsive',
-    'alt'   => $post->post_title . ', Leicester College Blogs',
-    'title'   => $post->post_title. ', Leicester College Blogs',
+    'alt'   => 'Leicester College Blogs',
+    'title'   => 'Leicester College Blogs',
   );
 
 

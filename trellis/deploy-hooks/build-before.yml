@@ -5,6 +5,32 @@
 #
 # ---
 
+
+- name: Check User
+  command: echo test
+  connection: local
+
+- name: Check User
+  command: echo $USER
+  connection: local
+
+- name: Check User
+  command: echo $USER
+  connection: local
+
+- name: Check User
+  command: echo $USER
+  connection: local
+
+- name: Check User
+  command: echo $USER
+  connection: local
+
+- name: Check User
+  command: echo $USER
+  connection: local
+
+
 - name: Run npm install
   command: npm install
   connection: local

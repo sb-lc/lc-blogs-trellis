@@ -5,3 +5,73 @@
 		font-family: 'Montserrat', sans-serif;
 	}
 }
+
+
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 12pt;
+	a{
+		color: $color-dark-grey;
+	}
+}
+
+
+
+h1{
+	font-size: 23pt;
+	text-decoration: none;
+	margin-top: 20px;
+	margin-bottom: 20px;	
+	display: inline-block;
+	padding-bottom: 2px;
+	border-bottom: 2px $color-dark-grey solid;
+
+}
+
+h3{
+	font-size: 18pt;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	display: inline-block;
+	padding-bottom: 2px;
+	border-bottom: 2px $color-dark-grey solid;
+
+	a{
+		color: $color-dark-grey;
+		&:hover{
+			opacity: 0.9;
+			text-decoration: none;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: $screen-sm) {
+	h1{
+		font-size: 45pt;
+		text-align: center;
+	}
+
+
+}
+
+
+@media (max-width: $screen-xs) {
+	h1{
+		font-size: 30pt;
+		text-align: center;
+	}
+	body{ sie:test }
+
+}
