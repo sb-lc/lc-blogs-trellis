@@ -47,7 +47,7 @@
 			"file": "/etc/hosts",
 			"settings":
 			{
-				"buffer_size": 1116,
+				"buffer_size": 1115,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,55 +55,65 @@
 			"file": "/home/sbeasley/ownCloud/info.txt",
 			"settings":
 			{
-				"buffer_size": 12212,
+				"buffer_size": 13090,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/home/sbeasley/Downloads/lc_intranetplus_master.html",
+			"file": "trellis/ansible.cfg",
 			"settings":
 			{
-				"buffer_size": 168766,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/home/sbeasley/.ssh/config",
-			"settings":
-			{
-				"buffer_size": 295,
+				"buffer_size": 608,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "trellis/group_vars/production/wordpress_sites.yml",
+			"contents": "sbeasley➜Sites/lc-blogs-trellis/trellis(master✗)» ansible-playbook server.yml -e env=staging -vvvv                                                                                                  [12:50:09]\nUsing /home/sbeasley/Sites/lc-blogs-trellis/trellis/ansible.cfg as config file\nLoaded callback output of type stdout, v2.0\n\nPLAYBOOK: server.yml ***********************************************************\n3 plays in server.yml\n\nPLAY [Ensure necessary variables are defined] **********************************\n\nTASK [Ensure environment is defined] *******************************************\ntask path: /home/sbeasley/Sites/lc-blogs-trellis/trellis/variable-check.yml:8\nskipping: [localhost] => {\"changed\": false, \"skip_reason\": \"Conditional check failed\", \"skipped\": true}\n\nPLAY [Determine Remote User] ***************************************************\n\nTASK [remote-user : Determine whether to connect as root or admin_user] ********\ntask path: /home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/remote-user/tasks/main.yml:2\nFile lookup using /home/sbeasley/.ssh/digital_ocean.pub as file\nFile lookup using /home/sbeasley/.ssh/id_rsa.pub as file\n<localhost> ESTABLISH LOCAL CONNECTION FOR USER: sbeasley\n<localhost> EXEC /bin/sh -c '( umask 77 && mkdir -p \"` echo $HOME/.ansible/tmp/ansible-tmp-1471438223.19-40382579390863 `\" && echo ansible-tmp-1471438223.19-40382579390863=\"` echo $HOME/.ansible/tmp/ansible-tmp-1471438223.19-40382579390863 `\" ) && sleep 0'\n<localhost> PUT /tmp/tmp1t7_gC TO /home/sbeasley/.ansible/tmp/ansible-tmp-1471438223.19-40382579390863/command\n<localhost> EXEC /bin/sh -c 'LANG=en_GB.UTF-8 LC_ALL=en_GB.UTF-8 LC_MESSAGES=en_GB.UTF-8 /usr/bin/python /home/sbeasley/.ansible/tmp/ansible-tmp-1471438223.19-40382579390863/command; rm -rf \"/home/sbeasley/.ansible/tmp/ansible-tmp-1471438223.19-40382579390863/\" > /dev/null 2>&1 && sleep 0'\nok: [lc-dev1.co.uk -> localhost] => {\"changed\": false, \"cmd\": [\"ansible\", \"lc-dev1.co.uk\", \"-m\", \"ping\", \"-u\", \"root\"], \"delta\": \"0:00:00.401626\", \"end\": \"2016-08-17 12:50:23.649888\", \"failed\": false, \"failed_when_result\": false, \"invocation\": {\"module_args\": {\"_raw_params\": \"ansible lc-dev1.co.uk -m ping -u root\", \"_uses_shell\": false, \"chdir\": null, \"creates\": null, \"executable\": null, \"removes\": null, \"warn\": true}, \"module_name\": \"command\"}, \"rc\": 3, \"start\": \"2016-08-17 12:50:23.248262\", \"stderr\": \"\", \"stdout\": \"lc-dev1.co.uk | UNREACHABLE! => {\\n    \\\"changed\\\": false, \\n    \\\"msg\\\": \\\"Failed to connect to the host via ssh.\\\", \\n    \\\"unreachable\\\": true\\n}\", \"stdout_lines\": [\"lc-dev1.co.uk | UNREACHABLE! => {\", \"    \\\"changed\\\": false, \", \"    \\\"msg\\\": \\\"Failed to connect to the host via ssh.\\\", \", \"    \\\"unreachable\\\": true\", \"}\"], \"warnings\": []}\n\nTASK [remote-user : Set remote user for each host] *****************************\ntask path: /home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/remote-user/tasks/main.yml:8\nFile lookup using /home/sbeasley/.ssh/digital_ocean.pub as file\nFile lookup using /home/sbeasley/.ssh/id_rsa.pub as file\nok: [lc-dev1.co.uk] => {\"ansible_facts\": {\"ansible_ssh_user\": \"root\"}, \"changed\": false, \"invocation\": {\"module_args\": {\"ansible_ssh_user\": \"root\"}, \"module_name\": \"set_fact\"}}\n\nTASK [remote-user : Announce which user was selected] **************************\ntask path: /home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/remote-user/tasks/main.yml:12\nFile lookup using /home/sbeasley/.ssh/digital_ocean.pub as file\nFile lookup using /home/sbeasley/.ssh/id_rsa.pub as file\nNote: Ansible will attempt connections as user = root\nok: [lc-dev1.co.uk] => {}\n\nPLAY [WordPress Server - Install LEMP Stack with PHP 7.0 and MariaDB MySQL] ****\n\nTASK [setup] *******************************************************************\nFile lookup using /home/sbeasley/.ssh/digital_ocean.pub as file\nFile lookup using /home/sbeasley/.ssh/id_rsa.pub as file\n<lc-dev1.co.uk> ESTABLISH SSH CONNECTION FOR USER: root\n<lc-dev1.co.uk> SSH: EXEC ssh -C -vvv -o ForwardAgent=yes -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/home/sbeasley/.ansible/cp/ansible-ssh-%h-%p-%r lc-dev1.co.uk '/bin/sh -c '\"'\"'( umask 77 && mkdir -p \"` echo $HOME/.ansible/tmp/ansible-tmp-1471438226.26-253385799601576 `\" && echo ansible-tmp-1471438226.26-253385799601576=\"` echo $HOME/.ansible/tmp/ansible-tmp-1471438226.26-253385799601576 `\" ) && sleep 0'\"'\"''\nSystem info:\n  Ansible 2.1.1.0; Linux\n  Trellis 0.9.7: April 10th, 2016\n---------------------------------------------------\nFailed to connect to the host via ssh.\nfatal: [lc-dev1.co.uk]: UNREACHABLE! => {\"changed\": false, \"unreachable\": true}\n [WARNING]: Could not create retry file 'server.retry'.         [Errno 2] No such file or directory: ''\n\n\nPLAY RECAP *********************************************************************\nlc-dev1.co.uk              : ok=3    changed=0    unreachable=1    failed=0   \n",
 			"settings":
 			{
-				"buffer_size": 721,
+				"buffer_size": 5047,
+				"line_ending": "Unix",
+				"name": "sbeasley➜Sites/lc-blogs-trellis/trellis(master✗)»"
+			}
+		},
+		{
+			"file": "trellis/hosts/staging",
+			"settings":
+			{
+				"buffer_size": 210,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "trellis/hosts/production",
+			"contents": "sbeasley➜Sites/lc-blogs-trellis/trellis(master)» ansible-playbook server.yml -e env=staging -vvvv                     [12:01:29]\nUsing /home/sbeasley/Sites/lc-blogs-trellis/trellis/ansible.cfg as config file\nLoaded callback output of type stdout, v2.0\n\nPLAYBOOK: server.yml ***********************************************************\n3 plays in server.yml\n\nPLAY [Ensure necessary variables are defined] **********************************\n\nTASK [Ensure environment is defined] *******************************************\ntask path: /home/sbeasley/Sites/lc-blogs-trellis/trellis/variable-check.yml:8\nskipping: [localhost] => {\"changed\": false, \"skip_reason\": \"Conditional check failed\", \"skipped\": true}\n\nPLAY [Determine Remote User] ***************************************************\n\nTASK [remote-user : Determine whether to connect as root or admin_user] ********\ntask path: /home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/remote-user/tasks/main.yml:2\n<localhost> ESTABLISH LOCAL CONNECTION FOR USER: sbeasley\n<localhost> EXEC /bin/sh -c '( umask 77 && mkdir -p \"` echo $HOME/.ansible/tmp/ansible-tmp-1471435431.24-110964052103310 `\" && echo ansible-tmp-1471435431.24-110964052103310=\"` echo $HOME/.ansible/tmp/ansible-tmp-1471435431.24-110964052103310 `\" ) && sleep 0'\n<localhost> PUT /tmp/tmpKuVvIe TO /home/sbeasley/.ansible/tmp/ansible-tmp-1471435431.24-110964052103310/command\n<localhost> EXEC /bin/sh -c 'LANG=en_GB.UTF-8 LC_ALL=en_GB.UTF-8 LC_MESSAGES=en_GB.UTF-8 /usr/bin/python /home/sbeasley/.ansible/tmp/ansible-tmp-1471435431.24-110964052103310/command; rm -rf \"/home/sbeasley/.ansible/tmp/ansible-tmp-1471435431.24-110964052103310/\" > /dev/null 2>&1 && sleep 0'\nok: [lc-dev1.co.uk -> localhost] => {\"changed\": false, \"cmd\": [\"ansible\", \"lc-dev1.co.uk\", \"-m\", \"ping\", \"-u\", \"root\"], \"delta\": \"0:00:00.424507\", \"end\": \"2016-08-17 12:03:52.180486\", \"failed\": false, \"failed_when_result\": false, \"invocation\": {\"module_args\": {\"_raw_params\": \"ansible lc-dev1.co.uk -m ping -u root\", \"_uses_shell\": false, \"chdir\": null, \"creates\": null, \"executable\": null, \"removes\": null, \"warn\": true}, \"module_name\": \"command\"}, \"rc\": 3, \"start\": \"2016-08-17 12:03:51.755979\", \"stderr\": \"\", \"stdout\": \"lc-dev1.co.uk | UNREACHABLE! => {\\n    \\\"changed\\\": false, \\n    \\\"msg\\\": \\\"Failed to connect to the host via ssh.\\\", \\n    \\\"unreachable\\\": true\\n}\", \"stdout_lines\": [\"lc-dev1.co.uk | UNREACHABLE! => {\", \"    \\\"changed\\\": false, \", \"    \\\"msg\\\": \\\"Failed to connect to the host via ssh.\\\", \", \"    \\\"unreachable\\\": true\", \"}\"], \"warnings\": []}\n\nTASK [remote-user : Set remote user for each host] *****************************\ntask path: /home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/remote-user/tasks/main.yml:8\nok: [lc-dev1.co.uk] => {\"ansible_facts\": {\"ansible_ssh_user\": \"root\"}, \"changed\": false, \"invocation\": {\"module_args\": {\"ansible_ssh_user\": \"root\"}, \"module_name\": \"set_fact\"}}\n\nTASK [remote-user : Announce which user was selected] **************************\ntask path: /home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/remote-user/tasks/main.yml:12\nNote: Ansible will attempt connections as user = root\nok: [lc-dev1.co.uk] => {}\n\nPLAY [WordPress Server - Install LEMP Stack with PHP 7.0 and MariaDB MySQL] ****\n\nTASK [setup] *******************************************************************\n<lc-dev1.co.uk> ESTABLISH SSH CONNECTION FOR USER: root\n<lc-dev1.co.uk> SSH: EXEC ssh -C -vvv -o ForwardAgent=yes -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/home/sbeasley/.ansible/cp/ansible-ssh-%h-%p-%r lc-dev1.co.uk '/bin/sh -c '\"'\"'( umask 77 && mkdir -p \"` echo $HOME/.ansible/tmp/ansible-tmp-1471435432.49-17173019278760 `\" && echo ansible-tmp-1471435432.49-17173019278760=\"` echo $HOME/.ansible/tmp/ansible-tmp-1471435432.49-17173019278760 `\" ) && sleep 0'\"'\"''\nSystem info:\n  Ansible 2.1.0.0; Linux\n  Trellis 0.9.7: April 10th, 2016\n---------------------------------------------------\nFailed to connect to the host via ssh.\nfatal: [lc-dev1.co.uk]: UNREACHABLE! => {\"changed\": false, \"unreachable\": true}\n	to retry, use: --limit @server.retry\n\nPLAY RECAP *********************************************************************\nlc-dev1.co.uk              : ok=3    changed=0    unreachable=1    failed=0   \nlocalhost                  : ok=0    changed=0    unreachable=0    failed=0   \n\nsbeasley➜Sites/lc-blogs-trellis/trellis(master)»                                                                      [12:03:52]\n",
 			"settings":
 			{
-				"buffer_size": 242,
+				"buffer_size": 4630,
+				"line_ending": "Unix",
+				"name": "sbeasley➜Sites/lc-blogs-trellis/trellis(master)» a"
+			}
+		},
+		{
+			"file": "trellis/group_vars/staging/vault.yml",
+			"settings":
+			{
+				"buffer_size": 888,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "trellis/group_vars/production/vault.yml",
+			"file": "trellis/group_vars/all/users.yml",
 			"settings":
 			{
-				"buffer_size": 1345,
+				"buffer_size": 711,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "trellis/group_vars/development/vault.yml",
+			"file": "trellis/server.yml",
 			"settings":
 			{
-				"buffer_size": 379,
+				"buffer_size": 1123,
 				"line_ending": "Unix"
 			}
 		}
@@ -157,11 +167,19 @@
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/production",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/staging",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/hosts",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/lib/trellis",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/users",
 		"/home/sbeasley/Sites/lc-ajax-loader",
 		"/home/sbeasley/Sites/lc-ajax-loader/js"
 	],
 	"file_history":
 	[
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/production/vault.yml",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/hosts/production",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/production/wordpress_sites.yml",
+		"/home/sbeasley/.ssh/config",
+		"/home/sbeasley/Downloads/lc_intranetplus_master.html",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/debug.log",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bower.json",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_jonny.scss",
@@ -177,7 +195,6 @@
 		"/home/sbeasley/Sites/lc-ajax-loader/lc-ajax-loader.php",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/instagram-feed/instagram-feed.php",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/dist/styles/main.css",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/production/vault.yml",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/staging/vault.yml",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/vault.yml",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/all/vault.yml",
@@ -185,7 +202,6 @@
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/lc-ajax-loader/lc-ajax-loader.php",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/instagram-feed/instagram-feed-admin.php",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/formidable/classes/controllers/FrmAppController.php",
-		"/home/sbeasley/Downloads/lc_intranetplus_master.html",
 		"/home/sbeasley/Sites/mfglabs-iconset/css/mfglabs_iconset.css",
 		"/home/sbeasley/Sites/mfglabs-iconset/css/main.css",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/scripts/media-query-vars.js",
@@ -286,10 +302,7 @@
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/.env",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/.vault_pass",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/staging/main.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/server.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/.git/config",
-		"/home/sbeasley/Downloads/Results (8).xml",
-		"/home/sbeasley/.ssh/known_hosts"
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/server.yml"
 	],
 	"find":
 	{
@@ -585,7 +598,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -594,15 +607,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1116,
+						"buffer_size": 1115,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1045,
+								1045
 							]
 						],
 						"settings":
@@ -613,7 +626,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -622,15 +635,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12212,
+						"buffer_size": 13090,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6712,
-								6712
+								6988,
+								6988
 							]
 						],
 						"settings":
@@ -638,37 +651,35 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 5595.0,
+						"translation.y": 5406.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/home/sbeasley/Downloads/lc_intranetplus_master.html",
+					"file": "trellis/ansible.cfg",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 168766,
+						"buffer_size": 608,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								123324,
-								123324
+								326,
+								326
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1073.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -676,11 +687,39 @@
 				},
 				{
 					"buffer": 3,
-					"file": "/home/sbeasley/.ssh/config",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 295,
+						"buffer_size": 5047,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4780,
+								4780
+							]
+						],
+						"settings":
+						{
+							"auto_name": "sbeasley➜Sites/lc-blogs-trellis/trellis(master✗)»",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "trellis/hosts/staging",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 210,
 						"regions":
 						{
 						},
@@ -699,24 +738,82 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "trellis/group_vars/production/wordpress_sites.yml",
+					"buffer": 5,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 721,
+						"buffer_size": 4630,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								277,
-								277
+								2548,
+								2548
+							]
+						],
+						"settings":
+						{
+							"auto_name": "sbeasley➜Sites/lc-blogs-trellis/trellis(master)» a",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 106.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "trellis/group_vars/staging/vault.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 888,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								785,
+								785
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "trellis/group_vars/all/users.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 711,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								660,
+								660
 							]
 						],
 						"settings":
@@ -733,48 +830,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "trellis/hosts/production",
+					"buffer": 8,
+					"file": "trellis/server.yml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 242,
+						"buffer_size": 1123,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								241,
-								241
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "trellis/group_vars/production/vault.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1345,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								516,
-								516
+								97,
+								97
 							]
 						],
 						"settings":
@@ -787,35 +856,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "trellis/group_vars/development/vault.yml",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 379,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								292,
-								292
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -898,7 +939,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 349.0,
+	"side_bar_width": 251.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

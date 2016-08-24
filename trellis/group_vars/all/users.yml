@@ -1,5 +1,5 @@
 # Documentation: https://roots.io/trellis/docs/ssh-keys/
-admin_user: root
+admin_user: admin
 
 # Also define 'vault_sudoer_passwords' (`group_vars/staging/vault.yml`, `group_vars/production/vault.yml`)
 users:
@@ -8,12 +8,14 @@ users:
       - "{{ web_group }}"
     keys:
       - "{{ lookup('file', '~/.ssh/digital_ocean.pub') }}"
+      - "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
       - https://github.com/sb-lc.keys
   - name: "{{ admin_user }}"
     groups:
       - sudo
     keys:
       - "{{ lookup('file', '~/.ssh/digital_ocean.pub') }}"
+      - "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
       - https://github.com/sb-lc.keys
 
 web_user: web
