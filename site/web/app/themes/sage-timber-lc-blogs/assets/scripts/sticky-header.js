@@ -1,6 +1,8 @@
 (function($) {
 
-	console.log( 'sticky-header.js' );
+	/*
+
+    console.log( 'sticky-header.js' );
 
     var s = skrollr.init({
         edgeStrategy: 'set',
@@ -13,6 +15,6 @@
             }
         }
     });
-
+    */
 
 })(jQuery);

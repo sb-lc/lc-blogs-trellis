@@ -47,15 +47,23 @@
 			"file": "/etc/hosts",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 1115,
+=======
+				"buffer_size": 608,
+>>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/sbeasley/ownCloud/info.txt",
+			"file": "/home/sie/ownCloud/sie/documents/lc_docs/info.txt",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 13090,
+=======
+				"buffer_size": 13166,
+>>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
 				"line_ending": "Windows"
 			}
 		},
@@ -64,6 +72,7 @@
 			"settings":
 			{
 				"buffer_size": 608,
+<<<<<<< HEAD
 				"line_ending": "Unix"
 			}
 		},
@@ -114,6 +123,8 @@
 			"settings":
 			{
 				"buffer_size": 1123,
+=======
+>>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
 				"line_ending": "Unix"
 			}
 		}
@@ -159,6 +170,7 @@
 	},
 	"expanded_folders":
 	[
+<<<<<<< HEAD
 		"/home/sbeasley/Sites/lc-blogs-trellis",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars",
@@ -180,6 +192,21 @@
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/production/wordpress_sites.yml",
 		"/home/sbeasley/.ssh/config",
 		"/home/sbeasley/Downloads/lc_intranetplus_master.html",
+=======
+		"/home/sie/Vagrant/lc-blogs-trellis",
+		"/home/sie/Vagrant/lc-blogs-trellis/trellis",
+		"/home/sie/Vagrant/lc-blogs-trellis/trellis/group_vars",
+		"/home/sbeasley/Sites/lc-ajax-loader"
+	],
+	"file_history":
+	[
+		"/home/sie/Vagrant/lc-blogs-trellis/trellis/group_vars/production/vault.yml",
+		"/home/sie/Vagrant/lc-blogs-trellis/trellis/hosts/production",
+		"/home/sie/Vagrant/lc-blogs-trellis/trellis/group_vars/production/wordpress_sites.yml",
+		"/home/sbeasley/.ssh/config",
+		"/home/sbeasley/Downloads/lc_intranetplus_master.html",
+		"/home/sbeasley/ownCloud/info.txt",
+>>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/debug.log",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bower.json",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_jonny.scss",
@@ -300,13 +327,17 @@
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/hosts/staging",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/hosts/development",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/.env",
+<<<<<<< HEAD
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/.vault_pass",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/staging/main.yml",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/server.yml"
+=======
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/.vault_pass"
+>>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -607,15 +638,24 @@
 					"semi_transient": false,
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 1115,
+=======
+						"buffer_size": 608,
+>>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								1045,
 								1045
+=======
+								608,
+								608
+>>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
 							]
 						],
 						"settings":
@@ -631,19 +671,28 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/home/sbeasley/ownCloud/info.txt",
+					"file": "/home/sie/ownCloud/sie/documents/lc_docs/info.txt",
 					"semi_transient": false,
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 13090,
+=======
+						"buffer_size": 13166,
+>>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								6988,
 								6988
+=======
+								71,
+								71
+>>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
 							]
 						],
 						"settings":
@@ -651,7 +700,11 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
 						"translation.y": 5406.0,
+=======
+						"translation.y": 2524.0,
+>>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -661,6 +714,7 @@
 					"buffer": 2,
 					"file": "trellis/ansible.cfg",
 					"semi_transient": false,
+<<<<<<< HEAD
 					"settings":
 					{
 						"buffer_size": 608,
@@ -720,12 +774,18 @@
 					"settings":
 					{
 						"buffer_size": 210,
+=======
+					"settings":
+					{
+						"buffer_size": 608,
+>>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								0,
 								0
 							]
@@ -755,6 +815,10 @@
 							[
 								2548,
 								2548
+=======
+								326,
+								326
+>>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
 							]
 						],
 						"settings":
@@ -766,6 +830,7 @@
 						"translation.y": 106.0,
 						"zoom_level": 1.0
 					},
+<<<<<<< HEAD
 					"stack_index": 7,
 					"type": "text"
 				},
@@ -857,6 +922,9 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 8,
+=======
+					"stack_index": 2,
+>>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
 					"type": "text"
 				}
 			]
@@ -864,7 +932,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -901,7 +969,7 @@
 	"project": "lc-blogs-trellis.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":

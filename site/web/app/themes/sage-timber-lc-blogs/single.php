@@ -16,17 +16,18 @@ get_the_author_meta('_cmb_user_options_user_profile_image_id'), 'thumbnail', "",
 
 $terms = get_the_terms( $post, 'blog_category');
 
-$x = 0;
+if( ! empty( $terms ) ) :
+	$x = 0;
+	foreach( $terms as $c ):
+		$cats[$x] = (array) $c;
+		$cats[$x]['link'] = get_term_link( $c );
+		$x++;
+	endforeach;
+	$context['terms'] = $cats;
+endif;
 
-foreach( $terms as $c ):
-	$cats[$x] = (array) $c;
-	$cats[$x]['link'] = get_term_link( $c );
-	$x++;
-endforeach;
 
 
-
-$context['terms'] = $cats;
 $context['user_img'] = $user_img;
 $context['user_link'] = $user_link;
 $context['date'] = get_the_date('d-m-y');

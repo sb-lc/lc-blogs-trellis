@@ -21,13 +21,17 @@ class archive_widget extends WP_Widget {
 	// This is where the action happensß
 	public function widget( $args, $instance )
 	{
-		$title = apply_filters( 'widget_title', $instance['title'] );
-		
 		echo $args['before_widget'];
-		if ( ! empty( $title ) )
+		
+		if ( ! empty( $instance['title'] ) ):
+			$title = apply_filters( 'widget_title', $instance['title'] );
+		
+			// before and after widget arguments are defined by themes
+			if ( ! empty( $title ) )
 			echo $args['before_title'] . $title . $args['after_title'];
+		endif;
 
-		// This is where you run the code and display the output
+
 		
 		//$archive_str = wp_get_archives('post_type=blog&type=monthly&show_post_count=1&echo=0&format=option');
 
