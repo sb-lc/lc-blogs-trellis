@@ -20,8 +20,3 @@ php_admin_value[open_basedir] = {{ www_root }}/:/tmp
 php_value[session.save_handler] = memcached
 php_value[session.save_path] = "{{ memcached_listen_ip }}:{{ memcached_port }}"
 {% endif %}
-php_value[memory_limit] = 96M
-php_value[max_execution_time] = 120
-php_value[max_input_time] = 300
-php_value[php_post_max_size] = 25M
-php_value[upload_max_filesize] = 25M
