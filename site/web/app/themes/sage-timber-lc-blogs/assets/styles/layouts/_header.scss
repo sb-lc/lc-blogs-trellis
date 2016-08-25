@@ -36,6 +36,7 @@ header{
 				text-transform: uppercase;
 				color: $color-black;
 				margin-left: -25px;
+				display: inline-block;
 
 				@media (max-width: $screen-xs) {
 					font-size: 20pt;
