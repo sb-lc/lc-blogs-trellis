@@ -33,8 +33,7 @@ class social_widget extends WP_Widget {
 
 		// This is where you run the code and display the output
 
-		$context = array();
-
+		$context = Timber::get_context();
 
 		Timber::render('templates/widget-social.twig', $context); 
 
