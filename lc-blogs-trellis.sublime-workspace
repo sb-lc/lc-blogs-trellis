@@ -47,7 +47,7 @@
 			"file": "/etc/hosts",
 			"settings":
 			{
-				"buffer_size": 608,
+				"buffer_size": 1786,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,15 +55,135 @@
 			"file": "/home/sie/ownCloud/sie/documents/lc_docs/info.txt",
 			"settings":
 			{
-				"buffer_size": 13166,
+				"buffer_size": 15673,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/sie/ownCloud/sie/documents/medusa/mt-winols/username pw.txt",
+			"settings":
+			{
+				"buffer_size": 875,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/etc/ansible/hosts",
+			"settings":
+			{
+				"buffer_size": 1050,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/web/app/themes/sage-timber-lc-blogs/lib/extras.php",
+			"settings":
+			{
+				"buffer_size": 2361,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/mcs-config/main.php",
+			"settings":
+			{
+				"buffer_size": 294,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_jonny.scss",
+			"settings":
+			{
+				"buffer_size": 379,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_font.scss",
+			"settings":
+			{
+				"buffer_size": 883,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/web/app/themes/sage-timber-lc-blogs/assets/styles/main.scss",
+			"settings":
+			{
+				"buffer_size": 1082,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/sie/Downloads/true-trello-printer.html",
+			"settings":
+			{
+				"buffer_size": 69778,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "trellis/ansible.cfg",
 			"settings":
 			{
-				"buffer_size": 608,
+				"buffer_size": 627,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trellis/deploy.yml",
+			"settings":
+			{
+				"buffer_size": 1675,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trellis/deploy-hooks/build-before.yml",
+			"settings":
+			{
+				"buffer_size": 1385,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trellis/server.yml",
+			"settings":
+			{
+				"buffer_size": 1123,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trellis/roles/wp-cli/defaults/main.yml",
+			"settings":
+			{
+				"buffer_size": 278,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trellis/group_vars/staging/vault.yml",
+			"settings":
+			{
+				"buffer_size": 888,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trellis/group_vars/all/users.yml",
+			"settings":
+			{
+				"buffer_size": 607,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trellis/group_vars/staging/wordpress_sites.yml",
+			"settings":
+			{
+				"buffer_size": 988,
 				"line_ending": "Unix"
 			}
 		}
@@ -109,13 +229,44 @@
 	},
 	"expanded_folders":
 	[
-		"/home/sie/Vagrant/lc-blogs-trellis",
-		"/home/sie/Vagrant/lc-blogs-trellis/trellis",
-		"/home/sie/Vagrant/lc-blogs-trellis/trellis/group_vars",
+		"/home/sie/Sites/lc-blogs-trellis",
+		"/home/sie/Sites/lc-blogs-trellis/trellis",
 		"/home/sbeasley/Sites/lc-ajax-loader"
 	],
 	"file_history":
 	[
+		"/home/sie/Sites/lc-blogs-trellis/trellis/roles/mariadb/tasks/main.yml",
+		"/home/sie/Sites/lc-blogs-trellis/trellis/roles/remote-user/tasks/main.yml",
+		"/home/sie/Sites/lc-blogs-trellis/trellis/group_vars/development/vault.yml",
+		"/home/sie/Sites/lc-blogs-trellis/trellis/group_vars/all/vault.yml",
+		"/home/sie/Sites/lc-blogs-trellis/site/composer.json",
+		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/header.twig",
+		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/functions.php",
+		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/scripts/sticky-header.js",
+		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/manifest.json",
+		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bower.json",
+		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_jonny.scss",
+		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/widgets/social.php",
+		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/widget-social.twig",
+		"/home/sie/Sites/lc-blogs-trellis/trellis/group_vars/development/wordpress_sites.yml",
+		"/home/sie/Sites/lc-blogs-trellis/trellis/deploy.yml",
+		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/widgets/contributors.php",
+		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/single.php",
+		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/widgets/archives.php",
+		"/home/sie/.ssh/known_hosts",
+		"/etc/ssh/sshd_config",
+		"/home/sie/.ssh/config",
+		"/etc/ssh/ssh_config",
+		"/home/sie/ownCloud/sie/info/medusa/info.txt",
+		"/var/log/auth.log",
+		"/home/sie/Sites/lc-blogs-trellis/trellis/group_vars/staging/wordpress_sites.yml",
+		"/home/sie/Sites/lc-blogs-trellis/trellis/group_vars/production/wordpress_sites.yml",
+		"/home/sie/Sites/lc-blogs-trellis/trellis/Vagrantfile",
+		"/home/sie/Sites/lc-blogs-trellis/site/shell/wp-plugins.sh",
+		"/home/sie/Sites/lc-blogs-trellis/trellis/deploy-hooks/finalize-after.yml",
+		"/home/sie/Sites/lc-blogs-trellis/trellis/deploy-hooks/build-after.yml",
+		"/home/sie/Sites/lc-blogs-trellis/trellis/ansible.cfg",
+		"/home/sie/.ssh/authorized_keys",
 		"/home/sie/Vagrant/lc-blogs-trellis/trellis/group_vars/production/vault.yml",
 		"/home/sie/Vagrant/lc-blogs-trellis/trellis/hosts/production",
 		"/home/sie/Vagrant/lc-blogs-trellis/trellis/group_vars/production/wordpress_sites.yml",
@@ -211,49 +362,20 @@
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/pbd-ajax-load-posts/pbd-ajax-load-posts.php",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/pbd-ajax-load-posts/js/load-posts.js",
 		"/tmp/fz3temp-1/connect-2016-07.html",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/mcs-config/post_meta.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/mcs-config/tax.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/page-homeBAK.twig",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/wordpress.patch",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/ajax-load-more/core/repeater/default.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/alm-post-ppl.php",
-		"/home/sbeasley/Sites/ajax-thumbnail-rebuild/ajax-thumbnail-rebuild.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/deploy.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/common/defaults/main.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-setup/tasks/database.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-install/tasks/main.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-install/tasks/directories.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-setup/tasks/main.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/deploy-hooks/finalize-after.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/deploy-hooks/build-after.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/deploy-hooks/build-before.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/staging/wordpress_sites.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/wordpress_sites.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/Vagrantfile",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/all/users.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/main.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/php/templates/php-fpm.conf.j2",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/nginx/templates/wordpress.conf.j2",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/php.yml",
-		"/tmp/fz3temp-1/.htpasswd",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-setup/tasks/nginx.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-setup/tasks/self-signed-certificate.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/vendor/roles/composer/README.md",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/mail.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/hosts/staging",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/hosts/development",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/.env",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/.vault_pass"
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/mcs-config/post_meta.php"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			"/home/sie/Sites/lc-blogs-trellis",
+			"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles",
+			"/home/sie/Sites/lc-blogs-trellis",
 			"/home/sbeasley/Sites/lc-blogs-trellis",
 			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs",
 			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/formidable",
@@ -340,6 +462,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"False",
+			"ansible_host",
+			"ansible_user",
+			"ansible_ssh_pass",
+			"max-width:",
+			"column",
+			"out",
+			"args",
+			"icon-twitter_circle",
+			"instag",
+			"new_release_path",
+			"githu",
+			"google",
+			"strict",
+			"setpass",
+			"permi",
 			"blogs",
 			"lc-dev1.co.uk",
 			"mfglabs",
@@ -451,23 +589,7 @@
 			"Menu",
 			"toran",
 			"postConfigStatic",
-			"loadFieldTypes",
-			"getActiveVendorPath",
-			"qqqqqqqqq",
-			"fair",
-			"MenuConfig",
-			"menu",
-			"self",
-			"fieldTypes",
-			"getFieldTypes",
-			"checkThisPluginPath",
-			"getThisPluginPath",
-			"loadCMB",
-			"FieldType",
-			"$this->",
-			"CallSetters",
-			"setStaticVariables",
-			"setConfigLoc"
+			"loadFieldTypes"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -539,7 +661,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -548,15 +670,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 608,
+						"buffer_size": 1786,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								608,
-								608
+								0,
+								0
 							]
 						],
 						"settings":
@@ -564,10 +686,10 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 67.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -576,15 +698,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13166,
+						"buffer_size": 15673,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								71,
-								71
+								9235,
+								9235
 							]
 						],
 						"settings":
@@ -592,27 +714,256 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2524.0,
+						"translation.y": 6609.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "trellis/ansible.cfg",
+					"file": "/home/sie/ownCloud/sie/documents/medusa/mt-winols/username pw.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 608,
+						"buffer_size": 875,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								326,
-								326
+								486,
+								486
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 235.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/etc/ansible/hosts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1050,
+								1050
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "site/web/app/themes/sage-timber-lc-blogs/lib/extras.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1571,
+								1571
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 443.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "site/mcs-config/main.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 294,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								115,
+								115
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_jonny.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_font.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 883,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								879,
+								879
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 505.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "site/web/app/themes/sage-timber-lc-blogs/assets/styles/main.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1082,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 97.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/sie/Downloads/true-trello-printer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 69778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3546,
+								3546
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1950.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "trellis/ansible.cfg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 627,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								626,
+								626
 							]
 						],
 						"settings":
@@ -623,7 +974,215 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "trellis/deploy.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1675,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "trellis/deploy-hooks/build-before.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "trellis/server.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								978,
+								978
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "trellis/roles/wp-cli/defaults/main.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								278,
+								278
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "trellis/group_vars/staging/vault.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 888,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								546,
+								546
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "trellis/group_vars/all/users.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 607,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								569,
+								569
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "trellis/group_vars/staging/wordpress_sites.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 988,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
 					"type": "text"
 				}
 			]
@@ -706,7 +1265,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 349.0,
+	"side_bar_width": 165.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
