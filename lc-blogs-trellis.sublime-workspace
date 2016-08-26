@@ -4,22 +4,6 @@
 		"selected_items":
 		[
 			[
-				"add",
-				"addClass	.addClass()"
-			],
-			[
-				"n",
-				"none"
-			],
-			[
-				"text",
-				"text-decoration"
-			],
-			[
-				"array_m",
-				"array_merge"
-			],
-			[
 				"Po",
 				"PostConfig"
 			],
@@ -43,209 +27,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/etc/hosts",
-			"settings":
-			{
-<<<<<<< HEAD
-				"buffer_size": 1786,
-=======
-<<<<<<< HEAD
-				"buffer_size": 1115,
-=======
-				"buffer_size": 608,
->>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
->>>>>>> fbd31a1b0ae6a757ae60ce2f44c87b015df3489a
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/sie/ownCloud/sie/documents/lc_docs/info.txt",
-			"settings":
-			{
-<<<<<<< HEAD
-				"buffer_size": 15673,
-=======
-<<<<<<< HEAD
-				"buffer_size": 13090,
-=======
-				"buffer_size": 13166,
->>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
->>>>>>> fbd31a1b0ae6a757ae60ce2f44c87b015df3489a
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/home/sie/ownCloud/sie/documents/medusa/mt-winols/username pw.txt",
-			"settings":
-			{
-				"buffer_size": 875,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/etc/ansible/hosts",
-			"settings":
-			{
-				"buffer_size": 1050,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "site/web/app/themes/sage-timber-lc-blogs/lib/extras.php",
-			"settings":
-			{
-				"buffer_size": 2361,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "site/mcs-config/main.php",
-			"settings":
-			{
-				"buffer_size": 294,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_jonny.scss",
-			"settings":
-			{
-				"buffer_size": 379,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_font.scss",
-			"settings":
-			{
-				"buffer_size": 883,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "site/web/app/themes/sage-timber-lc-blogs/assets/styles/main.scss",
-			"settings":
-			{
-				"buffer_size": 1082,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/sie/Downloads/true-trello-printer.html",
-			"settings":
-			{
-				"buffer_size": 69778,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "trellis/ansible.cfg",
-			"settings":
-			{
-<<<<<<< HEAD
-				"buffer_size": 627,
-=======
-				"buffer_size": 608,
-<<<<<<< HEAD
->>>>>>> fbd31a1b0ae6a757ae60ce2f44c87b015df3489a
-				"line_ending": "Unix"
-			}
-		},
-		{
-<<<<<<< HEAD
-			"file": "trellis/deploy.yml",
-			"settings":
-			{
-				"buffer_size": 1675,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "trellis/deploy-hooks/build-before.yml",
-			"settings":
-			{
-				"buffer_size": 1385,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "trellis/server.yml",
-			"settings":
-			{
-				"buffer_size": 1123,
-=======
-			"contents": "sbeasley➜Sites/lc-blogs-trellis/trellis(master✗)» ansible-playbook server.yml -e env=staging -vvvv                                                                                                  [12:50:09]\nUsing /home/sbeasley/Sites/lc-blogs-trellis/trellis/ansible.cfg as config file\nLoaded callback output of type stdout, v2.0\n\nPLAYBOOK: server.yml ***********************************************************\n3 plays in server.yml\n\nPLAY [Ensure necessary variables are defined] **********************************\n\nTASK [Ensure environment is defined] *******************************************\ntask path: /home/sbeasley/Sites/lc-blogs-trellis/trellis/variable-check.yml:8\nskipping: [localhost] => {\"changed\": false, \"skip_reason\": \"Conditional check failed\", \"skipped\": true}\n\nPLAY [Determine Remote User] ***************************************************\n\nTASK [remote-user : Determine whether to connect as root or admin_user] ********\ntask path: /home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/remote-user/tasks/main.yml:2\nFile lookup using /home/sbeasley/.ssh/digital_ocean.pub as file\nFile lookup using /home/sbeasley/.ssh/id_rsa.pub as file\n<localhost> ESTABLISH LOCAL CONNECTION FOR USER: sbeasley\n<localhost> EXEC /bin/sh -c '( umask 77 && mkdir -p \"` echo $HOME/.ansible/tmp/ansible-tmp-1471438223.19-40382579390863 `\" && echo ansible-tmp-1471438223.19-40382579390863=\"` echo $HOME/.ansible/tmp/ansible-tmp-1471438223.19-40382579390863 `\" ) && sleep 0'\n<localhost> PUT /tmp/tmp1t7_gC TO /home/sbeasley/.ansible/tmp/ansible-tmp-1471438223.19-40382579390863/command\n<localhost> EXEC /bin/sh -c 'LANG=en_GB.UTF-8 LC_ALL=en_GB.UTF-8 LC_MESSAGES=en_GB.UTF-8 /usr/bin/python /home/sbeasley/.ansible/tmp/ansible-tmp-1471438223.19-40382579390863/command; rm -rf \"/home/sbeasley/.ansible/tmp/ansible-tmp-1471438223.19-40382579390863/\" > /dev/null 2>&1 && sleep 0'\nok: [lc-dev1.co.uk -> localhost] => {\"changed\": false, \"cmd\": [\"ansible\", \"lc-dev1.co.uk\", \"-m\", \"ping\", \"-u\", \"root\"], \"delta\": \"0:00:00.401626\", \"end\": \"2016-08-17 12:50:23.649888\", \"failed\": false, \"failed_when_result\": false, \"invocation\": {\"module_args\": {\"_raw_params\": \"ansible lc-dev1.co.uk -m ping -u root\", \"_uses_shell\": false, \"chdir\": null, \"creates\": null, \"executable\": null, \"removes\": null, \"warn\": true}, \"module_name\": \"command\"}, \"rc\": 3, \"start\": \"2016-08-17 12:50:23.248262\", \"stderr\": \"\", \"stdout\": \"lc-dev1.co.uk | UNREACHABLE! => {\\n    \\\"changed\\\": false, \\n    \\\"msg\\\": \\\"Failed to connect to the host via ssh.\\\", \\n    \\\"unreachable\\\": true\\n}\", \"stdout_lines\": [\"lc-dev1.co.uk | UNREACHABLE! => {\", \"    \\\"changed\\\": false, \", \"    \\\"msg\\\": \\\"Failed to connect to the host via ssh.\\\", \", \"    \\\"unreachable\\\": true\", \"}\"], \"warnings\": []}\n\nTASK [remote-user : Set remote user for each host] *****************************\ntask path: /home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/remote-user/tasks/main.yml:8\nFile lookup using /home/sbeasley/.ssh/digital_ocean.pub as file\nFile lookup using /home/sbeasley/.ssh/id_rsa.pub as file\nok: [lc-dev1.co.uk] => {\"ansible_facts\": {\"ansible_ssh_user\": \"root\"}, \"changed\": false, \"invocation\": {\"module_args\": {\"ansible_ssh_user\": \"root\"}, \"module_name\": \"set_fact\"}}\n\nTASK [remote-user : Announce which user was selected] **************************\ntask path: /home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/remote-user/tasks/main.yml:12\nFile lookup using /home/sbeasley/.ssh/digital_ocean.pub as file\nFile lookup using /home/sbeasley/.ssh/id_rsa.pub as file\nNote: Ansible will attempt connections as user = root\nok: [lc-dev1.co.uk] => {}\n\nPLAY [WordPress Server - Install LEMP Stack with PHP 7.0 and MariaDB MySQL] ****\n\nTASK [setup] *******************************************************************\nFile lookup using /home/sbeasley/.ssh/digital_ocean.pub as file\nFile lookup using /home/sbeasley/.ssh/id_rsa.pub as file\n<lc-dev1.co.uk> ESTABLISH SSH CONNECTION FOR USER: root\n<lc-dev1.co.uk> SSH: EXEC ssh -C -vvv -o ForwardAgent=yes -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/home/sbeasley/.ansible/cp/ansible-ssh-%h-%p-%r lc-dev1.co.uk '/bin/sh -c '\"'\"'( umask 77 && mkdir -p \"` echo $HOME/.ansible/tmp/ansible-tmp-1471438226.26-253385799601576 `\" && echo ansible-tmp-1471438226.26-253385799601576=\"` echo $HOME/.ansible/tmp/ansible-tmp-1471438226.26-253385799601576 `\" ) && sleep 0'\"'\"''\nSystem info:\n  Ansible 2.1.1.0; Linux\n  Trellis 0.9.7: April 10th, 2016\n---------------------------------------------------\nFailed to connect to the host via ssh.\nfatal: [lc-dev1.co.uk]: UNREACHABLE! => {\"changed\": false, \"unreachable\": true}\n [WARNING]: Could not create retry file 'server.retry'.         [Errno 2] No such file or directory: ''\n\n\nPLAY RECAP *********************************************************************\nlc-dev1.co.uk              : ok=3    changed=0    unreachable=1    failed=0   \n",
-			"settings":
-			{
-				"buffer_size": 5047,
-				"line_ending": "Unix",
-				"name": "sbeasley➜Sites/lc-blogs-trellis/trellis(master✗)»"
-			}
-		},
-		{
-			"file": "trellis/hosts/staging",
-			"settings":
-			{
-				"buffer_size": 210,
->>>>>>> fbd31a1b0ae6a757ae60ce2f44c87b015df3489a
-				"line_ending": "Unix"
-			}
-		},
-		{
-<<<<<<< HEAD
-			"file": "trellis/roles/wp-cli/defaults/main.yml",
-			"settings":
-			{
-				"buffer_size": 278,
-				"line_ending": "Unix"
-=======
-			"contents": "sbeasley➜Sites/lc-blogs-trellis/trellis(master)» ansible-playbook server.yml -e env=staging -vvvv                     [12:01:29]\nUsing /home/sbeasley/Sites/lc-blogs-trellis/trellis/ansible.cfg as config file\nLoaded callback output of type stdout, v2.0\n\nPLAYBOOK: server.yml ***********************************************************\n3 plays in server.yml\n\nPLAY [Ensure necessary variables are defined] **********************************\n\nTASK [Ensure environment is defined] *******************************************\ntask path: /home/sbeasley/Sites/lc-blogs-trellis/trellis/variable-check.yml:8\nskipping: [localhost] => {\"changed\": false, \"skip_reason\": \"Conditional check failed\", \"skipped\": true}\n\nPLAY [Determine Remote User] ***************************************************\n\nTASK [remote-user : Determine whether to connect as root or admin_user] ********\ntask path: /home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/remote-user/tasks/main.yml:2\n<localhost> ESTABLISH LOCAL CONNECTION FOR USER: sbeasley\n<localhost> EXEC /bin/sh -c '( umask 77 && mkdir -p \"` echo $HOME/.ansible/tmp/ansible-tmp-1471435431.24-110964052103310 `\" && echo ansible-tmp-1471435431.24-110964052103310=\"` echo $HOME/.ansible/tmp/ansible-tmp-1471435431.24-110964052103310 `\" ) && sleep 0'\n<localhost> PUT /tmp/tmpKuVvIe TO /home/sbeasley/.ansible/tmp/ansible-tmp-1471435431.24-110964052103310/command\n<localhost> EXEC /bin/sh -c 'LANG=en_GB.UTF-8 LC_ALL=en_GB.UTF-8 LC_MESSAGES=en_GB.UTF-8 /usr/bin/python /home/sbeasley/.ansible/tmp/ansible-tmp-1471435431.24-110964052103310/command; rm -rf \"/home/sbeasley/.ansible/tmp/ansible-tmp-1471435431.24-110964052103310/\" > /dev/null 2>&1 && sleep 0'\nok: [lc-dev1.co.uk -> localhost] => {\"changed\": false, \"cmd\": [\"ansible\", \"lc-dev1.co.uk\", \"-m\", \"ping\", \"-u\", \"root\"], \"delta\": \"0:00:00.424507\", \"end\": \"2016-08-17 12:03:52.180486\", \"failed\": false, \"failed_when_result\": false, \"invocation\": {\"module_args\": {\"_raw_params\": \"ansible lc-dev1.co.uk -m ping -u root\", \"_uses_shell\": false, \"chdir\": null, \"creates\": null, \"executable\": null, \"removes\": null, \"warn\": true}, \"module_name\": \"command\"}, \"rc\": 3, \"start\": \"2016-08-17 12:03:51.755979\", \"stderr\": \"\", \"stdout\": \"lc-dev1.co.uk | UNREACHABLE! => {\\n    \\\"changed\\\": false, \\n    \\\"msg\\\": \\\"Failed to connect to the host via ssh.\\\", \\n    \\\"unreachable\\\": true\\n}\", \"stdout_lines\": [\"lc-dev1.co.uk | UNREACHABLE! => {\", \"    \\\"changed\\\": false, \", \"    \\\"msg\\\": \\\"Failed to connect to the host via ssh.\\\", \", \"    \\\"unreachable\\\": true\", \"}\"], \"warnings\": []}\n\nTASK [remote-user : Set remote user for each host] *****************************\ntask path: /home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/remote-user/tasks/main.yml:8\nok: [lc-dev1.co.uk] => {\"ansible_facts\": {\"ansible_ssh_user\": \"root\"}, \"changed\": false, \"invocation\": {\"module_args\": {\"ansible_ssh_user\": \"root\"}, \"module_name\": \"set_fact\"}}\n\nTASK [remote-user : Announce which user was selected] **************************\ntask path: /home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/remote-user/tasks/main.yml:12\nNote: Ansible will attempt connections as user = root\nok: [lc-dev1.co.uk] => {}\n\nPLAY [WordPress Server - Install LEMP Stack with PHP 7.0 and MariaDB MySQL] ****\n\nTASK [setup] *******************************************************************\n<lc-dev1.co.uk> ESTABLISH SSH CONNECTION FOR USER: root\n<lc-dev1.co.uk> SSH: EXEC ssh -C -vvv -o ForwardAgent=yes -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/home/sbeasley/.ansible/cp/ansible-ssh-%h-%p-%r lc-dev1.co.uk '/bin/sh -c '\"'\"'( umask 77 && mkdir -p \"` echo $HOME/.ansible/tmp/ansible-tmp-1471435432.49-17173019278760 `\" && echo ansible-tmp-1471435432.49-17173019278760=\"` echo $HOME/.ansible/tmp/ansible-tmp-1471435432.49-17173019278760 `\" ) && sleep 0'\"'\"''\nSystem info:\n  Ansible 2.1.0.0; Linux\n  Trellis 0.9.7: April 10th, 2016\n---------------------------------------------------\nFailed to connect to the host via ssh.\nfatal: [lc-dev1.co.uk]: UNREACHABLE! => {\"changed\": false, \"unreachable\": true}\n	to retry, use: --limit @server.retry\n\nPLAY RECAP *********************************************************************\nlc-dev1.co.uk              : ok=3    changed=0    unreachable=1    failed=0   \nlocalhost                  : ok=0    changed=0    unreachable=0    failed=0   \n\nsbeasley➜Sites/lc-blogs-trellis/trellis(master)»                                                                      [12:03:52]\n",
-			"settings":
-			{
-				"buffer_size": 4630,
-				"line_ending": "Unix",
-				"name": "sbeasley➜Sites/lc-blogs-trellis/trellis(master)» a"
->>>>>>> fbd31a1b0ae6a757ae60ce2f44c87b015df3489a
-			}
-		},
-		{
-			"file": "trellis/group_vars/staging/vault.yml",
-			"settings":
-			{
-				"buffer_size": 888,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "trellis/group_vars/all/users.yml",
-			"settings":
-			{
-<<<<<<< HEAD
-				"buffer_size": 607,
-=======
-				"buffer_size": 711,
->>>>>>> fbd31a1b0ae6a757ae60ce2f44c87b015df3489a
-				"line_ending": "Unix"
-			}
-		},
-		{
-<<<<<<< HEAD
-			"file": "trellis/group_vars/staging/wordpress_sites.yml",
-			"settings":
-			{
-				"buffer_size": 988,
-=======
-			"file": "trellis/server.yml",
-			"settings":
-			{
-				"buffer_size": 1123,
-=======
->>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
->>>>>>> fbd31a1b0ae6a757ae60ce2f44c87b015df3489a
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -254,20 +35,20 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "Package Cont",
+		"height": 390.0,
+		"last_filter": "Package Control: ",
 		"selected_items":
 		[
 			[
-				"Package Cont",
+				"Package Control: ",
 				"Package Control: Install Package"
 			],
 			[
-				"Package Control: ",
+				"Package Cont",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 746.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -288,239 +69,157 @@
 	},
 	"expanded_folders":
 	[
-<<<<<<< HEAD
 		"/home/sie/Sites/lc-blogs-trellis",
-		"/home/sie/Sites/lc-blogs-trellis/trellis",
-=======
-<<<<<<< HEAD
-		"/home/sbeasley/Sites/lc-blogs-trellis",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/all",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/production",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/staging",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/hosts",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/lib/trellis",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/users",
-		"/home/sbeasley/Sites/lc-ajax-loader",
-		"/home/sbeasley/Sites/lc-ajax-loader/js"
+		"/home/sie/Sites/lc-blogs-trellis/site",
+		"/home/sie/Sites/lc-blogs-trellis/trellis"
 	],
 	"file_history":
 	[
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/production/vault.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/hosts/production",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/production/wordpress_sites.yml",
-		"/home/sbeasley/.ssh/config",
-		"/home/sbeasley/Downloads/lc_intranetplus_master.html",
-=======
-		"/home/sie/Vagrant/lc-blogs-trellis",
-		"/home/sie/Vagrant/lc-blogs-trellis/trellis",
-		"/home/sie/Vagrant/lc-blogs-trellis/trellis/group_vars",
->>>>>>> fbd31a1b0ae6a757ae60ce2f44c87b015df3489a
-		"/home/sbeasley/Sites/lc-ajax-loader"
-	],
-	"file_history":
-	[
-		"/home/sie/Sites/lc-blogs-trellis/trellis/roles/mariadb/tasks/main.yml",
-		"/home/sie/Sites/lc-blogs-trellis/trellis/roles/remote-user/tasks/main.yml",
-		"/home/sie/Sites/lc-blogs-trellis/trellis/group_vars/development/vault.yml",
-		"/home/sie/Sites/lc-blogs-trellis/trellis/group_vars/all/vault.yml",
-		"/home/sie/Sites/lc-blogs-trellis/site/composer.json",
-		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/header.twig",
-		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/functions.php",
-		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/scripts/sticky-header.js",
-		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/manifest.json",
-		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bower.json",
-		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_jonny.scss",
-		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/widgets/social.php",
-		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/widget-social.twig",
-		"/home/sie/Sites/lc-blogs-trellis/trellis/group_vars/development/wordpress_sites.yml",
-		"/home/sie/Sites/lc-blogs-trellis/trellis/deploy.yml",
-		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/widgets/contributors.php",
-		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/single.php",
-		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/widgets/archives.php",
+		"/home/sie/Sites/lc-blogs-trellis/lc-blogs-trellis.sublime-project",
+		"/tmp/fz3temp-1/page-gcse-clearing-2016.php",
+		"/home/sie/Downloads/lc/page-gcse-clearing-2016.php",
+		"/tmp/fz3temp-1/raffle-2016-08-terms.php",
+		"/tmp/fz3temp-1/raffle-2016-08.php",
+		"/tmp/fz3temp-1/ymca-support-us.php",
+		"/home/sie/Sites/monster-multi/site/config/application.php",
+		"/home/sie/Sites/monster-multi/site/web/wp-config.php",
+		"/home/sie/Sites/monster-multi/trellis/Vagrantfile",
+		"/home/sie/Sites/monster-multi/trellis/group_vars/staging/wordpress_sites.yml",
+		"/home/sie/Sites/monster-multi/site/web/wp/wp-login.php",
+		"/home/sie/Sites/monster-multi/site/.env",
+		"/home/sie/Sites/monster-multi/trellis/group_vars/development/vault.yml",
+		"/home/sie/Sites/monster-multi/trellis/group_vars/staging/vault.yml",
+		"/home/sie/Sites/monster-multi/trellis/hosts/staging",
+		"/home/sie/Sites/monster-multi/trellis/hosts/development",
+		"/home/sie/Sites/monster-multi/trellis/group_vars/development/mail.yml",
+		"/home/sie/Sites/monster-multi/trellis/group_vars/development/wordpress_sites.yml",
+		"/home/sie/Sites/monster-multi/trellis/ansible.cfg",
 		"/home/sie/.ssh/known_hosts",
-		"/etc/ssh/sshd_config",
-		"/home/sie/.ssh/config",
-		"/etc/ssh/ssh_config",
+		"/home/sie/Sites/monster-multi/.git/config",
 		"/home/sie/ownCloud/sie/info/medusa/info.txt",
-		"/var/log/auth.log",
-		"/home/sie/Sites/lc-blogs-trellis/trellis/group_vars/staging/wordpress_sites.yml",
-		"/home/sie/Sites/lc-blogs-trellis/trellis/group_vars/production/wordpress_sites.yml",
-		"/home/sie/Sites/lc-blogs-trellis/trellis/Vagrantfile",
-		"/home/sie/Sites/lc-blogs-trellis/site/shell/wp-plugins.sh",
-		"/home/sie/Sites/lc-blogs-trellis/trellis/deploy-hooks/finalize-after.yml",
-		"/home/sie/Sites/lc-blogs-trellis/trellis/deploy-hooks/build-after.yml",
-		"/home/sie/Sites/lc-blogs-trellis/trellis/ansible.cfg",
-		"/home/sie/.ssh/authorized_keys",
-		"/home/sie/Vagrant/lc-blogs-trellis/trellis/group_vars/production/vault.yml",
-		"/home/sie/Vagrant/lc-blogs-trellis/trellis/hosts/production",
-		"/home/sie/Vagrant/lc-blogs-trellis/trellis/group_vars/production/wordpress_sites.yml",
-		"/home/sbeasley/.ssh/config",
-		"/home/sbeasley/Downloads/lc_intranetplus_master.html",
-		"/home/sbeasley/ownCloud/info.txt",
->>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/debug.log",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bower.json",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_jonny.scss",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/manifest.json",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/header.twig",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/scripts/sticky-header.js",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/layouts/_header.scss",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/composer.json",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/widget-social.twig",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/lib/extras.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/formidable/classes/helpers/FrmAppHelper.php",
-		"/home/sbeasley/Sites/lc-ajax-loader/js/scripts.js",
-		"/home/sbeasley/Sites/lc-ajax-loader/lc-ajax-loader.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/instagram-feed/instagram-feed.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/dist/styles/main.css",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/staging/vault.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/vault.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/all/vault.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/widgets/_social.scss",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/lc-ajax-loader/lc-ajax-loader.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/instagram-feed/instagram-feed-admin.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/formidable/classes/controllers/FrmAppController.php",
-		"/home/sbeasley/Sites/mfglabs-iconset/css/mfglabs_iconset.css",
-		"/home/sbeasley/Sites/mfglabs-iconset/css/main.css",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/scripts/media-query-vars.js",
-		"/home/sbeasley/Sites/mfglabs-iconset/bower.json",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bower_components/mfglabs-iconset/css/mfglabs_iconset.css",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bower_components/fontawesome/bower.json",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/functions.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bower_components/responsive-bootstrap-toolkit/bower.json",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/widget-archives.twig",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/widgets/archives.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/lc-ajax-loader/js/scripts.js",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/layouts/_pages.scss",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/lc-ajax-loader/css/styles.css",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/main.scss",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/components/_buttons.scss",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/footer.twig",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/layouts/_footer.scss",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/bowerBAK.json",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/scripts/formidable-submit-btn.js",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/components/_forms.scss",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/layouts/_list-posts.scss",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/page.twig",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/archive.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/.htaccess",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/common/_global.scss",
-		"/home/sbeasley/Sites/lc-ajax-loader/composer.json",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/sidebar.twig",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/page-home.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/single.twig",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/partials/post-summary.twig",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/author.php",
-		"/home/sbeasley/Downloads/better-archives/better-archives-widget/widget-archives.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/functions-lc-blogs-widgets.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/mcs-config/main.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/mcs-config/post.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/index.php",
-		"/home/sbeasley/Downloads/better-archives/better-archives-widget/load-scripts.php",
-		"/home/sbeasley/Downloads/better-archives/better-archives-widget/better-archives-widget.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/base.twig",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/layouts/_sidebar.scss",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/components/_instagram.scss",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_menu.scss",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/page-home.twig",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/single.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_font.scss",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_color.scss",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/common/_variables.scss",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles/widgets/_widgets.scss",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/.gitignore",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/author.twig",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/archive.twig",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/post-summary.php",
-		"/tmp/fz3temp-1/config.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/widgets/contributors.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/widget-contributors.twig",
-		"/home/sbeasley/Sites/lc-dev1/public/wp-content/plugins/composer.json",
-		"/home/sbeasley/Sites/medusa-content-suite/medusa_content_suite.php",
+		"/tmp/fz3temp-1/y-theatre-whats-on.php",
+		"/home/sie/Sites/lc-cdb-trellis/trellis/group_vars/staging/wordpress_sites.yml",
+		"/home/sie/Sites/lc-cdb-trellis/trellis/group_vars/staging/vault.yml",
+		"/home/sie/Sites/lc-cdb-trellis/trellis/group_vars/development/wordpress_sites.yml",
+		"/home/sie/Sites/lc-cdb-trellis/trellis/group_vars/development/mail.yml",
+		"/home/sie/Sites/lc-cdb-trellis/site/web/app/themes/sage-timber-lc-blogs/functions.php",
+		"/home/sie/ownCloud/sie/documents/lc_docs/info.txt",
+		"/home/sie/Sites/lc-cdb-trellis/trellis/deploy.yml",
+		"/home/sie/Sites/lc-cdb-trellis/trellis/deploy-hooks/finalize-after.yml",
+		"/home/sie/Sites/lc-cdb-trellis/site/web/app/themes/sage-timber-lc-blogs/single.php",
+		"/home/sie/Sites/lc-cdb-trellis/site/web/app/themes/sage-timber-lc-blogs/page.php",
+		"/home/sie/Sites/lc-cdb-trellis/site/web/app/themes/sage-timber-lc-blogs/page-home.php",
+		"/home/sie/Sites/lc-dev1/public_html/wp-content/plugins/.git/config",
+		"/home/sie/Sites/lc-blogs-trellis/site/composer.json",
+		"/home/sie/Sites/lc-cdb-trellis/site/composer.json",
 		"/etc/hosts",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/ansible.cfg",
-		"/home/sbeasley/.composer/auth.json",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/config/environments/staging.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/lc-ajax-loader/js/scripts.js",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/lc-ajax-loader/lc-ajax-loader.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/pbd-ajax-load-posts/pbd-ajax-load-posts.php",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/pbd-ajax-load-posts/js/load-posts.js",
+		"/home/sie/Sites/lc-cdb-trellis/notes.txt",
+		"/home/sie/Sites/lc-cdb-trellis/trellis/group_vars/development/vault.yml",
+		"/home/sie/Sites/lc-cdb-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/header.twig",
+		"/home/sie/Sites/lc-cdb-trellis/trellis/ansible.cfg",
+		"/home/sie/Sites/lc-cdb-trellis/shell/db-drop-all.sh",
+		"/tmp/fz3temp-1/index.html",
+		"/tmp/fz3temp-1/index.php",
+		"/tmp/fz3temp-1/raffle-2016-08 2.php",
+		"/tmp/fz3temp-1/raffle.php",
+		"/home/sie/Downloads/y/raffle-2016-08.php",
+		"/home/sie/Sites/lc-cdb-trellis/site/web/app/debug.log",
+		"/home/sie/Sites/lc-cdb-trellis/site/config/application.php",
+		"/home/sie/Sites/lc-cdb-trellis/site/README.md",
+		"/tmp/fz3temp-1/config.yml",
+		"/home/sie/Sites/lc-cdb-trellis/lc-cdb-trellis.sublime-project",
+		"/home/sie/Sites/mt/vendor/icewind1991/SMB/composer.json",
+		"/home/sie/Sites/mt/vendor/composer/installers/composer.json",
+		"/home/sie/Sites/mt/composer.lock",
+		"/home/sie/Sites/mt/vendor/composer/autoload_psr4.php",
+		"/home/sie/Sites/mt/composer.json",
+		"/home/sie/ownCloud/sie/documents/medusa/mt-winols/username pw.txt",
+		"/home/sie/Sites/mt/vendor/icewind/smb/src/Server.php",
+		"/home/sie/Sites/mt/target.txt",
+		"/home/sie/Sites/mt/test.php",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=test/test.txt",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=test/example.txt",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=test/si/si.txt",
+		"/home/sie/Sites/mt/vendor/autoload.php",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/app/smbclient.php",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/mt-test1/server/configure_me.lua",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/mt-test1/server/library.lua",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/app/app.php",
+		"/home/sie/Sites/lc-blogs/composer.json",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/tickets/ticket.lua",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/tickets/ticket12.lua.output",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/tickets/ticket01.lua.output",
+		"/run/user/1000/gvfs/smb-share",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/tickets/ticket (copy).lua",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/tickets/ticket01.txt",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/tickets/ticket02.lua.log",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/mt-test1/server/Readme.txt",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/test_var.lua",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/tickets/ticket02.lua.output",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/tickets/ticket02.lua",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/notes/issues.txt",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/LuaSamples/04 - Simple file processor/main.lua",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/mt-test1/server/monster-winols-server-dev1.lua",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/mt-test1/server/AdvancedServer.lua",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/notes/cmd.txt",
+		"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/mt-test1/configure_me.lua",
+		"/home/sie/ownCloud/sie/documents/medusa/mt-winols/mt-winols.sublime-project",
+		"/home/sie/ownCloud/sie/documents/medusa/mt-winols/cmd.txt",
+		"/home/sie/Sites/lc-blogs-trellis/trellis/.vault_pass",
+		"/home/sie/ownCloud/sie/documents/medusa/mt-winols/lua/mt-test1/server/Readme.txt",
+		"/home/sie/Sites/lc-blogs-trellis/trellis/group_vars/development/vault.yml",
+		"/home/sie/Sites/lc-blogs-trellis/trellis/group_vars/staging/vault.yml",
+		"/home/sie/Sites/lc-blogs-trellis/trellis/group_vars/development/mail.yml",
+		"/home/sie/Sites/lc-blogs-trellis/trellis/requirements.yml",
+		"/home/sie/Sites/lc-blogs-trellis/trellis/group_vars/all/vault.yml",
 		"/tmp/fz3temp-1/connect-2016-07.html",
-<<<<<<< HEAD
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/mcs-config/post_meta.php"
-=======
+		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/page-home.php",
+		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/page-home.twig",
+		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/archive.php",
+		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/archive.twig",
+		"/home/sie/Sites/lc-blogs-trellis/site/mcs-config/post.php",
+		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/author.php",
+		"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/author.twig",
+		"/home/sie/Sites/lc-blogs-trellis/site/web/app/plugins/pbd-ajax-load-posts/js/load-posts.js",
+		"/home/sie/Sites/lc-blogs-trellis/site/web/app/plugins/pbd-ajax-load-posts/pbd-ajax-load-posts.php",
+		"/home/sbeasley/ownCloud/info.txt",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/functions.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/mcs-config/post.php",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/mcs-config/post_meta.php",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/mcs-config/tax.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/archive.twig",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates/page-homeBAK.twig",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/wordpress.patch",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/ajax-load-more/core/repeater/default.php",
 		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/alm-post-ppl.php",
 		"/home/sbeasley/Sites/ajax-thumbnail-rebuild/ajax-thumbnail-rebuild.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/composer.json",
+		"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/functions-lc-blogs-widgets.php",
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/staging/vault.yml",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/deploy.yml",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/common/defaults/main.yml",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-setup/tasks/database.yml",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-install/tasks/main.yml",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-install/tasks/directories.yml",
 		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-setup/tasks/main.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/deploy-hooks/finalize-after.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/deploy-hooks/build-after.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/deploy-hooks/build-before.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/staging/wordpress_sites.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/wordpress_sites.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/Vagrantfile",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/all/users.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/main.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/php/templates/php-fpm.conf.j2",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/nginx/templates/wordpress.conf.j2",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/php.yml",
-		"/tmp/fz3temp-1/.htpasswd",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-setup/tasks/nginx.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/roles/wordpress-setup/tasks/self-signed-certificate.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/vendor/roles/composer/README.md",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/development/mail.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/hosts/staging",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/hosts/development",
-		"/home/sbeasley/Sites/lc-blogs-trellis/site/.env",
-<<<<<<< HEAD
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/.vault_pass",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/group_vars/staging/main.yml",
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/server.yml"
-=======
-		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/.vault_pass"
->>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
->>>>>>> fbd31a1b0ae6a757ae60ce2f44c87b015df3489a
+		"/home/sbeasley/Sites/lc-blogs-trellis/trellis/deploy-hooks/finalize-after.yml"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
-			"/home/sie/Sites/lc-blogs-trellis",
-			"/home/sie/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles",
-			"/home/sie/Sites/lc-blogs-trellis",
-			"/home/sbeasley/Sites/lc-blogs-trellis",
-			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs",
-			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/formidable",
-			"/home/sbeasley/Sites/lc-blogs-trellis/site",
-			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/formidable",
-			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs",
-			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles",
-			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs",
-			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets",
-			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/templates",
-			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles",
-			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs",
-			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs/assets/styles",
-			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/themes/sage-timber-lc-blogs",
-			"/home/sbeasley/Sites/lc-blogs-trellis/site/web/app/plugins/lc-ajax-loader",
+			"/home/sie/Sites/monster-multi",
+			"/home/sie/Sites/monster-multi/trellis",
+			"/home/sie/Sites/lc-cdb-trellis",
+			"/home/sie/Sites/lc-cdb-trellis/site/web/app/themes/sage-timber-lc-blogs",
+			"/home/sie/Sites/lc-cdb-trellis/trellis/group_vars",
+			"/home/sie/Sites/mt/vendor/icewind/smb",
+			"/run/user/1000/gvfs/smb-share:server=172.17.13.98,share=users/Developer/monster-winols/LuaSamples",
 			"/home/sbeasley/Sites/lc-blogs-trellis/site",
 			"/home/sbeasley/Sites/lc-blogs-trellis",
 			"/home/sbeasley/Sites/lc-blogs-trellis/trellis",
@@ -592,103 +291,37 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"False",
-			"ansible_host",
-			"ansible_user",
-			"ansible_ssh_pass",
-			"max-width:",
-			"column",
-			"out",
-			"args",
-			"icon-twitter_circle",
-			"instag",
-			"new_release_path",
-			"githu",
-			"google",
-			"strict",
-			"setpass",
-			"permi",
-			"blogs",
+			"ukfa",
+			"multi",
+			"font-size: 11pt; line",
+			"www.leicesterymca.co.uk/raffle",
+			"£",
+			"’",
+			"margin-top: 0px",
+			"font-size: 14pt;",
+			"font-size: 15pt",
+			"wp-cli",
+			"hostnames",
+			"vagrant plugin install vagrant-hostsupdater",
+			"hostsupdater",
 			"lc-dev1.co.uk",
-			"mfglabs",
-			"fonts.css",
-			"wp_enqueue_script",
-			"wp_enqueue_scripts",
-			"fonts",
-			"credit",
-			"sess",
-			"be-load-more",
-			".js",
-			"insta",
-			".js",
-			"formidable.js",
-			"formidable",
-			"load",
-			"css",
-			"sb-instag",
-			"inst",
-			"bootstrapcdn",
-			"enqueue",
-			"remove_plugin_assets",
-			"</i>",
-			"<i",
-			"600px",
-			"mfglabsiconset-webfont.woff",
-			"'fonts/",
-			"font/",
-			"mfg",
-			"fontaw",
-			"font-aw",
-			"font-awesome",
-			"font-awesome.min.css",
-			"media",
-			"themeslug_logo",
-			"attachment_url_to_postid",
-			"conte",
-			"load-more",
-			"lc-sk",
-			"rgb(255,255,255)",
-			"rgb(179,97,179)",
-			"main",
-			"$('.",
-			"main",
-			"$('.main",
-			".main",
-			"main",
-			"blog-list",
-			" \\",
-			"load-more",
-			"360",
-			"social",
-			"Social",
-			"social_widget",
-			"480",
-			"aside",
-			"strip",
-			"stripe",
-			"pensio",
-			"run",
-			"enrich",
-			"maths",
-			"@import",
-			"user_info",
-			"large-blog-800-425",
-			"contributor",
-			"category",
-			"categories",
-			"category",
-			"image",
-			"user",
-			"alm",
-			"stripe",
-			"post-summary",
-			"toran",
-			"stripe",
-			"$post2[$x]",
-			"posts2",
-			"x",
-			"top",
-			"be_post_summary",
+			"lc-\ndev1.co.uk",
+			"lc-blogs-trellis",
+			"One of teow Samsung mobile phones",
+			"</h1></li>\n                                <li><h1>",
+			" database",
+			"finalize-after",
+			"mcs",
+			"lc-wp-all-import-pro",
+			"blogs",
+			"splitSiteTitle",
+			"migra",
+			"dev1",
+			"blogs",
+			"Server",
+			"version",
+			"remove",
+			".co.uk",
 			"group1",
 			"here",
 			"large-blog-800-425",
@@ -719,7 +352,73 @@
 			"Menu",
 			"toran",
 			"postConfigStatic",
-			"loadFieldTypes"
+			"loadFieldTypes",
+			"getActiveVendorPath",
+			"qqqqqqqqq",
+			"fair",
+			"MenuConfig",
+			"menu",
+			"self",
+			"fieldTypes",
+			"getFieldTypes",
+			"checkThisPluginPath",
+			"getThisPluginPath",
+			"loadCMB",
+			"FieldType",
+			"$this->",
+			"CallSetters",
+			"setStaticVariables",
+			"setConfigLoc",
+			"configLoc",
+			"Paths",
+			"$this->taxMetaConfig",
+			"taxMetaConfig",
+			" $this->taxMetaConfig",
+			"$this->taxMetaConfig",
+			" $this->taxMetaConfig",
+			"$this->taxMetaConfig",
+			"PostMetaConfig",
+			"postMetaConfig",
+			"TaxostMetaConfig",
+			"PostMetaConfig",
+			"getPostMetaConfigLoc",
+			"Post",
+			"getPostMetaConfigLoc",
+			"Post",
+			"PostMetaConfig",
+			"getPostMetaConfigLoc",
+			"Post",
+			"getPostMetaConfigLoc",
+			"Post",
+			"getPostMetaConfigLoc",
+			"Post",
+			"getPostMetaConfigLoc",
+			"Post",
+			"getPostMetaConfigLoc",
+			"Post",
+			"post",
+			"Post",
+			"post",
+			"Post",
+			"post",
+			"Post",
+			"post",
+			"Post",
+			"post",
+			"Post",
+			"pure",
+			"post",
+			"PostMetaConfig",
+			"post",
+			"Post",
+			"globals count",
+			"Paths",
+			"Common::write_log",
+			"$this->Globals",
+			"die",
+			"packageVendorPath",
+			"projectVendorPath",
+			"getVendorPath"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -727,18 +426,10 @@
 		"regex": false,
 		"replace_history":
 		[
-			"lc-ajax-script",
-			"</span>",
-			"<span",
-			"'../fonts/",
-			"fonts/",
-			"#000000",
-			"#FFFFFF",
-			"archive",
-			"Archive",
-			"archive_widget",
-			"$post2",
-			"post2",
+			"font-size: 13pt; line",
+			"font-size: 14pt",
+			"monster-multi",
+			"cdb",
 			"MainConfig",
 			"taxMetaConfig",
 			"TaxMetaConfig",
@@ -791,774 +482,8 @@
 	"groups":
 	[
 		{
-<<<<<<< HEAD
-			"selected": 0,
-=======
-			"selected": 4,
->>>>>>> fbd31a1b0ae6a757ae60ce2f44c87b015df3489a
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/etc/hosts",
-					"semi_transient": false,
-					"settings":
-					{
-<<<<<<< HEAD
-						"buffer_size": 1786,
-=======
-<<<<<<< HEAD
-						"buffer_size": 1115,
-=======
-						"buffer_size": 608,
->>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
->>>>>>> fbd31a1b0ae6a757ae60ce2f44c87b015df3489a
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-<<<<<<< HEAD
-								0,
-								0
-=======
-<<<<<<< HEAD
-								1045,
-								1045
-=======
-								608,
-								608
->>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
->>>>>>> fbd31a1b0ae6a757ae60ce2f44c87b015df3489a
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 67.0,
-						"zoom_level": 1.0
-					},
-<<<<<<< HEAD
-					"stack_index": 0,
-=======
-					"stack_index": 6,
->>>>>>> fbd31a1b0ae6a757ae60ce2f44c87b015df3489a
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/sie/ownCloud/sie/documents/lc_docs/info.txt",
-					"semi_transient": false,
-					"settings":
-					{
-<<<<<<< HEAD
-						"buffer_size": 15673,
-=======
-<<<<<<< HEAD
-						"buffer_size": 13090,
-=======
-						"buffer_size": 13166,
->>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
->>>>>>> fbd31a1b0ae6a757ae60ce2f44c87b015df3489a
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-<<<<<<< HEAD
-								9235,
-								9235
-=======
-<<<<<<< HEAD
-								6988,
-								6988
-=======
-								71,
-								71
->>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
->>>>>>> fbd31a1b0ae6a757ae60ce2f44c87b015df3489a
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-<<<<<<< HEAD
-						"translation.y": 6609.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-=======
-<<<<<<< HEAD
-						"translation.y": 5406.0,
-=======
-						"translation.y": 2524.0,
->>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
->>>>>>> fbd31a1b0ae6a757ae60ce2f44c87b015df3489a
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/sie/ownCloud/sie/documents/medusa/mt-winols/username pw.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 875,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								486,
-								486
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 235.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/etc/ansible/hosts",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1050,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1050,
-								1050
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 420.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "site/web/app/themes/sage-timber-lc-blogs/lib/extras.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2361,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1571,
-								1571
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 443.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "site/mcs-config/main.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 294,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								115,
-								115
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_jonny.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 379,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "site/web/app/themes/sage-timber-lc-blogs/assets/styles/jonnycole/_font.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 883,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								879,
-								879
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 505.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "site/web/app/themes/sage-timber-lc-blogs/assets/styles/main.scss",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1082,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 97.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/home/sie/Downloads/true-trello-printer.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 69778,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3546,
-								3546
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1950.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "trellis/ansible.cfg",
-					"semi_transient": false,
-<<<<<<< HEAD
-					"settings":
-					{
-						"buffer_size": 627,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								626,
-								626
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "trellis/deploy.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1675,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 135.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "trellis/deploy-hooks/build-before.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1385,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								262,
-								262
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "trellis/server.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1123,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								978,
-								978
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "trellis/roles/wp-cli/defaults/main.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 278,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								278,
-								278
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "trellis/group_vars/staging/vault.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 888,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								546,
-								546
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "trellis/group_vars/all/users.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 607,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								569,
-								569
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"file": "trellis/group_vars/staging/wordpress_sites.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 988,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5047,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4780,
-								4780
-							]
-						],
-						"settings":
-						{
-							"auto_name": "sbeasley➜Sites/lc-blogs-trellis/trellis(master✗)»",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 306.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "trellis/hosts/staging",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 210,
-=======
-					"settings":
-					{
-						"buffer_size": 608,
->>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-<<<<<<< HEAD
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4630,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2548,
-								2548
-=======
-								326,
-								326
->>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "sbeasley➜Sites/lc-blogs-trellis/trellis(master)» a",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 106.0,
-						"zoom_level": 1.0
-					},
-<<<<<<< HEAD
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "trellis/group_vars/staging/vault.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 888,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								785,
-								785
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "trellis/group_vars/all/users.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 711,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								660,
-								660
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "trellis/server.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1123,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								97,
-								97
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-=======
-					"stack_index": 2,
->>>>>>> 418ac01e3865d29ff38ba579a7f32036b4ab96d0
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1639,11 +564,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-<<<<<<< HEAD
-	"side_bar_width": 165.0,
-=======
-	"side_bar_width": 251.0,
->>>>>>> fbd31a1b0ae6a757ae60ce2f44c87b015df3489a
+	"side_bar_width": 260.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
