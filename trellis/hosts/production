@@ -2,7 +2,7 @@
 # List each machine only once per [group], even if it will host multiple sites.
 
 [production]
-leicestercollegeblog.co.uk
+your_server_hostname
 
 [web]
-leicestercollegeblog.co.uk
+your_server_hostname

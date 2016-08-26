@@ -2,7 +2,7 @@
 # List each machine only once per [group], even if it will host multiple sites.
 
 [staging]
-lc-dev1.co.uk
+your_server_hostname
 
 [web]
-lc-dev1.co.uk
+your_server_hostname

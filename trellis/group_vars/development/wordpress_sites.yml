@@ -3,14 +3,13 @@
 # Define accompanying passwords/secrets in group_vars/development/vault.yml
 
 wordpress_sites:
-  lc-dev1.co.uk:
+  leicestercollegeblog.co.uk:
     site_hosts:
       - canonical: lc-blogs-trellis.local
         redirects:
-          - www.llc-blogs-trellis.local
+          - www.lc-blogs-trellis.local
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    admin_email: admin@lc-blogs-trellis.local
-    site_title: Leicester College Blogs
+    admin_email: admin@example.dev
     multisite:
       enabled: false
     ssl:
