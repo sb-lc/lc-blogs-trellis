@@ -5,14 +5,16 @@
 wordpress_sites:
   lc-dev1.co.uk:
     site_hosts:
-      - lc-blogs-trellis.local
+      - canonical: lc-blogs-trellis.local
+        redirects:
+          - www.llc-blogs-trellis.local
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: admin@lc-blogs-trellis.local
     site_title: Leicester College Blogs
     multisite:
       enabled: false
     ssl:
-      enabled: true
+      enabled: false
       provider: self-signed
     cache:
       enabled: false
