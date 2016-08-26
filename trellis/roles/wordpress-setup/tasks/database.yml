@@ -1,4 +1,3 @@
----
 - name: Create database of sites
   mysql_db:
     name: "{{ site_env.db_name }}"
