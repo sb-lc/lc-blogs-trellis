@@ -5,7 +5,7 @@
 wordpress_sites:
   leicestercollegeblog.co.uk:
     site_hosts:
-      - canonical: lc-dev.co.uk
+      - canonical: lc-dev1.co.uk
         # redirects:
         #   - otherdomain.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
