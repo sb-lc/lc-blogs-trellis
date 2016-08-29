@@ -157,3 +157,15 @@ end
 def remote_site_path(site_name, site)
   "/srv/www/#{site_name}/#{site['current_path'] || 'current'}"
 end
+
+Vagrant.configure("2") do |config|
+  config.vm.provision "shell", path: "../site/shell/wp-plugins.sh"
+end
+
+Vagrant.configure("2") do |config|
+  config.vm.provision "shell", path: "../site/shell/wp-themes.sh"
+end
+
+Vagrant.configure("2") do |config|
+  config.vm.provision "shell", path: "../site/shell/wp-plugins.sh"
+end
