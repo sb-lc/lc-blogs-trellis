@@ -183,5 +183,11 @@ wordpress_sites.each_pair do |name, site|
       privileged: "false"
   end
 
+  Vagrant.configure("2") do |config|
+    config.vm.provision "shell",
+      inline: "/bin/sh #{shpath}/wp-posts.sh #{wp_path} #{theme}",
+      privileged: "false"
+  end
+
 end
 
