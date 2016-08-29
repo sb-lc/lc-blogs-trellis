@@ -158,14 +158,30 @@ def remote_site_path(site_name, site)
   "/srv/www/#{site_name}/#{site['current_path'] || 'current'}"
 end
 
-Vagrant.configure("2") do |config|
-  config.vm.provision "shell", path: "../site/shell/wp-plugins.sh"
+user='vagrant'
+
+wordpress_sites.each_pair do |name, site|
+
+  lsp = local_site_path(site) 
+  rsp = remote_site_path(name, site)
+
+  shpath = "#{rsp}/shell"
+  wp_path = "#{rsp}/web/wp"
+  plugins_path = "#{rsp}/web/app/plugins"
+  theme = 'sage-timber-lc-blogs'
+  theme_path = "#{rsp}/web/app/themes/#{theme}"
+
+  Vagrant.configure("2") do |config|
+    config.vm.provision "shell",
+      inline: "/bin/sh #{shpath}/wp-plugins.sh #{wp_path} #{theme}",
+      privileged: "false"
+  end
+
+  Vagrant.configure("2") do |config|
+    config.vm.provision "shell",
+      inline: "/bin/sh #{shpath}/wp-themes.sh #{wp_path} #{theme}",
+      privileged: "false"
+  end
+
 end
 
-Vagrant.configure("2") do |config|
-  config.vm.provision "shell", path: "../site/shell/wp-themes.sh"
-end
-
-Vagrant.configure("2") do |config|
-  config.vm.provision "shell", path: "../site/shell/wp-plugins.sh"
-end

@@ -3,8 +3,8 @@
 #USAGE: sh wp-plugins.sh /srv/www/lc-connect.co.uk/current/web/wp sage-timber-lc-connect
 # sudo -u vagrant -i -- wp --path=/srv/www/lc-connect.co.uk/current/web/wp --skip-themes plugin activate timber-library
 
-echo "WP_PATH : "$1
-echo "THEME : "$2
+# echo "WP_PATH : "$1
+# echo "THEME : "$2
 
 #sudo -u vagrant -i -- wp --path=$1 plugin deactivate --all --color 
 
