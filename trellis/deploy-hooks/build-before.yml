@@ -4,23 +4,24 @@
 # Uncomment the lines below and replace `sage` with your theme folder
 #
 # ---
-# - name: Run npm install
-#   command: npm install
-#   connection: local
-#   args:
-#     chdir: "{{ project.local_path }}/web/app/themes/sage"
-#
-# - name: Run bower install
-#   command: bower install
-#   connection: local
-#   args:
-#     chdir: "{{ project.local_path }}/web/app/themes/sage"
-#
-# - name: Run gulp
-#   command: gulp --production
-#   connection: local
-#   args:
-#     chdir: "{{ project.local_path }}/web/app/themes/sage"
+- name: Run npm install
+  command: npm install
+  connection: local
+  args:
+    chdir: "{{ project.local_path }}/web/app/themes/sage-timber-lc-blogs"
+
+- name: Run bower install
+  command: bower install
+  connection: local
+  args:
+    chdir: "{{ project.local_path }}/web/app/themes/sage-timber-lc-blogs"
+
+- name: Run gulp
+  command: gulp --production
+  connection: local
+  args:
+    chdir: "{{ project.local_path }}/web/app/themes/sage-timber-lc-blogs"
+    
 #
 # - name: Copy project local files
 #   synchronize:

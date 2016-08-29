@@ -5,13 +5,13 @@
 
 # echo "WP_PATH : "$1
 # echo "THEME : "$2
+sudo -u vagrant -i -- wp --path=$1 plugin delete akismet
+sudo -u vagrant -i -- wp --path=$1 plugin delete hello
 
-#sudo -u vagrant -i -- wp --path=$1 plugin deactivate --all --color 
+sudo -u vagrant -i -- wp --path=$1 plugin deactivate --all --color 
 
 sudo -u vagrant -i -- wp --path=$1 plugin activate timber-library
-
 sudo -u vagrant -i -- wp --path=$1 plugin activate CMB2-Date-Range-Field
-
 sudo -u vagrant -i -- wp --path=$1 plugin activate disable-comments
 sudo -u vagrant -i -- wp --path=$1 plugin activate duplicate-post
 sudo -u vagrant -i -- wp --path=$1 plugin activate formidable
@@ -22,3 +22,5 @@ sudo -u vagrant -i -- wp --path=$1 plugin activate paste-as-plain-text
 sudo -u vagrant -i -- wp --path=$1 plugin activate wp-migrate-db-pro
 sudo -u vagrant -i -- wp --path=$1 plugin activate wp-migrate-db-pro-cli
 sudo -u vagrant -i -- wp --path=$1 plugin activate wp-migrate-db-pro-media-files
+sudo -u vagrant -i -- wp --path=$1 plugin activate instagram-feed
+sudo -u vagrant -i -- wp --path=$1 plugin activate manual-image-crop
