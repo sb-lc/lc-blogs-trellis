@@ -74,12 +74,21 @@ function addSplitSiteTitleToTwig($twig) {
     return $twig;
 }
 
+
 function splitSiteTitle( $text )
 {
+  if( ! empty( $text ) ) :
     $arr = explode( " ", $text );
-    $new = '';
-    $new .= '<span>' . $arr[0] . ' ' . $arr[1] . '</span>' . ' ' . '<span>'.$arr[2].'</span>';
-    return $new;
+    if( count( $arr ) > 2 ) :
+      $new = '';
+      $new .= '<span>' . $arr[0] . ' ' . $arr[1] . '</span>' . ' ' . '<span>'.$arr[2].'</span>';
+      return $new;
+    else:
+      return $text;
+    endif;
+  else:
+    return $text;
+  endif;
 }
 
 
