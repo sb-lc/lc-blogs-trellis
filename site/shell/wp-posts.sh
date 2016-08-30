@@ -11,7 +11,7 @@ sudo -u vagrant -i -- wp --path=$1 post update $HOME_PAGE_ID --page_template='pa
 
 
 sudo -u vagrant -i -- wp --path=$1 rewrite structure '/%postname%/'
-sudo -u vagrant -i -- wp --path=$1 widget reset
+sudo -u vagrant -i -- wp --path=$1 widget reset --all
 
 sudo -u vagrant -i -- wp --path=$1 widget add social_widget sidebar-primary 1 --title=Social
 sudo -u vagrant -i -- wp --path=$1 widget add contributors_widget sidebar-primary 2 --title=Contributors
