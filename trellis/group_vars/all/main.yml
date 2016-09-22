@@ -17,5 +17,3 @@ raw_vars:
   - vault_users.*.password
   - vault_users.*.salt
   - vault_wordpress_sites
-
-#site_env: "{{ wordpress_env_defaults | combine(item.value.env | default({}), vault_wordpress_sites[item.key].env) }}"

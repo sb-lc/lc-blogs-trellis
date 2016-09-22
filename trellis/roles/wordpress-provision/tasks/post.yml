@@ -1,0 +1,37 @@
+---
+
+- name: WP Option -> Use static page on front page
+  command: wp option update show_on_front page --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+
+- name: WP Create Home page and capture new post ID
+  command: wp post create --porcelain --post_type=page --post_title='Home' --post_status='publish' --allow-root
+  register: home_page_id
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+
+- name: WP Set front page to new Home page
+  command: wp option update page_on_front {{ home_page_id.results[0].stdout }} --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+
+- name: WP Set front page displays option to static page
+  command: wp option update show_on_front page --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+
+- name: WP Set home page template
+  command: wp post update {{ home_page_id.results[0].stdout }} --page_template='page-home.php' --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+
+
+
+
+#- debug: msg="Home page created with id '{{ home_page_id.results[0].stdout }}'"

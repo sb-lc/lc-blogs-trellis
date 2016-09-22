@@ -1,0 +1,7 @@
+---
+
+- name: Delete
+  command: rm readme.html
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/web/wp/"
+  with_dict: "{{ wordpress_sites }}"

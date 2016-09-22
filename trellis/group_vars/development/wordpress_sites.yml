@@ -9,11 +9,12 @@ wordpress_sites:
         redirects:
           - www.lc-blogs-trellis.local
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    admin_email: admin@example.dev
+    admin_email: admin@lc-blogs-trellis.local
     multisite:
       enabled: false
     ssl:
-      enabled: false
+      enabled: true
       provider: self-signed
     cache:
       enabled: false
+    admin_user: sbeasley

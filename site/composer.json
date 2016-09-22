@@ -292,41 +292,39 @@
 
   "require": {
     "php": ">=5.5",
-    "composer/installers": "~1.0.12",
+    "composer/installers": "1.0.25",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "~4.6",
+    "johnpbloch/wordpress": "4.6.1",
     "oscarotero/env": "^1.0",
     "WebDevStudios/CMB2-Date-Range-Field": "*",
     "jajouka79/medusa-content-suite": "dev-master as 1.0.x-dev",
     "sb-lc/lc-ajax-loader": "@dev",
-    "stephenharris/Post-Type-Archive-Links": "~1.3.1",
-    "cweagans/composer-patches": "~1.0",
-    "wpackagist-plugin/disable-comments": "~1.5.2",
-    "wpackagist-plugin/formidable": "~2.02.05",
-    "wpackagist-plugin/timber-library": "~1.1.3",
-    "wpackagist-plugin/press-permit-core": "~2.3.13",
-    "wpackagist-plugin/ajax-thumbnail-rebuild": "~1.12",
-    "wpackagist-plugin/manual-image-crop": "~1.12",
-    "wpackagist-plugin/force-regenerate-thumbnails": "~2.0.5",
-    "wpackagist-plugin/duplicate-post": "~2.6",
-    "wpackagist-plugin/open-graph-protocol-framework": "~1.1.0",
-    "wpackagist-plugin/paste-as-plain-text": "~1.0.1",
-    "wpackagist-plugin/wp-maintenance-mode": "~2.0.6",
-    "wpackagist-plugin/fakerpress": "~0.4.6",
-    "wp-plugin-repo-pro/wp-migrate-db-pro": "~1.6",
-    "wp-plugin-repo-pro/wp-migrate-db-pro-media-files": "~1.4.4",
-    "wp-plugin-repo-pro/wp-migrate-db-pro-cli": "~1.2.4",
-    "wp-plugin-repo-pro/admin-columns-pro": "~3.8.7",
-    "wpackagist-plugin/instagram-feed": "~1.4.7"
+    "stephenharris/Post-Type-Archive-Links": "1.3.1",
+    "wpackagist-plugin/disable-comments": "1.5.2",
+    "wpackagist-plugin/formidable": "2.02.06",
+    "wpackagist-plugin/timber-library": "1.1.6",
+    "wpackagist-plugin/press-permit-core": "2.3.13",
+    "wpackagist-plugin/duplicate-post": "2.6",
+    "wpackagist-plugin/open-graph-protocol-framework": "1.1.0",
+    "wpackagist-plugin/paste-as-plain-text": "1.0.1",
+    "wpackagist-plugin/wp-maintenance-mode": "2.0.8",
+    "wpackagist-plugin/fakerpress": "0.4.6",
+    "wpackagist-plugin/wp-security-scan": "4.0.5",
+    "wpackagist-plugin/wordfence": "6.1.17",
+    "wp-plugin-repo-pro/wp-migrate-db-pro": "1.6.1",
+    "wp-plugin-repo-pro/wp-migrate-db-pro-media-files": "1.4.5",
+    "wp-plugin-repo-pro/wp-migrate-db-pro-cli": "1.2.5",
+    "wp-plugin-repo-pro/admin-columns-pro": "3.8.7",
+    "wp-plugin-repo-pro/oasis-workflow-pro": "4.1",
+    "wpackagist-plugin/instagram-feed": "1.4.8"
 
   },
 
   "require-dev": {    
-    "wpackagist-plugin/rvg-optimize-database": "~4.1.8",
-    "wpackagist-plugin/wp-export-categories-taxonomies":"~1.0.3",
-    "wpackagist-plugin/wordpress-importer":"~0.6.1",
-    "wpackagist-plugin/monkeyman-rewrite-analyzer":"~1.0",
-    "wpackagist-plugin/query-monitor": "~2.12.0"
+    "wpackagist-plugin/rvg-optimize-database": "4.2.0",
+    "wpackagist-plugin/wordpress-importer":"0.6.3",
+    "wpackagist-plugin/monkeyman-rewrite-analyzer":"1.0",
+    "wpackagist-plugin/query-monitor": "2.13.1"
   },
 
   "scripts": {
@@ -360,11 +358,6 @@
     },
 
     "wordpress-install-dir": "web/wp",
-    "patches": {
-      "johnpbloch/wordpress": {
-        "Prevent E_DEPRECATED error messages when debug is enabled": "wordpress.patch"
-      }
-    },
 
     "branch-alias": {
       "dev-master": "1.0.x-dev"

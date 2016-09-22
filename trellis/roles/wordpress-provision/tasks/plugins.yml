@@ -1,0 +1,86 @@
+---
+
+- name: wp plugin activate timber-library
+  command: wp plugin activate timber-library --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+
+- name: wp plugin activate CMB2-Date-Range-Field
+  command: wp plugin activate CMB2-Date-Range-Field --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+
+- name: wp plugin Post-Type-Archive-Links
+  command: wp plugin activate Post-Type-Archive-Links --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+
+- name: wp plugin activate disable-comments
+  command: wp plugin activate disable-comments --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+
+- name: wp plugin activate duplicate-post
+  command: wp plugin activate duplicate-post --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+
+- name: wp plugin activate force-regenerate-thumbnails
+  command: wp plugin activate force-regenerate-thumbnails --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+
+- name: wp plugin activate formidable
+  command: wp plugin activate formidable --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+
+- name: wp plugin activate medusa-content-suite
+  command: wp plugin activate medusa-content-suite --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+
+- name: wp plugin activate open-graph-protocol-framework
+  command: wp plugin activate open-graph-protocol-framework --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+
+- name: wp plugin activate paste-as-plain-text
+  command: wp plugin activate paste-as-plain-text --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+
+- name: wp plugin activate wp-migrate-db-pro
+  command: wp plugin activate wp-migrate-db-pro --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+
+- name: wp plugin activate wp-migrate-db-pro-cli
+  command: wp plugin activate wp-migrate-db-pro-cli --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+
+- name: wp plugin activate wp-migrate-db-pro-media-files
+  command: wp plugin activate wp-migrate-db-pro-media-files --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+
+- name: wp plugin activate wp-security-scan
+  command: wp plugin activate wp-security-scan --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+

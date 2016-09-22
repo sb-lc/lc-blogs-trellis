@@ -1,0 +1,19 @@
+---
+
+- name: test
+  vars:
+    test1: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/web/wp"
+    test2: "{{ web_user }} - {{ web_group }}"    
+  debug: var=test2
+  # command: pwd
+  # args:
+  #   chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/web/wp"
+  with_dict: "{{ wordpress_sites }}"
+
+- name: Verify that needed directories are in place before file copy 
+  file: dest="{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/web/wp/readme.html"
+        mode=0400
+        owner={{ web_user }}
+        group={{ web_group }}
+        state=file
+  with_dict: "{{ wordpress_sites }}"

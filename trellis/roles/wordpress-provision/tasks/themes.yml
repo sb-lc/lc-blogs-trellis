@@ -1,0 +1,8 @@
+---
+
+- name: wp theme activate sage-timber-lc-blogs
+  command: wp theme activate sage-timber-lc-blogs --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+
