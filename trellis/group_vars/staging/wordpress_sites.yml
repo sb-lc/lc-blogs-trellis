@@ -6,12 +6,13 @@ wordpress_sites:
   leicestercollegeblog.co.uk:
     site_hosts:
       - canonical: lc-dev1.co.uk
-        # redirects:
-        #   - otherdomain.com
+        redirects:
+          - www.lc-dev1.co.uk
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:sb-lc/lc-blogs-trellis.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
     branch: master
+    admin_email: sbeasley@leicestercollege.ac.uk
     multisite:
       enabled: false
     ssl:

@@ -12,6 +12,7 @@ vault_users:
 #template error while templating string: Missing end of comment tag
 vault_wordpress_sites:
   leicestercollegeblog.co.uk:
+    admin_password: N8EhphAsdyQbROZ8X8SzEpwcWqrKSlF81L7nNfOY1CNDzPZQYB
     env:
       db_password: vh27052pRCQ3W0Jbxn9g7nIm7270S25m2e499I516oU3H99uyZ
       # Generate your keys here: https://roots.io/salts.html

@@ -321,7 +321,7 @@
   },
 
   "require-dev": {    
-    "wpackagist-plugin/rvg-optimize-database": "4.2.0",
+    "wpackagist-plugin/rvg-optimize-database": "4.2.1",
     "wpackagist-plugin/wordpress-importer":"0.6.3",
     "wpackagist-plugin/monkeyman-rewrite-analyzer":"1.0",
     "wpackagist-plugin/query-monitor": "2.13.1"

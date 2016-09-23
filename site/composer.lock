@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7e53288072f08173e424eebaa317d135",
-    "content-hash": "98b7cf814e47ee186f1713ba83e75788",
+    "hash": "43a10694c661ad4aea20488ebe5bfdfb",
+    "content-hash": "8b6e10087a9826db355314962a3c578a",
     "packages": [
         {
             "name": "WebDevStudios/CMB2-Date-Range-Field",
@@ -733,15 +733,15 @@
         },
         {
             "name": "wpackagist-plugin/rvg-optimize-database",
-            "version": "4.2.0",
+            "version": "4.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/rvg-optimize-database/",
-                "reference": "tags/4.2.0"
+                "reference": "tags/4.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/rvg-optimize-database.4.2.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/rvg-optimize-database.4.2.1.zip",
                 "reference": null,
                 "shasum": null
             },
