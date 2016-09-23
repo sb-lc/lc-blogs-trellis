@@ -84,3 +84,12 @@
     chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
   with_dict: "{{ wordpress_sites }}"
 
+
+- name: wp plugin activate instagram-feed
+  command: wp plugin activate instagram-feed --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+  tags: 
+    - instagram-feed
+

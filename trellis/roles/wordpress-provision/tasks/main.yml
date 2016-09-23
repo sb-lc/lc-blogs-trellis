@@ -1,5 +1,5 @@
 ---
-#- include: plugins.yml
-#- include: themes.yml
+- include: plugins.yml
+- include: themes.yml
 #- include: widget.yml
 - include: post.yml
