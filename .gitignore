@@ -3,3 +3,6 @@
 .idea*
 .idea.*
 .idea/*
+
+#Sublime Text
+*.sublime-workspace
