@@ -9,6 +9,8 @@ web/app/uploads/*
 # WordPress
 web/wp
 web/.htaccess
+debug.log
+web/app/debug.log
 
 # WP-CLI
 db-sync
@@ -30,19 +32,13 @@ node_modules
 .DS_STORE
 .DS_Store
 ._.DS_Store
-
+Vagrantfile
 bin
 .vagrant
 
 *.sublime-project
 *.sublime-workspace
 
-web/app/debug.log
 
-Vagrantfile
-bin
-.vagrant
-
-debug.log
-
+#Trellis
 .vault_pass
