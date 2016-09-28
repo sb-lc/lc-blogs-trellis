@@ -93,6 +93,20 @@ a:hover{
 				&:hover{
 					opacity: 0.8;
 				}
+
+
+				@media (max-width: $screen-md){
+
+
+					width: 100%;
+					float:none;
+
+					margin-top: 20px;
+
+
+
+				}
+
 			}
 
 			 &:nth-child(3n+1){

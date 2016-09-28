@@ -8,6 +8,7 @@
 
 .blog-list ul{
 
+
 	padding-bottom: 15px;
 	overflow: hidden;
 
@@ -15,6 +16,11 @@
 	padding-left: 0;
 
 	li {
+
+		@media (max-width: $screen-md){
+			padding-bottom: 0px;
+		}
+
 		margin: 0px;
 		padding: 0px;
 		overflow: visible;
@@ -29,10 +35,17 @@
 	    }
 
 	    div.wrap{
-	    	padding: ( $grid-gutter-width / 2 );
+
+			@media (max-width: $screen-md){
+				padding-bottom: 0px;
+			}
+
+			padding: ( $grid-gutter-width / 2 );
 		    img{
 
 		    }
+
+
 	    }
 	}
 }

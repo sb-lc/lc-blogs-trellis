@@ -4,7 +4,7 @@ ul.social{
 	li{
 		list-style: none;
 		display: inline-block;
-		margin-right: 10px;
+		margin-right: 9px;
 		margin-bottom: 10px;
 
 
@@ -27,3 +27,14 @@ ul.social{
 		}
 	}
 }
+
+/*
+
+@media (max-width: 640px) {
+	#sb_instagram.sbi_col_3 #sbi_images .sbi_item,
+	#sb_instagram.sbi_col_4 #sbi_images .sbi_item,
+	#sb_instagram.sbi_col_5 #sbi_images .sbi_item,
+	#sb_instagram.sbi_col_6 #sbi_images .sbi_item {
+		width: 17%;
+	}
+}*/

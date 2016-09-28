@@ -9,17 +9,43 @@
 
 
 body{
+
+	@media (max-width: $screen-xs) {
+		text-align: center;
+		font-size: 14pt;
+
+	}
+
+	@media (min-width: $screen-md) {
+		font-size: 12pt;
+	}
+
+
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	font-size: 12pt;
+	font-size: 13pt;
+
 	a{
 		color: $color-dark-grey;
 	}
+
 }
 
 
 
 h1{
+
+	@media (max-width: $screen-xs) {
+		font-size: 30pt;
+		text-align: center;
+	}
+
+
+	@media (max-width: $screen-sm) {
+		font-size: 45pt;
+		text-align: center;
+	}
+
 	font-size: 23pt;
 	text-decoration: none;
 	margin-top: 20px;
@@ -30,14 +56,21 @@ h1{
 
 }
 
+
 h3{
-	font-size: 18pt;
+	@media (max-width: $screen-md) {
+		font-size: 30pt;
+		text-align: center;
+		border: none;
+	}
+
+	font-size: 22pt;
 	margin-top: 0px;
 	margin-bottom: 20px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	display: inline-block;
-	padding-bottom: 2px;
+	padding-bottom: 7px;
 	border-bottom: 2px $color-dark-grey solid;
 
 	a{
@@ -50,28 +83,16 @@ h3{
 }
 
 
-
-
-
-
-
-
-
-@media (max-width: $screen-sm) {
-	h1{
-		font-size: 45pt;
-		text-align: center;
-	}
-
-
+.sidebar h3{
+	font-size: 16pt;
+	border-bottom: 2px $color-dark-grey solid;
 }
 
 
-@media (max-width: $screen-xs) {
-	h1{
-		font-size: 30pt;
-		text-align: center;
-	}
-	body{ sie:test }
 
-}
+
+
+
+
+
+

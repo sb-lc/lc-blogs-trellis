@@ -5,9 +5,19 @@
     padding-left: 15px;
     padding-right: 15px;
 
-	@media (max-width: $screen-sm) {
+	@media (max-width: $screen-md) {
 		display:block;
 		clear: both;	
 	}
+
+
+
+}
+
+@media (max-width: $screen-md){
+
+  .sidebar {
+    width: 100%;
+  }
 
 }

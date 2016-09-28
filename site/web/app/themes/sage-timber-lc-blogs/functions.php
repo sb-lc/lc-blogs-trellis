@@ -41,20 +41,80 @@ function timber_set_product( $post ) {
     }
 }
 
+function char_at($str, $pos)
+{
+    return $str{$pos};
+}
 
+
+function strip_tags_content($text, $tags = '', $invert = FALSE) {
+
+    preg_match_all('/<(.+?)[\s]*\/?[\s]*>/si', trim($tags), $tags);
+    $tags = array_unique($tags[1]);
+
+    if(is_array($tags) AND count($tags) > 0) {
+        if($invert == FALSE) {
+            return preg_replace('@<(?!(?:'. implode('|', $tags) .')\b)(\w+)\b.*?>.*?</\1>@si', '', $text);
+        }
+        else {
+            return preg_replace('@<('. implode('|', $tags) .')\b.*?>.*?</\1>@si', '', $text);
+        }
+    }
+    elseif($invert == FALSE) {
+        return preg_replace('@<(\w+)\b.*?>.*?</\1>@si', '', $text);
+    }
+    return $text;
+}
 
 
 function get_custom_excerpt( $post, $count ){
 
-  $permalink = get_permalink( $post->ID );
-  
-  $content = $post->post_content;
-  $content = strip_tags( $content );
+    $permalink = get_permalink( $post->ID );
 
-  $excerpt = substr( $content, 0, $count );
-  $excerpt = $excerpt . '... <a href="' . $permalink . '"><span class="btn read-more">read more</span></a>';
+    $content = $post->post_content;
+    $content = str_ireplace('<h2>','', $content);
+    $content = strip_tags( $content, "<b>" );
 
-  return $excerpt;
+    $content = substr( $content, 0, $count );
+
+
+
+    $x = $count;
+
+    $content = substr( $content, 0, $x );
+    $content = str_replace("&nbsp;", " ", $content );
+    $content = str_replace("<br>", " ", $content );
+    $content = str_replace("\n", " ", $content );
+    $content = preg_replace('/(^(<br>|&nbsp)*)|((<br>|&nbsp)*$)/i', '', $content);
+
+
+    //write_log($content);
+
+    $len = strlen( $content );
+
+    //write_log($len);
+
+    for( $x=$len-1; $x>0; $x-- ){
+
+        $char = char_at($content, $x);
+
+        //write_log($char);
+
+        if( $char == "." || $char == "!"):
+            //write_log("break");
+            break;
+
+        endif;
+
+    }
+
+    $excerpt = substr( $content, 0, $x+1 );
+
+    //write_log($excerpt);
+
+    $excerpt = $excerpt . '<a href="' . $permalink . '"><span class="btn read-more">read more</span></a>';
+
+    return $excerpt;
 }
 
 /*
@@ -270,6 +330,3 @@ function wp_get_monthly_archives_array( $args = '' ) {
 
 
 }
-
-
-

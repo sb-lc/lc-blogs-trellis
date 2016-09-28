@@ -8,3 +8,13 @@
 .sidebar {
   @include make-sm-column($sidebar-sm-columns);
 }
+
+@media (min-width: $screen-sm){
+
+  /*.sidebar {
+    float: none;
+    width: 100%;
+  }
+*/
+}
+

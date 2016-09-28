@@ -4,10 +4,11 @@
 
 $context = Timber::get_context( );
 $count_number = get_option('posts_per_page' );
-
+$count_number = 3;
 $args = array( 
-	'posts_per_page' => $count_number, 
-	'post_type' => 'blog',
+	'posts_per_page' => $count_number,
+    'post_type' => 'blog',
+    //'page_id' => 194,
 );
 
 $posts = query_posts( $args );
@@ -52,13 +53,13 @@ foreach( $posts as $post ) :
 	$posts2[$x]['user_img'] = $user_img;
 	$posts2[$x]['user_name'] = get_the_author_meta( 'user_nicename', $post->post_author );
 	$posts2[$x]['post_date_formatted'] = get_the_time( 'd-m-y', $post->ID );
-	$posts2[$x]['post_excerpt'] = get_custom_excerpt( $post, 800 );
+	$posts2[$x]['post_excerpt'] = get_custom_excerpt( $post, 400 );
 
 	$x++;
 
 endforeach;
 
-#print_r($posts2);
+//print_r($posts2[0]['post_excerpt']);
 
 $context['posts'] = $posts2;
 
