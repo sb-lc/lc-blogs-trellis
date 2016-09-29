@@ -32,6 +32,9 @@ unset($file, $filepath);
      
 #siedev
 
+
+
+
 require_once('functions-lc-blogs-widgets.php');
 
 function timber_set_product( $post ) {
@@ -129,7 +132,6 @@ function changeArchivesWidgetArgs($args){
 add_filter('get_twig', 'addSplitSiteTitleToTwig');
 
 function addSplitSiteTitleToTwig($twig) {
-    /* this is where you can add your own fuctions to twig */
     $twig->addFilter(new Twig_SimpleFilter('splitSiteTitleFilter', 'splitSiteTitle'));
     return $twig;
 }
@@ -152,16 +154,21 @@ function splitSiteTitle( $text )
 }
 
 
+
+
 function themeslug_theme_customizer( $wp_customize ) {
 
-  $wp_customize->add_section( 'themeslug_logo_section' , array(
-      'title'       => __( 'Logos', 'themeslug' ),
+  $wp_customize->add_section( 'themeslug_settings_section' , array(
+      'title'       => __( 'Site Settings', 'themeslug' ),
       'priority'    => 30,
       'description' => 'Upload a logo to replace the default site name and description in the header',
   ) );
-  
-  $wp_customize->add_setting( 'themeslug_logo' );
-  $wp_customize->add_setting( 'themeslug_logo2' );
+
+
+$wp_customize->add_setting( 'themeslug_logo' );
+$wp_customize->add_setting( 'themeslug_logo2' );
+$wp_customize->add_setting( 'themeslug_trademark' );
+
 
   $wp_customize->add_control( 
 
@@ -170,7 +177,7 @@ function themeslug_theme_customizer( $wp_customize ) {
       $wp_customize, 'themeslug_logo', 
       array(
         'label'    => __( 'Header Logo', 'themeslug' ),
-        'section'  => 'themeslug_logo_section',
+        'section'  => 'themeslug_settings_section',
         'settings' => 'themeslug_logo',
       ) 
     ) 
@@ -184,12 +191,28 @@ function themeslug_theme_customizer( $wp_customize ) {
       $wp_customize, 'themeslug_logo2', 
       array(
         'label'    => __( 'Footer Logo', 'themeslug' ),
-        'section'  => 'themeslug_logo_section',
+        'section'  => 'themeslug_settings_section',
         'settings' => 'themeslug_logo2',
       ) 
     ) 
     
   );
+
+
+    $wp_customize->add_control(
+
+        new WP_Customize_Control(
+            $wp_customize, 'themeslug_trademark',
+
+            array(
+                'type' => 'text',
+                'label' => __( 'Trademark', 'themeslug' ),
+                'section' => 'themeslug_settings_section',
+                'settings' => 'themeslug_trademark'
+            )
+        )
+    );
+
 
 
 }

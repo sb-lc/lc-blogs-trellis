@@ -20,7 +20,7 @@ $config = array();
 	$args = array(
 		'labels' => $labels,
 		'slug' => 'blog-category', // This controls the base slug that will display before each term
-		'with_front' => false, // Don't display the category base before "/locations/"
+		'with_front' => true, // Don't display the category base before "/locations/"
 		'hierarchical' => false, // This will allow URL's like "/locations/boston/cambridge/"
 		'show_ui' => true,
 		'capabilities' => array(
@@ -42,5 +42,5 @@ $config = array();
 
 	$config[] = array ( 'args' => $args, 'pt' => $pt, 'tax' => $tax );
 
-	return $config;#DO NOT DELETE
+	return $config;
 

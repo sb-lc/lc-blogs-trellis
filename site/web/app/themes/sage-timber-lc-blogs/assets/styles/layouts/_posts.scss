@@ -1,4 +1,16 @@
 .excerpt{
 	padding-bottom: 18px;
 	padding-top: 15px;
+
+}
+
+.entry-content{
+	.wrap{
+		padding: ( $grid-gutter-width / 2 );
+	}
+}
+
+.post-content{
+	padding-bottom: 18px;
+	padding-top: 15px;
 }

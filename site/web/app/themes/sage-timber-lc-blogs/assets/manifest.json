@@ -33,6 +33,6 @@
     }
   },
   "config": {
-    "devUrl": "lc-blogs.local"
+    "devUrl": "lc-blogs-trellis.local"
   }
 }

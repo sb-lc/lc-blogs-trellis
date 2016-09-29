@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "43a10694c661ad4aea20488ebe5bfdfb",
-    "content-hash": "8b6e10087a9826db355314962a3c578a",
+    "hash": "fe43e349e8419457fc98fd3a5ea95465",
+    "content-hash": "6fc877d00d89c2422b3b6b046f979eb0",
     "packages": [
         {
             "name": "WebDevStudios/CMB2-Date-Range-Field",
@@ -450,6 +450,26 @@
             "type": "wordpress-plugin"
         },
         {
+            "name": "wpackagist-plugin/add-to-any",
+            "version": "1.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/add-to-any/",
+                "reference": "tags/1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/add-to-any.1.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/add-to-any/"
+        },
+        {
             "name": "wpackagist-plugin/disable-comments",
             "version": "1.5.2",
             "source": {
@@ -631,15 +651,15 @@
         },
         {
             "name": "wpackagist-plugin/wordfence",
-            "version": "6.1.17",
+            "version": "6.2.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/6.1.17"
+                "reference": "tags/6.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordfence.6.1.17.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence.6.2.0.zip",
                 "reference": null,
                 "shasum": null
             },

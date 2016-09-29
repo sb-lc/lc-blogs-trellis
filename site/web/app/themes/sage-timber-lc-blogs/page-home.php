@@ -4,7 +4,8 @@
 
 $context = Timber::get_context( );
 $count_number = get_option('posts_per_page' );
-$count_number = 3;
+//$count_number = 3;
+
 $args = array( 
 	'posts_per_page' => $count_number,
     'post_type' => 'blog',
@@ -19,7 +20,7 @@ $posts2 = array( );
 foreach( $posts as $post ) :
 
 	$posts2[$x] = ( array ) $post;
-	$posts2[$x]['link'] = $post->guid;
+	$posts2[$x]['link'] = get_permalink( $post->ID );
 
 	$posts2[$x]['post_image'] = get_the_post_thumbnail( $post, 'large-blog-800-425', array( "class" => "thumb img-responsive") );
 

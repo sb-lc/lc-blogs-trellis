@@ -310,14 +310,14 @@
     "wpackagist-plugin/wp-maintenance-mode": "2.0.8",
     "wpackagist-plugin/fakerpress": "0.4.6",
     "wpackagist-plugin/wp-security-scan": "4.0.5",
-    "wpackagist-plugin/wordfence": "6.1.17",
+    "wpackagist-plugin/wordfence": "6.2",
+    "wpackagist-plugin/instagram-feed": "1.4.8",
+    "wpackagist-plugin/add-to-any": "1.7",
     "wp-plugin-repo-pro/wp-migrate-db-pro": "1.6.1",
     "wp-plugin-repo-pro/wp-migrate-db-pro-media-files": "1.4.5",
     "wp-plugin-repo-pro/wp-migrate-db-pro-cli": "1.2.5",
     "wp-plugin-repo-pro/admin-columns-pro": "3.8.7",
-    "wp-plugin-repo-pro/oasis-workflow-pro": "4.1",
-    "wpackagist-plugin/instagram-feed": "1.4.8"
-
+    "wp-plugin-repo-pro/oasis-workflow-pro": "4.1"
   },
 
   "require-dev": {    

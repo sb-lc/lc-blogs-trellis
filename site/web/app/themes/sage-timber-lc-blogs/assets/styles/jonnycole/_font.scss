@@ -26,11 +26,20 @@ body{
 	font-size: 13pt;
 
 	a{
-		color: $color-dark-grey;
+		color: $color-orange;
+		text-decoration: none;
+		&:hover{
+			text-decoration: underline;
+			color: $color-orange;
+		}
 	}
 
 }
 
+
+body, p, h1, h2, h3, h4{
+	color: $color-dark-grey;
+}
 
 
 h1{
@@ -57,7 +66,7 @@ h1{
 }
 
 
-h3{
+h1, h3{
 	@media (max-width: $screen-md) {
 		font-size: 30pt;
 		text-align: center;
@@ -77,11 +86,23 @@ h3{
 		color: $color-dark-grey;
 		&:hover{
 			opacity: 0.9;
+		}
+
+		&:visited, &:focus{
 			text-decoration: none;
 		}
+
+
 	}
 }
 
+h2{
+	@media (min-width: $screen-md) {
+		font-size: 19pt;
+
+	}
+
+}
 
 .sidebar h3{
 	font-size: 16pt;
