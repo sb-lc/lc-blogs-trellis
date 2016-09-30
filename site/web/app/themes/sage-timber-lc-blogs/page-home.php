@@ -4,7 +4,7 @@
 
 $context = Timber::get_context( );
 $count_number = get_option('posts_per_page' );
-//$count_number = 3;
+$count_number = 333;
 
 $args = array( 
 	'posts_per_page' => $count_number,

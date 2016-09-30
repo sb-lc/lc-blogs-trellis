@@ -37,7 +37,11 @@ a:hover{
 	border-radius: 5px;
 	padding: 10px 10px;
 	text-transform: uppercase;
-			
+
+	&:hover{
+		text-decoration: none;
+	}
+
 	&.default{
 		background-color: $color-white;
 		color: $color-orange;
