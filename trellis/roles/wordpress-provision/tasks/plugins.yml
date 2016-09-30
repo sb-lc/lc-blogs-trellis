@@ -5,84 +5,125 @@
   args:
     chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
   with_dict: "{{ wordpress_sites }}"
+  tags:
+    - timber-library
+
 
 - name: wp plugin activate CMB2-Date-Range-Field
   command: wp plugin activate CMB2-Date-Range-Field --allow-root
   args:
     chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
   with_dict: "{{ wordpress_sites }}"
+  tags:
+    - CMB2-Date-Range-Field
 
-- name: wp plugin Post-Type-Archive-Links
+
+- name: wp plugin activate Post-Type-Archive-Links
   command: wp plugin activate Post-Type-Archive-Links --allow-root
   args:
     chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
   with_dict: "{{ wordpress_sites }}"
+  tags:
+    - instagram-feed
+
 
 - name: wp plugin activate disable-comments
   command: wp plugin activate disable-comments --allow-root
   args:
     chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
   with_dict: "{{ wordpress_sites }}"
+  tags:
+    - disable-comments
+
 
 - name: wp plugin activate duplicate-post
   command: wp plugin activate duplicate-post --allow-root
   args:
     chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
   with_dict: "{{ wordpress_sites }}"
+  tags:
+    - duplicate-post
+
 
 - name: wp plugin activate force-regenerate-thumbnails
   command: wp plugin activate force-regenerate-thumbnails --allow-root
   args:
     chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
   with_dict: "{{ wordpress_sites }}"
+  tags:
+    - force-regenerate-thumbnails
+
 
 - name: wp plugin activate formidable
   command: wp plugin activate formidable --allow-root
   args:
     chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
   with_dict: "{{ wordpress_sites }}"
+  tags:
+    - formidable
+
 
 - name: wp plugin activate medusa-content-suite
   command: wp plugin activate medusa-content-suite --allow-root
   args:
     chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
   with_dict: "{{ wordpress_sites }}"
+  tags:
+    -  medusa-content-suite
+
 
 - name: wp plugin activate open-graph-protocol-framework
   command: wp plugin activate open-graph-protocol-framework --allow-root
   args:
     chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
   with_dict: "{{ wordpress_sites }}"
+  tags:
+    - open-graph-protocol-framework
+
 
 - name: wp plugin activate paste-as-plain-text
   command: wp plugin activate paste-as-plain-text --allow-root
   args:
     chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
   with_dict: "{{ wordpress_sites }}"
+  tags:
+    - paste-as-plain-text
+
 
 - name: wp plugin activate wp-migrate-db-pro
   command: wp plugin activate wp-migrate-db-pro --allow-root
   args:
     chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
   with_dict: "{{ wordpress_sites }}"
+  tags:
+    - wp-migrate-db-pro
+
 
 - name: wp plugin activate wp-migrate-db-pro-cli
   command: wp plugin activate wp-migrate-db-pro-cli --allow-root
   args:
     chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
   with_dict: "{{ wordpress_sites }}"
+  tags:
+    - wp-migrate-db-pro-cli
+
 
 - name: wp plugin activate wp-migrate-db-pro-media-files
   command: wp plugin activate wp-migrate-db-pro-media-files --allow-root
   args:
     chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
   with_dict: "{{ wordpress_sites }}"
+  tags:
+    - wp-migrate-db-pro-media-files
+
 
 - name: wp plugin activate wp-security-scan
   command: wp plugin activate wp-security-scan --allow-root
   args:
     chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
   with_dict: "{{ wordpress_sites }}"
+  tags:
+    - wp-security-scan
 
 
 - name: wp plugin activate instagram-feed
@@ -92,4 +133,51 @@
   with_dict: "{{ wordpress_sites }}"
   tags: 
     - instagram-feed
+
+
+- name: wp plugin activate oasis-workflow-pro
+  command: wp plugin activate oasis-workflow-pro --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+  tags:
+    - oasis-workflow-pro
+
+
+- name: wp plugin activate ow-editorial-comments
+  command: wp plugin activate ow-editorial-comments --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+  tags:
+    - ow-editorial-comments
+
+
+- name: wp plugin activate ow-front-end-actions
+  command: wp plugin activate ow-front-end-actions --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+  tags:
+    - ow-front-end-actions
+
+
+- name: wp plugin activate ow-editorial-checklist
+  command: wp plugin activate ow-editorial-checklist --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+  tags:
+    - ow-editorial-checklist
+
+
+- name: wp plugin activate ow-groups
+  command: wp plugin activate ow-groups --allow-root
+  args:
+    chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
+  with_dict: "{{ wordpress_sites }}"
+  tags:
+    - ow-groups
+
+
 
