@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fe43e349e8419457fc98fd3a5ea95465",
-    "content-hash": "6fc877d00d89c2422b3b6b046f979eb0",
+    "hash": "16a2689747d3a207af86ab83da7799d6",
+    "content-hash": "d1f99b2d02a3ecb9f543b37df884278e",
     "packages": [
         {
             "name": "WebDevStudios/CMB2-Date-Range-Field",
@@ -295,7 +295,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-09-19 00:02:40"
+            "time": "2016-09-29 09:59:06"
         },
         {
             "name": "stephenharris/Post-Type-Archive-Links",
@@ -387,6 +387,74 @@
             "dist": {
                 "type": "zip",
                 "url": "http://plugins.lc-toran.co.uk/oasis-workflow-pro-v4.1.zip",
+                "reference": null,
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "http://lc-toran.co.uk/repo/private/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "wp-plugin-repo-pro/ow-editorial-checklist",
+            "version": 1.5,
+            "dist": {
+                "type": "zip",
+                "url": "http://plugins.lc-toran.co.uk/ow-editorial-checklist-v1.5.zip",
+                "reference": null,
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "http://lc-toran.co.uk/repo/private/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "wp-plugin-repo-pro/ow-editorial-comments",
+            "version": 1.5,
+            "dist": {
+                "type": "zip",
+                "url": "http://plugins.lc-toran.co.uk/ow-editorial-comments-v1.5.zip",
+                "reference": null,
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "http://lc-toran.co.uk/repo/private/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "wp-plugin-repo-pro/ow-front-end-actions",
+            "version": 1.3,
+            "dist": {
+                "type": "zip",
+                "url": "http://plugins.lc-toran.co.uk/ow-front-end-actions-v1.3.zip",
+                "reference": null,
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "http://lc-toran.co.uk/repo/private/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "wp-plugin-repo-pro/ow-groups",
+            "version": 1.2,
+            "dist": {
+                "type": "zip",
+                "url": "http://plugins.lc-toran.co.uk/ow-groups-v1.2.zip",
                 "reference": null,
                 "shasum": null,
                 "mirrors": [

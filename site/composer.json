@@ -317,7 +317,11 @@
     "wp-plugin-repo-pro/wp-migrate-db-pro-media-files": "1.4.5",
     "wp-plugin-repo-pro/wp-migrate-db-pro-cli": "1.2.5",
     "wp-plugin-repo-pro/admin-columns-pro": "3.8.7",
-    "wp-plugin-repo-pro/oasis-workflow-pro": "4.1"
+    "wp-plugin-repo-pro/oasis-workflow-pro": "4.1",
+    "wp-plugin-repo-pro/ow-front-end-actions": "1.3",
+    "wp-plugin-repo-pro/ow-editorial-checklist": "1.5",
+    "wp-plugin-repo-pro/ow-editorial-comments": "1.5",
+    "wp-plugin-repo-pro/ow-groups": "1.2"
   },
 
   "require-dev": {    
@@ -329,10 +333,12 @@
 
   "scripts": {
 
-    "pre-install-cmd": [      
+    "pre-install-cmd": [
+
     ],
 
     "post-install-cmd": [
+
     ],
 
     "post-root-package-install": [
