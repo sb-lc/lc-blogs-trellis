@@ -2,9 +2,9 @@
 
 {% block content %}
 
-	<div class="blog-list">
+	<div class="list-posts list-blog-entries">
 		<ul>
-			{% for post in posts %}	
+			{% for post in posts %}
 				{% include 'templates/partials/post-summary.twig' %}
 			{% endfor %}
 		</ul>

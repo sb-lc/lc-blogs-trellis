@@ -1,0 +1,15 @@
+//overrides to fix broken declartions in plugin assets
+
+#sb_instagram .sbi_loader {
+  background: url('../images/loader.png') no-repeat;
+}
+
+#sb_instagram .sbi_header_img_hover i{
+
+  background: url('../images/small-logo.png') no-repeat 0 0;
+}
+
+.loading{
+  background-image: url( "../images/ajax-loader.gif");
+
+}

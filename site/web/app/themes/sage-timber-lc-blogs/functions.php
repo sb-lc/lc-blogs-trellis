@@ -70,7 +70,12 @@ function strip_tags_content($text, $tags = '', $invert = FALSE) {
 }
 
 
-function get_custom_excerpt( $post, $count ){
+/**
+ * @param $post
+ * @param $count
+ * @return string
+ */
+function get_custom_excerpt($post, $count ){
 
     $permalink = get_permalink( $post->ID );
 

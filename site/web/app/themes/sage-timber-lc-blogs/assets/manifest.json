@@ -8,6 +8,14 @@
         "scripts/media-query-vars.js"
       ],    
       "vendor": [
+        "../../plugins/oasis-workflow-pro/css/pages/oasis-workflow.js",
+        "../../plugins/oasis-workflow-pro/js/pages/workflow-history.js",
+        "../../plugins/oasis-workflow-pro/js/pages/workflow-inbox.js",
+        "../../plugins/oasis-workflow-pro/js/pages/workflow-util.js",
+        "../../plugins/oasis-workflow-pro/js/pages/subpages/submit-step.js",
+        "../../plugins/ow-editorial-comments/assets/js/editorial-comments-widget.js",
+        "../../plugins/oasis-workflow-pro/js/lib/modal/jquery.simplemodal.js",
+        "../../plugins/ow-front-end-actions/assets/js/ow-fe-actions.js"
       ],
       "main": true
     },
@@ -19,7 +27,13 @@
         "../../plugins/lc-ajax-loader/css/styles.css",
         "../../plugins/instagram-feed/css/sb-instagram.min.css",
         "../../uploads/formidable/css/formidablepro.css",
-        "../../plugins/formidable/css/frm_fonts.css"
+        "../../plugins/formidable/css/frm_fonts.css",
+        "../../plugins/ow-front-end-actions/assets/css/ow-fe-actions.css",
+        "../../plugins/oasis-workflow-pro/css/lib/modal/simple-modal.css",
+        "../../plugins/oasis-workflow-pro/css/pages/oasis-workflow.css",
+        "../../plugins/ow-editorial-comments/assets/css/editorial-comments-style.css"
+
+
       ],
       "main": true
     },

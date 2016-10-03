@@ -35,7 +35,7 @@
 	$post2['user_img'] = $user_img;
 	$post2['user_name'] = get_the_author_meta( 'user_nicename', $post->post_author );
 	$post2['post_date_formatted'] = get_the_time( 'd-m-y', $post->ID );
-	$post2['post_excerpt'] = get_custom_excerpt( $post, 400 );
+	//$post2['post_excerpt'] = get_custom_excerpt( $post, 5 );
 
 	$context['post'] = $post2;
 
