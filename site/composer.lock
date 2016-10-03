@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "16a2689747d3a207af86ab83da7799d6",
-    "content-hash": "d1f99b2d02a3ecb9f543b37df884278e",
+    "hash": "94d88a80173bfe2eed325d500e8b03fe",
+    "content-hash": "b8ddc1afc33543afee25d18829391f1c",
     "packages": [
         {
             "name": "WebDevStudios/CMB2-Date-Range-Field",
@@ -295,7 +295,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-09-29 09:59:06"
+            "time": "2016-10-03 15:58:42"
         },
         {
             "name": "stephenharris/Post-Type-Archive-Links",
@@ -576,26 +576,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/duplicate-post/"
-        },
-        {
-            "name": "wpackagist-plugin/fakerpress",
-            "version": "0.4.6",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/fakerpress/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/fakerpress.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/fakerpress/"
         },
         {
             "name": "wpackagist-plugin/formidable",
