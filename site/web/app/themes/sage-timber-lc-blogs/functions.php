@@ -129,10 +129,8 @@ function get_custom_excerpt($post, $count ){
 add_filter( 'widget_archives_args', 'changeArchivesWidgetArgs');
 function changeArchivesWidgetArgs($args){
   write_log($args );
-}*/
-
-
-
+}
+*/
 
 add_filter('get_twig', 'addSplitSiteTitleToTwig');
 
